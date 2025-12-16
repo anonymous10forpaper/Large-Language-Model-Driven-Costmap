@@ -220,7 +220,7 @@ This code is made available for academic purposes accompanying a manuscript subm
 
 Note: Unauthorized reproduction, distribution, or modification of this code is strictly prohibited.
 
-© 2026 Anonymous Authors. All rights reserved.
+© Anonymous Authors. All rights reserved.
 
 ## 📧 Contact
 

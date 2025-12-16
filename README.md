@@ -99,17 +99,17 @@ global_costmap:
     keepout_command_layer:
       plugin: "my_costmap_layers::KeepoutCommandLayer"
       enabled: True
-      forbidden_zones_topic: "/forbidden_zones_update"
+      forbidden_zones_topic: "/forbidden_zones_update"        # multi-robot: use "/fleet/forbidden_zones_update"
     object_avoidance_layer:
       plugin: "my_costmap_layers::ObjectAvoidanceLayer"
       enabled: True
-      object_positions_topic: "/object_world_positions"
+      object_positions_topic: "/object_world_positions"       # multi-robot: use "/fleet/object_world_positions"
       avoidance_radius: 2.0
       hold_after_clear_s: 0.6
     zone_softcost_layer:
       plugin: "my_costmap_layers::ZoneSoftCostLayer"
       enabled: True
-      zone_cost_overrides_topic: "/zone_cost_overrides"
+      zone_cost_overrides_topic: "/zone_cost_overrides"       # multi-robot: use "/fleet/zone_cost_overrides"
 ```
 
 ## 📡 ROS Topics

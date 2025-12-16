@@ -224,4 +224,4 @@ Note: Unauthorized reproduction, distribution, or modification of this code is s
 
 ## 📧 Contact
 
-If you have questions regarding the paper or this simulation framework, please refer to the official JMS 2026 manuscript submission.
+If you have questions regarding the paper or this framework, please refer to the official JMS manuscript submission.

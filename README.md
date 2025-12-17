@@ -50,13 +50,13 @@ source install/setup.bash
 **Single Robot:**
 
 ```bash
-ros2 run policy_bridge policybridge
+ros2 run policy_bridge policy_bridge
 ```
 
 **Multi-Robot Fleet:**
 
 ```bash
-ros2 run policy_bridge policybridge_multi
+ros2 run policy_bridge policy_bridge_multi
 ```
 
 ## Package 2: my_costmap_layers

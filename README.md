@@ -212,7 +212,7 @@ C++/ROS dependencies for `my_costmap_layers` follow the standard Nav2 costmap pl
 ### Multi-Robot Policies Not Syncing
 
 - Verify all robots are on the same ROS 2 network
-- Ensure `origin_id` is unique per robot
+
 
 ## 📄 License
 

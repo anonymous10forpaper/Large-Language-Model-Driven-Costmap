@@ -2,18 +2,14 @@
   <class name="my_costmap_layers::KeepoutCommandLayer"
          type="my_costmap_layers::KeepoutCommandLayer"
          base_class_type="nav2_costmap_2d::Layer">
-    <description>LLM 명령에 따라 특정 구역을 금지 구역으로 설정하는 정적 레이어.</description>
   </class>
   <class name="my_costmap_layers::ObjectAvoidanceLayer"
          type="my_costmap_layers::ObjectAvoidanceLayer"
          base_class_type="nav2_costmap_2d::Layer">
-    <description>사람 주변에 동적 회피 비용을 설정하는 레이어.</description>
   </class>
-  <!-- ✅ 새 레이어 등록 -->
   <class name="my_costmap_layers::ZoneSoftCostLayer"
          type="my_costmap_layers::ZoneSoftCostLayer"
          base_class_type="nav2_costmap_2d::Layer">
-    <description>구역별 코스트 오버라이드를 적용하는 얇은 레이어.</description>
   </class>
 </library>
 

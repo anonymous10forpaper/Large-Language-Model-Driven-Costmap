@@ -22,6 +22,8 @@ setup(
         'console_scripts': [
             'policy_bridge = policy_bridge.policybridge:main',
             'policy_bridge_multi = policy_bridge.policybridge_multi:main',
+            'nl_command_sender = policy_bridge.nl_command_sender:main',
+            'event_sender = policy_bridge.event_sender:main',
         ],
     },
 )

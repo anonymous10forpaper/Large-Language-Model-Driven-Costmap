@@ -93,6 +93,7 @@ WEIGHT_CMD_RE2 = re.compile(
 DEST_KWS = ["로 가", "으로 가", "로 이동", "로 갔다가", "가다가", "방문", "도달", "도착", "go to", "arrive", "then", "next"]
 EXC_KWS_TMP = ["금지", "피해", "피해서", "제외", "avoid", "ban", "forbid"]
 EXC_KWS_PERM = ["영구", "항상", "permanent", "always"]
+COND_KWS = ["if", "when", "unless", "but", "however", "다만", "하지만", "만약", "경우", "때", "시"]
 
 def _is_perm_cost_sentence(s: str) -> bool:
     su = s.upper()
@@ -130,6 +131,7 @@ class PolicyBridgeNode(Node):
 
                                                       
         self.declare_parameter("nl_command_topic", "/nl_command")
+        self.declare_parameter("event_topic", "/event")
         self.declare_parameter("forbidden_zones_topic", "/forbidden_zones_update")
         self.declare_parameter("object_positions_topic", "/object_world_positions")
         self.declare_parameter("zone_cost_overrides_topic", "/zone_cost_overrides")
@@ -181,7 +183,7 @@ class PolicyBridgeNode(Node):
         self.declare_parameter("depth_valid_max_m", 12.0)
 
             
-        self.declare_parameter("enable_console_ui", True)
+        self.declare_parameter("enable_console_ui", False)
         self.declare_parameter("ui_color", True)
         self.declare_parameter("objects_log_interval_s", 1.5)
 
@@ -199,7 +201,7 @@ class PolicyBridgeNode(Node):
         self.declare_parameter("permanent_exclusions", [])
 
         self.declare_parameter("timezone", "Asia/Seoul")
-        self.declare_parameter("default_forbid_minutes", 5)
+        self.declare_parameter("default_forbid_minutes", 2)
 
         self.declare_parameter("require_nav2", True)
         self.declare_parameter("nav2_check_timeout_s", 3.0)
@@ -210,6 +212,7 @@ class PolicyBridgeNode(Node):
 
                                                            
         self._nl_topic       = self.get_parameter("nl_command_topic").value
+        self._event_topic    = self.get_parameter("event_topic").value
         self._forbid_topic   = self.get_parameter("forbidden_zones_topic").value
         self._object_topic   = self.get_parameter("object_positions_topic").value
         self._softcost_topic = self.get_parameter("zone_cost_overrides_topic").value
@@ -330,6 +333,7 @@ class PolicyBridgeNode(Node):
 
         self.initialpose_pub = self.create_publisher(PoseWithCovarianceStamped, "/initialpose", 10)
         self.nl_sub = self.create_subscription(RosString, self._nl_topic, self._nl_callback, 10)
+        self.event_sub = self.create_subscription(RosString, self._event_topic, self._event_callback, 10)
         self._active_softcost: Dict[str, int] = {}
         self._last_forbidden_windows: Dict[str, Tuple[dt.datetime, dt.datetime]] = {}
 
@@ -560,6 +564,10 @@ class PolicyBridgeNode(Node):
         def _zones_in(ch: str) -> list[str]:
             return [c for c in ZONE_LABEL_RE.findall(ch.upper()) if c in self._labels]
 
+        PAIR_EN = re.compile(r"(?:\bZONE\s*)?([A-G])\s*(?:TO|=|:)\s*([0-9]{1,3})\b", re.IGNORECASE)
+        PAIR_KO = re.compile(r"\b([A-G])\b[^0-9A-Za-z]{0,20}(?:비용)\s*([0-9]{1,3})\b", re.IGNORECASE)
+        PAIR_EN2 = re.compile(r"\b([A-G])\b[^0-9A-Za-z]{0,20}(?:COST)\s*([0-9]{1,3})\b", re.IGNORECASE)
+
         for ch in chunks:
             chs = ch.strip()
             if not chs:
@@ -568,22 +576,35 @@ class PolicyBridgeNode(Node):
             chU = chs.upper()
 
             has_keepout = any(k in low for k in keepout_kws)
-            has_cost = any(k.lower() in low for k in cost_kws)
+            has_cost = any(k in low for k in cost_kws)
 
             if has_cost:
-                m = re.search(r"([A-Z])[^0-9]{0,20}(?:비용|COST)\s*([0-9]{1,3})", chU)
-                if m:
-                    z = m.group(1)
-                    c = max(0, min(255, int(m.group(2))))
-                    if z in self._labels:
-                        soft[z] = c
-                else:
-                    zones = _zones_in(chs)
-                    nums = re.findall(r"([0-9]{1,3})", chs)
-                    if zones and nums:
-                        c = max(0, min(255, int(nums[-1])))
-                        for z in zones:
-                            soft[z] = c
+                pairs = []
+
+                for m in PAIR_EN.finditer(chU):
+                    pairs.append((m.group(1).upper(), int(m.group(2))))
+
+                for m in PAIR_KO.finditer(chU):
+                    pairs.append((m.group(1).upper(), int(m.group(2))))
+
+                for m in PAIR_EN2.finditer(chU):
+                    pairs.append((m.group(1).upper(), int(m.group(2))))
+
+                if pairs:
+                    for z, c in pairs:
+                        if z in self._labels:
+                            soft[z] = max(0, min(255, int(c)))
+                    continue
+
+                chU_wo_wp = re.sub(r"\bWP\s*\d+\b", " ", chU, flags=re.IGNORECASE)
+                zones = _zones_in(chU_wo_wp)
+                nums = re.findall(r"\b([0-9]{1,3})\b", chU_wo_wp)
+
+                if len(zones) == 1 and len(nums) == 1:
+                    z = zones[0]
+                    c = max(0, min(255, int(nums[0])))
+                    soft[z] = c
+
                 continue
 
             if has_keepout:
@@ -591,10 +612,48 @@ class PolicyBridgeNode(Node):
                     keepouts.add(z)
                 continue
 
-            continue
-
         keepouts = {z for z in keepouts if z not in soft.keys()}
         return keepouts, soft
+
+    def _parse_duration_minutes(self, text: str) -> Optional[int]:
+        s = (text or "").lower()
+        m = re.search(r"\bfor\s+(\d{1,3})\s*(minutes?|mins?|min)\b", s)
+        if m:
+            return max(1, int(m.group(1)))
+        m = re.search(r"(\d{1,3})\s*분\s*(동안|간)?", s)
+        if m:
+            return max(1, int(m.group(1)))
+        return None
+
+    def _parse_start_time(self, text: str) -> Optional[dt.datetime]:
+        s = (text or "").lower()
+        today = dt.datetime.now(self._tz).date()
+        m = re.search(r"\b(\d{1,2})(?::(\d{2}))?\s*(a\.?m\.?|p\.?m\.?|am|pm)\b.*\btoday\b", s)
+        if m:
+            hh = int(m.group(1))
+            mm = int(m.group(2) or 0)
+            ap = m.group(3)
+            if "p" in ap and hh != 12:
+                hh += 12
+            if "a" in ap and hh == 12:
+                hh = 0
+            return dt.datetime(today.year, today.month, today.day, hh, mm, tzinfo=self._tz)
+        m = re.search(r"\btoday\b.*\b(\d{1,2}):(\d{2})\b", s) or re.search(r"\b(\d{1,2}):(\d{2})\b.*\btoday\b", s)
+        if m:
+            hh = int(m.group(1))
+            mm = int(m.group(2))
+            return dt.datetime(today.year, today.month, today.day, hh, mm, tzinfo=self._tz)
+        m = re.search(r"(오늘|금일)\s*(오전|오후)?\s*(\d{1,2})\s*시\s*(\d{1,2})?\s*분?", s)
+        if m:
+            ap = m.group(2) or ""
+            hh = int(m.group(3))
+            mm = int(m.group(4) or 0)
+            if "오후" in ap and hh != 12:
+                hh += 12
+            if "오전" in ap and hh == 12:
+                hh = 0
+            return dt.datetime(today.year, today.month, today.day, hh, mm, tzinfo=self._tz)
+        return None
 
                                                                               
     def _looks_like_mission_text(self, text: str) -> bool:
@@ -640,7 +699,7 @@ class PolicyBridgeNode(Node):
 
         if handled:
             self._ui_print(
-                f"🛎 State updated: fire={self._env_state['fire_alarm']} "
+                f"🛎  State updated: fire={self._env_state['fire_alarm']} "
                 f"battery={self._env_state['battery_pct']}%",
                 "yellow"
             )
@@ -731,18 +790,17 @@ class PolicyBridgeNode(Node):
             self._ui_print("⛔ Ignored command: Nav2 is not ready.", "red")
             return
 
-        self._ui_print(f"📥 Incoming external command: {msg.data}", "cyan")
+        self._ui_print(f"📨 Received command: {msg.data}", "cyan")
 
-                                    
-        try:
-            if self._handle_state_command(msg.data):
-                return
-        except Exception as e:
-            self._ui_print(f"[STATE] Exception while handling state command: {e}", "red")
-
-                       
         with self._mission_lock:
             self._mission_queue.append(msg)
+
+    def _event_callback(self, msg: RosString):
+        #self._ui_print(f"📡 Event received: {msg.data}", "yellow")
+        try:
+            self._handle_state_command(msg.data)
+        except Exception as e:
+            self._ui_print(f"[EVENT] Exception: {e}", "red")
 
     def _mission_worker(self):
         while rclpy.ok():
@@ -800,6 +858,39 @@ class PolicyBridgeNode(Node):
             for z in sorted(self._last_forbidden_windows.keys()):
                 st, en = self._last_forbidden_windows[z]
                 self._ui_print(f"  ⏰ {z}: {st.strftime('%Y-%m-%d %H:%M')} → {en.strftime('%Y-%m-%d %H:%M')}")
+
+        now = dt.datetime.now(self._tz)
+        pending_rows: List[Tuple[str, dt.datetime, dt.datetime]] = []
+
+        with self._sched_lock:
+            schedules = list(self._schedules.values())
+            active_ids = set(self._active_timed.keys())
+
+        for tk in schedules:
+            if tk.id in active_ids:
+                continue
+
+            st = tk.start_wall
+            en = tk.end_wall or (st + dt.timedelta(minutes=self._default_forbid_minutes))
+
+            if st > now:
+                for z in tk.zones:
+                    if z in self._labels:
+                        pending_rows.append((z, st, en))
+
+        if pending_rows:
+            soonest: Dict[str, Tuple[dt.datetime, dt.datetime]] = {}
+
+            for z, st, en in pending_rows:
+                prev = soonest.get(z)
+                if prev is None or st < prev[0]:
+                    soonest[z] = (st, en)
+
+            self._ui_print("🚫 Scheduled Forbidden Zones:")
+            for z in sorted(soonest.keys()):
+                st, en = soonest[z]
+                self._ui_print(f"  ⏰ {z}: {st.strftime('%Y-%m-%d %H:%M')} → {en.strftime('%Y-%m-%d %H:%M')}")
+
         if getattr(self, "_active_softcost", None) and len(self._active_softcost) > 0:
             items = ", ".join([f"{z}:{c}" for z, c in sorted(self._active_softcost.items())])
             self._ui_print(f"🟦 SoftCost Zones: {items}")
@@ -808,13 +899,13 @@ class PolicyBridgeNode(Node):
         objs = []
         for r in (getattr(self, "_latest_dynamic_rules", []) or []):
             try:
-                objs.append(str(r.get("class", "")).strip())
+                cls = str(r.get("class", "")).strip()
+                if cls:
+                    objs.append(cls)
             except Exception:
                 pass
-        objs = [o for o in objs if o]
-        if not objs:
-            objs = ["person"]
-        objs_pretty = ", ".join([o.capitalize() for o in unique_preserve([o.lower() for o in objs])])
+        objs = unique_preserve([o.lower() for o in objs])
+        objs_pretty = ", ".join([o.capitalize() for o in objs]) if objs else ""
         self._ui_print(f"👥 Objects: {objs_pretty}")
         seq = ", ".join(wp_names) if wp_names else "-"
         self._ui_print(f"🧭 Waypoint Order: {seq}")
@@ -834,13 +925,13 @@ class PolicyBridgeNode(Node):
         objs = []
         for r in (getattr(self, "_latest_dynamic_rules", []) or []):
             try:
-                objs.append(str(r.get("class", "")).strip())
+                cls = str(r.get("class", "")).strip()
+                if cls:
+                    objs.append(cls)
             except Exception:
                 pass
-        objs = [o for o in objs if o]
-        if not objs:
-            objs = ["person"]
-        objs_pretty = ", ".join([o.capitalize() for o in unique_preserve([o.lower() for o in objs])])
+        objs = unique_preserve([o.lower() for o in objs])
+        objs_pretty = ", ".join([o.capitalize() for o in objs]) if objs else ""
         self._ui_print(f"👥 Objects: {objs_pretty}", "yellow")
         seq = ", ".join(getattr(self, "_last_wp_names", []) or []) or "-"
         self._ui_print(f"🧭 Waypoint Order: {seq}", "cyan")
@@ -851,15 +942,21 @@ class PolicyBridgeNode(Node):
         self._ui_print("")
         self._active_softcost = {}
         plan_json = self._plan_with_llm_or_fallback(text)
+
+        tlow = (text or "").lower()
+        keepout_requested = any(kw.lower() in tlow for kw in EXC_KWS_TMP)
+        permanent_requested = any(kw.lower() in tlow for kw in EXC_KWS_PERM)
+
+        perm_from_nl = [s.upper() for s in (plan_json.get("permanent_exclusions", []) or [])]
+        if perm_from_nl and keepout_requested and permanent_requested:
+            self._permanent_exclusions = unique_preserve(self._permanent_exclusions + perm_from_nl)
+        #elif perm_from_nl:
+            #self._ui_print("ℹ️ Ignored LLM permanent_exclusions (no explicit permanent keepout intent).", "gray")
+
         dyn_rules = plan_json.get("dynamic_object_rules", []) or []
         self._latest_dynamic_rules = dyn_rules
         if dyn_rules and bool(self.get_parameter("enable_yolo_override_from_nl").value):
             self._ensure_yolo_ready()
-
-                                           
-        perm_from_nl = [s.upper() for s in plan_json.get("permanent_exclusions", [])]
-        if perm_from_nl:
-            self._permanent_exclusions = unique_preserve(self._permanent_exclusions + perm_from_nl)
 
         plan        = plan_json.get("plan", [])
         weights_raw = plan_json.get("weights", [])
@@ -880,6 +977,43 @@ class PolicyBridgeNode(Node):
             elif isinstance(e, str):
                 plain_exclusions.append(e.upper())
 
+        keepout_zones_det, softcost_det = self._split_intents_deterministic(text)
+
+        immediate_keepouts: set[str] = set()
+
+        if keepout_zones_det:
+            dur_min = self._parse_duration_minutes(text)
+            start_dt = self._parse_start_time(text)
+            now_dt = dt.datetime.now(self._tz)
+
+            if start_dt is None:
+                start_dt = now_dt
+
+            end_dt = start_dt + dt.timedelta(minutes=(dur_min if dur_min else self._default_forbid_minutes))
+
+            start_is_future = start_dt > (now_dt + dt.timedelta(seconds=0.25))
+
+            for z in keepout_zones_det:
+                timed_rules.append({
+                    "zone": z,
+                    "time_condition": {
+                        "start": start_dt.isoformat(),
+                        "end": end_dt.isoformat(),
+                        "repeat": None,
+                    }
+                })
+
+            if not start_is_future:
+                immediate_keepouts = set(keepout_zones_det)
+
+            plain_exclusions = [z for z in plain_exclusions if z not in keepout_zones_det]
+
+        keepout_requested = len(keepout_zones_det) > 0
+
+        if not keepout_requested:
+            plain_exclusions = []
+            timed_rules = []
+
                                                        
         for r in timed_rules:
             tc = r["time_condition"]
@@ -897,19 +1031,11 @@ class PolicyBridgeNode(Node):
             sid = self._schedule_keepout(
                 TimedKeepout(zones=[r["zone"]], start_wall=st, end_wall=en, repeat=rep)
             )
-            self._ui_print(
-                f"⏰ Scheduled keepout: #{sid} zones={r['zone']} {st.strftime('%Y-%m-%d %H:%M')} → {en.strftime('%Y-%m-%d %H:%M')}"
-                + (" (daily)" if rep == "daily" else ""),
-                "yellow"
-            )
+
+
 
         exclusions = unique_preserve(plain_exclusions)
         self._last_base_exclusions = exclusions[:]
-
-        keepout_zones_det, softcost_det = self._split_intents_deterministic(text)
-        if keepout_zones_det:
-            exclusions = unique_preserve(sorted(keepout_zones_det))
-            self._last_base_exclusions = exclusions[:]
 
                          
         def _extract_dest_wps(txt: str) -> List[str]:
@@ -930,22 +1056,16 @@ class PolicyBridgeNode(Node):
         if dest_from_text:
             plan = [{"dest": z} for z in dest_from_text]
 
+        conditional_requested = any(k in tlow for k in COND_KWS)
         cond_rules: List[Dict[str, Any]] = plan_json.get("conditional_rules", []) or []
+        if not conditional_requested:
+            cond_rules = []
         self._cond_rules_store = cond_rules[:]
 
         self._recalculate_and_publish_dynamic_keepouts(
             base_exclusions=exclusions,
             conditional_rules=cond_rules
         )
-
-        keepout_zones_det2, softcost_det = self._split_intents_deterministic(text)
-        if keepout_zones_det2:
-            exclusions = unique_preserve(sorted(keepout_zones_det2))
-            self._last_base_exclusions = exclusions[:]
-            self._recalculate_and_publish_dynamic_keepouts(
-                base_exclusions=exclusions,
-                conditional_rules=cond_rules
-            )
 
         weights_raw = [{"zone": z, "cost": c} for z, c in sorted(softcost_det.items())]
 
@@ -979,8 +1099,8 @@ class PolicyBridgeNode(Node):
         else:
             merged_keepouts = [z for z in merged_keepouts if not (z in cond_allow and z not in self._permanent_exclusions)]
 
-        if self._force_shortest:
-            self._ui_print("🧭 state_condition applied: allow_shortest detected (keepout lifted + shortest-priority flag)", "cyan")
+        #if self._force_shortest:
+            #self._ui_print("🧭 state_condition applied: allow_shortest detected (keepout lifted + shortest-priority flag)", "cyan")
 
                         
         plan = self._filter_plan_by_keepouts(plan, merged_keepouts)
@@ -1157,6 +1277,7 @@ class PolicyBridgeNode(Node):
             "- Do not invent labels/coords.\n"
             "- Zones A..G are policy labels only; destinations must be WP1..WP8.\n"
             "- costs are ints 0..255.\n"
+            "- Only output dynamic_object_rules if the user explicitly asks to avoid/detect objects (e.g., 'avoid people'). Otherwise return [].\n"
             "- Use conditional_rules when user says '평소/기본' + '하지만/다만/화재시/배터리 낮을때' etc.\n"
             "Example conditional_rules: {\"zone\":\"A\",\"rules\":["
             "{\"priority\":5,\"state_condition\":\"default\",\"action\":\"forbid\"},"
@@ -2018,6 +2139,11 @@ class PolicyBridgeNode(Node):
         names_map = self._resolve_names_map(r0)
         target_ids = self._target_class_ids(names_map)
 
+        if not target_ids:
+            for frame_name in (self._object_frames or [self._global_frame]):
+                self._publish_objects(frame_name, [])
+            return
+
         objects_px = []
         if getattr(r0, "boxes", None):
             for box in r0.boxes:
@@ -2072,19 +2198,18 @@ class PolicyBridgeNode(Node):
         return {}
 
     def _target_class_ids(self, names_map: Dict[int, str]) -> set:
-        targets = set()
         dyn_rules = self._latest_dynamic_rules or []
-        wanted = {str(r.get("class")).strip().lower()
-                  for r in dyn_rules if isinstance(r, dict) and r.get("class")}
+        wanted = {
+            str(r.get("class")).strip().lower()
+            for r in dyn_rules
+            if isinstance(r, dict) and r.get("class")
+        }
         if not wanted:
-            wanted = {"person"}           
-
-        for i, n in names_map.items():
+            return set()
+        targets = set()
+        for i, n in (names_map or {}).items():
             if str(n).strip().lower() in wanted:
                 targets.add(i)
-
-        if not targets and "person" in wanted:
-            return {0}
         return targets
 
     def _publish_objects(self, frame: str, positions_xy: List[Tuple[float, float]]):
@@ -2190,6 +2315,25 @@ class PolicyBridgeNode(Node):
 
     def _print_keepouts_snapshot(self):
         self._ui_print(f"Permanent keepouts: {', '.join(self._permanent_exclusions) or '-'}", "yellow")
+
+        now = dt.datetime.now(self._tz)
+        with self._sched_lock:
+            schedules = list(self._schedules.values())
+            active_ids = set(self._active_timed.keys())
+
+        if not schedules:
+            self._ui_print("Scheduled keepouts: -", "yellow")
+        else:
+            self._ui_print("Scheduled keepouts:", "yellow")
+            for tk in sorted(schedules, key=lambda x: x.start_wall):
+                st = tk.start_wall
+                en = tk.end_wall or (st + dt.timedelta(minutes=self._default_forbid_minutes))
+                status = "ACTIVE" if tk.id in active_ids else ("PENDING" if st > now else "EXPIRED?")
+                self._ui_print(
+                    f"  #{tk.id} [{status}] zones={','.join(tk.zones)} {st.strftime('%Y-%m-%d %H:%M')} → {en.strftime('%Y-%m-%d %H:%M')}",
+                    "gray"
+                )
+
         self._ui_print(f"Publishing to: {self._forbid_topic}", "gray")
 
     def _print_objects_snapshot(self):

@@ -1,4 +1,4 @@
-# LLM-Driven Costmap Framework for ROS 2 Nav2
+# LLM-Driven Costmap Framework for Industrial AMRs
 
 ## Overview
 
@@ -34,6 +34,8 @@ This repository provides two ROS 2 packages for natural-language-driven navigati
 
 - `policybridge`: Single-robot policy bridge node
 - `policybridge_multi`: Multi-robot fleet policy bridge node
+- `nl_command_sender`: Command sender for natural language mission commands
+- `event_sender`: Event sender for state events (fire alarm, battery, etc.)
 
 ### Build Instructions
 
@@ -57,6 +59,18 @@ ros2 run policy_bridge policy_bridge
 
 ```bash
 ros2 run policy_bridge policy_bridge_multi
+```
+
+**Command Sender:**
+
+```bash
+ros2 run policy_bridge nl_command_sender
+```
+
+**Event Sender:**
+
+```bash
+ros2 run policy_bridge event_sender
 ```
 
 ## Package 2: my_costmap_layers
@@ -142,7 +156,9 @@ This system enables adaptive costmap updates in response to natural-language pol
 │   ├── policy_bridge/
 │   │   ├── __init__.py
 │   │   ├── policybridge.py
-│   │   └── policybridge_multi.py
+│   │   ├── policybridge_multi.py
+│   │   ├── nl_command_sender.py
+│   │   └── event_sender.py
 │   ├── resource/
 │   │   └── policy_bridge
 │   ├── setup.py
@@ -216,7 +232,7 @@ C++/ROS dependencies for `my_costmap_layers` follow the standard Nav2 costmap pl
 
 ## 📄 License
 
-This code is made available for academic purposes accompanying a manuscript submission to JMS.
+This code is made available for academic purposes accompanying a manuscript submission to Robotics and Autonomous Systems.
 
 Note: Unauthorized reproduction, distribution, or modification of this code is strictly prohibited.
 
@@ -224,4 +240,4 @@ Note: Unauthorized reproduction, distribution, or modification of this code is s
 
 ## 📧 Contact
 
-If you have questions regarding the paper or this framework, please refer to the official JMS manuscript submission.
+If you have questions regarding the paper or this framework, please refer to the official Robotics and Autonomous Systems submission.

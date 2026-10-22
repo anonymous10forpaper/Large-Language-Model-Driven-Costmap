@@ -1,0 +1,17 @@
+<library path="my_costmap_layers_library">
+  <class name="my_costmap_layers::KeepoutCommandLayer"
+         type="my_costmap_layers::KeepoutCommandLayer"
+         base_class_type="nav2_costmap_2d::Layer">
+    <description>Applies lethal costs to policy-defined keepout zones.</description>
+  </class>
+  <class name="my_costmap_layers::ObjectAvoidanceLayer"
+         type="my_costmap_layers::ObjectAvoidanceLayer"
+         base_class_type="nav2_costmap_2d::Layer">
+    <description>Applies dynamic avoidance costs around detected objects.</description>
+  </class>
+  <class name="my_costmap_layers::ZoneSoftCostLayer"
+         type="my_costmap_layers::ZoneSoftCostLayer"
+         base_class_type="nav2_costmap_2d::Layer">
+    <description>Applies policy-defined costs to registered zones.</description>
+  </class>
+</library>

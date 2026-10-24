@@ -1,0 +1,723 @@
+{
+  "method": "rule_based",
+  "run": "run_01",
+  "summary": {
+    "commands": 100,
+    "contradiction_recognition": 24,
+    "strict_reject_contract": 24,
+    "end_to_end_containment": 24,
+    "stage3_eligible": 76,
+    "recognized_with_residual_policy": 0,
+    "validator_containment_without_recognition": 0,
+    "recognition_wilson95_percent": [
+      16.6913,
+      33.2323
+    ],
+    "containment_wilson95_percent": [
+      16.6913,
+      33.2323
+    ]
+  },
+  "results": {
+    "F01": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "F02": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "F03": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "F04": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "F05": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "F06": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "F07": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "F08": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "F09": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "F10": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "F11": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "F12": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "F13": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "F14": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "F15": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "F16": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "F17": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "F18": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "F19": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "F20": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "O01": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "O02": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "O03": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "O04": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "O05": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "O06": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "O07": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "O08": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "O09": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "O10": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "O11": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "O12": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "O13": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "O14": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "O15": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "O16": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "O17": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "O18": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "O19": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "O20": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "D01": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "D02": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "D03": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "D04": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "D05": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "D06": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "D07": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "D08": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "D09": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "D10": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "D11": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "D12": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "D13": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "D14": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "D15": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "D16": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "D17": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "D18": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "D19": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "D20": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "E01": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "E02": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "E03": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "E04": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "E05": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "E06": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "E07": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "E08": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "E09": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "E10": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "E11": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "E12": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "E13": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "E14": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "E15": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "E16": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "E17": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "E18": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "E19": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "E20": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "T01": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "T02": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "T03": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "T04": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "T05": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "T06": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "T07": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "T08": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "T09": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "T10": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "T11": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "T12": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "T13": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "T14": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "T15": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "T16": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "T17": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    },
+    "T18": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "T19": {
+      "contradiction_recognition": false,
+      "strict_reject_contract": false,
+      "end_to_end_containment": false,
+      "stage3_eligible": true,
+      "processing_outcome": "incorrect_acceptance"
+    },
+    "T20": {
+      "contradiction_recognition": true,
+      "strict_reject_contract": true,
+      "end_to_end_containment": true,
+      "stage3_eligible": false,
+      "processing_outcome": "interpreter_rejection"
+    }
+  }
+}

@@ -1,0 +1,531 @@
+{
+  "version": "full-field-scoring-2026-10-23",
+  "evaluation_date": "2026-10-23",
+  "execution": "offline_saved_responses",
+  "scripts": {
+    "scripts/policy_scoring.py": "88b8e904f437278c3338f6b47c19700e29bfbe2840e753e8a9a4f4cb74266723",
+    "scripts/offline_score.py": "e5130dc82bf678e8c70667a17101ca39da5389020fb571aa40dc17bd3e0bac21"
+  },
+  "validation_source": "source_snapshots/policybridge.py",
+  "validation_source_sha256": "59dd6d9b07f62d3ae543e4029135f54a3e478a8fb214360540ff71f0d279520c",
+  "time_comparison": {
+    "duration_minutes_decimal_places": 3,
+    "validation_replay": "duration_and_repeat"
+  },
+  "interval": {
+    "method": "Wilson",
+    "confidence": 0.95,
+    "sampling_unit": "unique_command_per_method_per_run"
+  },
+  "runs": [
+    {
+      "experiment": "benchmark_150",
+      "method": "llama3.1:latest",
+      "run": "run_01",
+      "records": "records/benchmark_150/run_01/llama3.1_latest.json",
+      "records_sha256": "9e35bd8a5dde5ceccd1f13036b795e253e420e6d0cbf39c4dd16dbc38cf31996",
+      "results": "results/benchmark_150/run_01/llama3.1_latest.json",
+      "results_sha256": "4dffc8962989ac9fe138a482cda8e06135413f27c655d18a93227cf51600109a",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen2.5:7b",
+      "run": "run_01",
+      "records": "records/benchmark_150/run_01/qwen2.5_7b.json",
+      "records_sha256": "a8a5576b6b706b0f1663a39169edbba2149d01cfd45299abd6d247e2d39f5033",
+      "results": "results/benchmark_150/run_01/qwen2.5_7b.json",
+      "results_sha256": "f55c0e22ac1b4f79565744759fef13d06aebcedd97981bd737de46fcd9e857f9",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen3.5:9b",
+      "run": "run_01",
+      "records": "records/benchmark_150/run_01/qwen3.5_9b.json",
+      "records_sha256": "822be6c89fe27212bce862fb24b8ada7ab8e60b246478e811da064c7740ad99f",
+      "results": "results/benchmark_150/run_01/qwen3.5_9b.json",
+      "results_sha256": "ddace0a8566396132f0963fad314188b14f350b6b545d54c0a6e63a9e465c859",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen3:8b",
+      "run": "run_01",
+      "records": "records/benchmark_150/run_01/qwen3_8b.json",
+      "records_sha256": "e5746998c9080f88e99eab8df9777653ff7de91ad43178824569e3268c2530e8",
+      "results": "results/benchmark_150/run_01/qwen3_8b.json",
+      "results_sha256": "ee505cee930b4eb7ca9596017f65d297fbdf9a54e4e12e97d27f8989e8b39161",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "rule_based",
+      "run": "run_01",
+      "records": "records/benchmark_150/run_01/rule_based.json",
+      "records_sha256": "55e30722967a6feb7e48a516a14ced25503bcb2cbd8248683812983b761e9185",
+      "results": "results/benchmark_150/run_01/rule_based.json",
+      "results_sha256": "199246e8258c97ebc959411a1fc8cf45ca243802aec524feed9a2436080e1d02",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "llama3.1:latest",
+      "run": "run_02",
+      "records": "records/benchmark_150/run_02/llama3.1_latest.json",
+      "records_sha256": "6409d8cf6b3805863b4739551953c857c46d59f59de87b9e45c43accbdf34ed5",
+      "results": "results/benchmark_150/run_02/llama3.1_latest.json",
+      "results_sha256": "d4b432eec3424a1aeaea2297859322cdd680c111f0de50e9b11a7d3666d9d7fd",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen2.5:7b",
+      "run": "run_02",
+      "records": "records/benchmark_150/run_02/qwen2.5_7b.json",
+      "records_sha256": "59f03b2ea3c47bc308ab19a0b446dec376f04f2d52c501aedd86ceec66415b02",
+      "results": "results/benchmark_150/run_02/qwen2.5_7b.json",
+      "results_sha256": "ebdd6ae1a2f2b88c12d67d3ef696cec5e13786dced3d2005435bb876204bcbf9",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen3.5:9b",
+      "run": "run_02",
+      "records": "records/benchmark_150/run_02/qwen3.5_9b.json",
+      "records_sha256": "0de1c42125884cfbc4a279656615a763835fe944339eea2c4770f4040a801b62",
+      "results": "results/benchmark_150/run_02/qwen3.5_9b.json",
+      "results_sha256": "b38fb75a3825cfe885f35daae45059b55a6640ebe53265fa23fe27563d5e8593",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen3:8b",
+      "run": "run_02",
+      "records": "records/benchmark_150/run_02/qwen3_8b.json",
+      "records_sha256": "a0e327bb93dcddc26a1a054c93865eb92b8d4495330649cbc9843e778d434102",
+      "results": "results/benchmark_150/run_02/qwen3_8b.json",
+      "results_sha256": "67a99743969dd906b10ba67320e48a9a6b390b618778e8f21b0402b1409d6c05",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "rule_based",
+      "run": "run_02",
+      "records": "records/benchmark_150/run_02/rule_based.json",
+      "records_sha256": "9c72f15bd26ea0aa60e316db7725affa07a3b63a33a6d937ae8241b0a890129b",
+      "results": "results/benchmark_150/run_02/rule_based.json",
+      "results_sha256": "a8b54109035cae13c2be9c81a44557bc2317806c6b3a68b6dbc847b01e44eeef",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "llama3.1:latest",
+      "run": "run_03",
+      "records": "records/benchmark_150/run_03/llama3.1_latest.json",
+      "records_sha256": "00b188daf4c9ff6fbcf64db34e869495257ce6ac16c0b642ec9572b5bd4d8208",
+      "results": "results/benchmark_150/run_03/llama3.1_latest.json",
+      "results_sha256": "dcdeccea6a55e338feb5117caab7c562718c247e762dbe0459fc406a027bd77f",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen2.5:7b",
+      "run": "run_03",
+      "records": "records/benchmark_150/run_03/qwen2.5_7b.json",
+      "records_sha256": "4d3a4ee718b3ac149357005745f1d8570570e6371dc70a83b73c1d1812be588d",
+      "results": "results/benchmark_150/run_03/qwen2.5_7b.json",
+      "results_sha256": "52a5fd8ff9cb4260f86c352b33356bf3aa36fe6efb89c469449fc17ae3d3802c",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen3.5:9b",
+      "run": "run_03",
+      "records": "records/benchmark_150/run_03/qwen3.5_9b.json",
+      "records_sha256": "7f1c1d1d8dad01726117dee4ede47c19abfdd10a9d806ae3240984d099dbaf79",
+      "results": "results/benchmark_150/run_03/qwen3.5_9b.json",
+      "results_sha256": "1dad1133f34750119aa43c2e9182b922b00f5eac8a69f8a90fd3cb34ecc0b4af",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen3:8b",
+      "run": "run_03",
+      "records": "records/benchmark_150/run_03/qwen3_8b.json",
+      "records_sha256": "cd4a5c39c30a8641a89a85722c8c97b48f2775485ccd40490e6b9189b3782875",
+      "results": "results/benchmark_150/run_03/qwen3_8b.json",
+      "results_sha256": "7ba8080d503c7d85e796ce005a5aee8e767c644b85aecac54682c7e81350e535",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "rule_based",
+      "run": "run_03",
+      "records": "records/benchmark_150/run_03/rule_based.json",
+      "records_sha256": "ac82a9234fa77bbbb918d692b8fc08fc7b6d379203deebb2d3f3931e8b11e180",
+      "results": "results/benchmark_150/run_03/rule_based.json",
+      "results_sha256": "09d9f0eab114ca28013100746bcf08dd98cb072e98b928ef99a66d851c64d771",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "llama3.1:latest",
+      "run": "run_04",
+      "records": "records/benchmark_150/run_04/llama3.1_latest.json",
+      "records_sha256": "dcf5f0f866a84a8f7454ff8cdf1cc862447be493ce37b7a252be2a4df9aa7262",
+      "results": "results/benchmark_150/run_04/llama3.1_latest.json",
+      "results_sha256": "6579b67a156298ea35cbf94cdcd4d093691edc0cf5b663eccb0773b435231373",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen2.5:7b",
+      "run": "run_04",
+      "records": "records/benchmark_150/run_04/qwen2.5_7b.json",
+      "records_sha256": "02fdeef485cb738adf3cc4eb30f9c917d3415430d0e1b32f66361e7b0d9d884f",
+      "results": "results/benchmark_150/run_04/qwen2.5_7b.json",
+      "results_sha256": "45c845da5cc8457c5e060390aa480d6570ba75c245b8555cf614b5327b54bea6",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen3.5:9b",
+      "run": "run_04",
+      "records": "records/benchmark_150/run_04/qwen3.5_9b.json",
+      "records_sha256": "8fbd910ffc1252e2a95d4ca8990f8cc941d17ff3117f52dfec952b849efba77d",
+      "results": "results/benchmark_150/run_04/qwen3.5_9b.json",
+      "results_sha256": "9f69225eb9fdc4d037ec429f9b2166c4585be7fbf9742382f289b95c3cf92ddb",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen3:8b",
+      "run": "run_04",
+      "records": "records/benchmark_150/run_04/qwen3_8b.json",
+      "records_sha256": "707dad2f62225b30423d429239f8aa9ea5c0c83f2ad5b792a41084f7d44fee8d",
+      "results": "results/benchmark_150/run_04/qwen3_8b.json",
+      "results_sha256": "eb52f28cfca9ddff525c20c5c0a55a46a2abab861eb4e132dfafa6bb8ac82516",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "rule_based",
+      "run": "run_04",
+      "records": "records/benchmark_150/run_04/rule_based.json",
+      "records_sha256": "6c62bf76e782d42634b176ae587f986ffa2660d8e956c7761a47b938d5342041",
+      "results": "results/benchmark_150/run_04/rule_based.json",
+      "results_sha256": "e7019790a23d9d329b434c422b67469c4cc770197c12b692deadad072e2d2a77",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "llama3.1:latest",
+      "run": "run_05",
+      "records": "records/benchmark_150/run_05/llama3.1_latest.json",
+      "records_sha256": "933fad1e689ead6c333316dde78b5198c98dee842dba4fa60429ccfa0b75198d",
+      "results": "results/benchmark_150/run_05/llama3.1_latest.json",
+      "results_sha256": "dc5a453e072c89f572c3ea9e69f60720eace84ed2ba52e0f6f74cdaa1c0acbce",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen2.5:7b",
+      "run": "run_05",
+      "records": "records/benchmark_150/run_05/qwen2.5_7b.json",
+      "records_sha256": "7a4c40f3c653f31af9dea5ae1cd0828782e53b74ecc97b8a05d286bbd24c0c8a",
+      "results": "results/benchmark_150/run_05/qwen2.5_7b.json",
+      "results_sha256": "2951282da80df6ab1228db3cbe22d33a6b27cd7f50eceaaad96b37c72b359dde",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen3.5:9b",
+      "run": "run_05",
+      "records": "records/benchmark_150/run_05/qwen3.5_9b.json",
+      "records_sha256": "f7e56c945637bf264774e40ca498cd4344295607e3af86f6d6bc2caf845dda36",
+      "results": "results/benchmark_150/run_05/qwen3.5_9b.json",
+      "results_sha256": "d9544a6f64ed9221f5ce60a5a6bca568065b067b3724c3818b79e44bf3dc3608",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen3:8b",
+      "run": "run_05",
+      "records": "records/benchmark_150/run_05/qwen3_8b.json",
+      "records_sha256": "f9707739fd252f7012b4eeb2643a6fa81b33f698a61dd0efeff3400c097057b9",
+      "results": "results/benchmark_150/run_05/qwen3_8b.json",
+      "results_sha256": "ed257eeca4ee686c75b55c72e3bb0d5439e589899d25bb1ad39ebaaec8ca8f9b",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "rule_based",
+      "run": "run_05",
+      "records": "records/benchmark_150/run_05/rule_based.json",
+      "records_sha256": "6049d2584c4f59793688c07b4b3f726eebb09de0f1cd1718f35eb33fe9f676c3",
+      "results": "results/benchmark_150/run_05/rule_based.json",
+      "results_sha256": "35a13425555c2e0a2b9b04e2817e571a157641135eaa0efab9f84e587fdf133e",
+      "commands": 150
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "llama3.1:latest",
+      "run": "run_01",
+      "records": "records/contradictions_100/run_01/llama3.1_latest.json",
+      "records_sha256": "e2ea3619d55d1443bdcdb547a01188578fd14941ce14c6f8eeeed8714f99e07a",
+      "results": "results/contradictions_100/run_01/llama3.1_latest.json",
+      "results_sha256": "9320093d6275ba0afeb1c5514ed7e8a653ba1b8f07c0fa3852747417ef76f89f",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen2.5:7b",
+      "run": "run_01",
+      "records": "records/contradictions_100/run_01/qwen2.5_7b.json",
+      "records_sha256": "38f195ae4b252322e8269fcb9ea52981759fd5950cf1b0e6460273d481782183",
+      "results": "results/contradictions_100/run_01/qwen2.5_7b.json",
+      "results_sha256": "3f61da10894444f357bbaf35ec03863ff945725506e620590601a8de2b19c952",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen3.5:9b",
+      "run": "run_01",
+      "records": "records/contradictions_100/run_01/qwen3.5_9b.json",
+      "records_sha256": "d96e89723ddbc0da7451c924e7afd3aacabe9d96fd8299708498ca0fddcf35e2",
+      "results": "results/contradictions_100/run_01/qwen3.5_9b.json",
+      "results_sha256": "95498e712001d34bdc36526188f5372f5e71d0483b01a993115247d4715e6864",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen3:8b",
+      "run": "run_01",
+      "records": "records/contradictions_100/run_01/qwen3_8b.json",
+      "records_sha256": "f3ad941f2b7d2089b4ac333953c03bff2d3ed8d460d86ecde6953e07c63671f9",
+      "results": "results/contradictions_100/run_01/qwen3_8b.json",
+      "results_sha256": "7eff07e0cb2f62adad5da1e82f0da1920e275fc858a201e7c6a1c39b5fe07457",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "rule_based",
+      "run": "run_01",
+      "records": "records/contradictions_100/run_01/rule_based.json",
+      "records_sha256": "b7b53a8e2234ebb8a7b8ef056c8c407315ecf0e745415079ff099f49aee12873",
+      "results": "results/contradictions_100/run_01/rule_based.json",
+      "results_sha256": "648b0c086e29c27c1af90771d25d31c081d9982c0f8cbbe30bc0bf30a77398a5",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "llama3.1:latest",
+      "run": "run_02",
+      "records": "records/contradictions_100/run_02/llama3.1_latest.json",
+      "records_sha256": "d2eb60cb44acf4359b5e7e4c867f04d90fd969ac62033309184db3c84e86ab09",
+      "results": "results/contradictions_100/run_02/llama3.1_latest.json",
+      "results_sha256": "76713bb87b461b4e3e04e8acdb3686c59cfe6bd8dca026eb7c7948f58b0545c5",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen2.5:7b",
+      "run": "run_02",
+      "records": "records/contradictions_100/run_02/qwen2.5_7b.json",
+      "records_sha256": "9bf075672d54e351cd0beba9dcee836eb21bf93a5d94610e06f9b7d667f28cb4",
+      "results": "results/contradictions_100/run_02/qwen2.5_7b.json",
+      "results_sha256": "795b0e113bb12a96f2d50ae7e437c75b3b5b2e27fe74ae7c8b2c55944a3f6ef0",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen3.5:9b",
+      "run": "run_02",
+      "records": "records/contradictions_100/run_02/qwen3.5_9b.json",
+      "records_sha256": "05e955e77a0ca301f95d473fda134666854799e3eee1fdcbf367a658ed50792a",
+      "results": "results/contradictions_100/run_02/qwen3.5_9b.json",
+      "results_sha256": "64ace70928d09ed1a83a3f6bbff6b0d884488018c4895319afb986bf9387ecf8",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen3:8b",
+      "run": "run_02",
+      "records": "records/contradictions_100/run_02/qwen3_8b.json",
+      "records_sha256": "1d7beea4e2d6b292e796acdd8f7a8faffb8d52abd58d311ef13d7f8ed8ecf253",
+      "results": "results/contradictions_100/run_02/qwen3_8b.json",
+      "results_sha256": "4c9cd4650b276981beea4a58e3df584c970ec61a4df4704362883ac08cac73a4",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "rule_based",
+      "run": "run_02",
+      "records": "records/contradictions_100/run_02/rule_based.json",
+      "records_sha256": "1e82a5abb516fcc228af1201958aca826792a676deab11f68aeccbf8cb8d027f",
+      "results": "results/contradictions_100/run_02/rule_based.json",
+      "results_sha256": "8700eb754bea788133e107310403ad404f4a05ca8c8520ec09e904763d2b26d5",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "llama3.1:latest",
+      "run": "run_03",
+      "records": "records/contradictions_100/run_03/llama3.1_latest.json",
+      "records_sha256": "937fe357828d41fe66251c83ff61a675da85d10a8c4cd09bb3e38d665fc13fc9",
+      "results": "results/contradictions_100/run_03/llama3.1_latest.json",
+      "results_sha256": "c034fb779c89d18f6240aa5efaa33111af89de8bdc1ae25b76d3d91acab0193e",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen2.5:7b",
+      "run": "run_03",
+      "records": "records/contradictions_100/run_03/qwen2.5_7b.json",
+      "records_sha256": "83ce9c8e90e2bb5bcedcfa11b312f81ec4534c574444fced727bbb37f2616de3",
+      "results": "results/contradictions_100/run_03/qwen2.5_7b.json",
+      "results_sha256": "c56821fdbfe2b2e123e5855efaa7359e1f1a70291b8a9058f00626d35a4fdfd0",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen3.5:9b",
+      "run": "run_03",
+      "records": "records/contradictions_100/run_03/qwen3.5_9b.json",
+      "records_sha256": "bd026cee6cbda48b6e5e8f43c81bedfdfcbf29596f46a4f7ee787a6f542a48a4",
+      "results": "results/contradictions_100/run_03/qwen3.5_9b.json",
+      "results_sha256": "e719f8b19a90b3602a2904a2fffdec7fc1c1134b77ed0bed8197e7666acfbcd2",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen3:8b",
+      "run": "run_03",
+      "records": "records/contradictions_100/run_03/qwen3_8b.json",
+      "records_sha256": "36929d2f8f8052d1c18c0a0fbd3266cd57045724faa7c9bee68b796cd108b1d9",
+      "results": "results/contradictions_100/run_03/qwen3_8b.json",
+      "results_sha256": "59b787fc1ef8065c979f332bbf35dc43fac78ce8a8898b2644ccb13cbcc66f86",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "rule_based",
+      "run": "run_03",
+      "records": "records/contradictions_100/run_03/rule_based.json",
+      "records_sha256": "723d9b56363a1f40a8e195f675f2455d9261f43787d83f38a11d759421d83119",
+      "results": "results/contradictions_100/run_03/rule_based.json",
+      "results_sha256": "5de88f435bd0949abbca1c2a0af5f955c332c287007d5f28227416256b94ab39",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "llama3.1:latest",
+      "run": "run_04",
+      "records": "records/contradictions_100/run_04/llama3.1_latest.json",
+      "records_sha256": "2f08d908e706eba7580ed52068abffff7e73cc37b5136b4a48478ad3f2bab317",
+      "results": "results/contradictions_100/run_04/llama3.1_latest.json",
+      "results_sha256": "450a7a36800533ba6e0d4358f93d663c056ed986e58716190d7c37701de7e1df",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen2.5:7b",
+      "run": "run_04",
+      "records": "records/contradictions_100/run_04/qwen2.5_7b.json",
+      "records_sha256": "7d2243cb5c85ed381553a6437d76868ceb4eabaff954b292617d641b319fe35f",
+      "results": "results/contradictions_100/run_04/qwen2.5_7b.json",
+      "results_sha256": "1435fc51531e0530dd03dc49fc2cdb6efd9bd565c35c76e8d231b1267a9acf57",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen3.5:9b",
+      "run": "run_04",
+      "records": "records/contradictions_100/run_04/qwen3.5_9b.json",
+      "records_sha256": "ddaa39c65fc67b9bc8e11e77d844a1db90fbf4746789254617e2c7777fb091f1",
+      "results": "results/contradictions_100/run_04/qwen3.5_9b.json",
+      "results_sha256": "80c39a63bfc1013621332b9c8a8806b7bbb2fc538c587732652ce96d1a6b1189",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen3:8b",
+      "run": "run_04",
+      "records": "records/contradictions_100/run_04/qwen3_8b.json",
+      "records_sha256": "004d04c4e36802d4ac5fa31d646dc5aee7460351f59c05c63a9e9fac46fa561c",
+      "results": "results/contradictions_100/run_04/qwen3_8b.json",
+      "results_sha256": "1223be95f943aa26fdbe36e731924fb350f77fd5ae347eac9ea9f073c233806f",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "rule_based",
+      "run": "run_04",
+      "records": "records/contradictions_100/run_04/rule_based.json",
+      "records_sha256": "aa1642e35d7f3ace0a56357c90586f1ad56aae3263e13806d3dfc138c2e761b0",
+      "results": "results/contradictions_100/run_04/rule_based.json",
+      "results_sha256": "caad8fe131bdae4c159b95818c411de009ed0e64663783bfd0835d1c9d3a3ec5",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "llama3.1:latest",
+      "run": "run_05",
+      "records": "records/contradictions_100/run_05/llama3.1_latest.json",
+      "records_sha256": "cf17f1e04936048811f5fbb830489cc593de4ccb2d60d1486f34fb6c966eceeb",
+      "results": "results/contradictions_100/run_05/llama3.1_latest.json",
+      "results_sha256": "74a6322940ad5f34d1e6fadac07840878e456d622148f840c8306010ff1bc3e2",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen2.5:7b",
+      "run": "run_05",
+      "records": "records/contradictions_100/run_05/qwen2.5_7b.json",
+      "records_sha256": "3e5513c5e77ec2b1757b79dc5b0efc8d5dea5db48f624844a71553071c4d01f3",
+      "results": "results/contradictions_100/run_05/qwen2.5_7b.json",
+      "results_sha256": "aebec7b8c510549b42da1d3f6201db6eb3a20ba125e2cf6d6ae750a348b61f84",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen3.5:9b",
+      "run": "run_05",
+      "records": "records/contradictions_100/run_05/qwen3.5_9b.json",
+      "records_sha256": "ed93a5899c2b1ae6ad10f0c5228036c9e1c65d9404526da65bf6277564a3202f",
+      "results": "results/contradictions_100/run_05/qwen3.5_9b.json",
+      "results_sha256": "7c07d5cadf8260e5b85254bade131b406b3d00aac7e479800226cc1e868d7fdc",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen3:8b",
+      "run": "run_05",
+      "records": "records/contradictions_100/run_05/qwen3_8b.json",
+      "records_sha256": "863b0a7e98cedb44ea3192c57fc6b4f57a16f9b502609d1da36b49fb81262cf5",
+      "results": "results/contradictions_100/run_05/qwen3_8b.json",
+      "results_sha256": "a48f127a99dba9d3865bc5c4fffb86b403e6d47d7b81364260156705e9b2b409",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "rule_based",
+      "run": "run_05",
+      "records": "records/contradictions_100/run_05/rule_based.json",
+      "records_sha256": "f826ab7b6cceb4f596c2eb2c6b2d209424dc90100491e80bff19ed9ca99f488a",
+      "results": "results/contradictions_100/run_05/rule_based.json",
+      "results_sha256": "94381f40f77b371876da05176aaaf6b1ed01b5d9b5d5250cb9eb803561c105d6",
+      "commands": 100
+    }
+  ],
+  "summaries": {
+    "results/benchmark_150_summary.json": "ab4bbe5f9ff30a9ebff503d70b5a4dc7413cf40aedd66b023bf74a7fcaf173d0",
+    "results/contradictions_100_summary.json": "14c1e8bf554ae4a14641d7b51c2a95b6f68e95c791d2bb2429581be7520ac4a0"
+  },
+  "commands": [
+    "python3 -B benchmarks/evaluation/scripts/offline_score.py --verify",
+    "python3 -B benchmarks/evaluation/scripts/offline_score.py --verify --replay-validation"
+  ],
+  "validation_soft_cost_max": 252
+}

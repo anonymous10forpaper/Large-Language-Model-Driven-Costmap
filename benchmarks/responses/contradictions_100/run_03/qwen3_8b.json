@@ -1,0 +1,1468 @@
+{
+  "F01": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "F02": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "F03": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "B"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "F04": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "F05": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "E"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "F06": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "F07": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "F08": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "B"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "F09": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "C"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "F10": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "E"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "F11": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "F12": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "B"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "F13": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "F14": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "C"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "F15": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "E"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "F16": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "F17": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "B"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "F18": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "F19": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "C"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "F20": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "E"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "O01": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "O02": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "O03": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "O04": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "O05": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "O06": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "O07": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP3"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "B"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "O08": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "O09": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "O10": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "E"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "O11": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "O12": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "O13": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "O14": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "O15": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "O16": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "O17": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "O18": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "O19": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "O20": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "D01": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "D02": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "D03": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "D04": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "D05": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "D06": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "D07": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "D08": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "D09": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "D10": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "D11": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "D12": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "D13": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "D14": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "D15": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "D16": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "D17": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "D18": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "D19": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "D20": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "E01": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "A",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "forbid"
+          }
+        ]
+      }
+    ]
+  },
+  "E02": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "B"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "B",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "forbid"
+          }
+        ]
+      }
+    ]
+  },
+  "E03": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "C"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "C",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "low_battery",
+            "action": "forbid"
+          }
+        ]
+      }
+    ]
+  },
+  "E04": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP1"
+      }
+    ],
+    "via_zones": [
+      "D"
+    ],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "D",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "allow_shortest"
+          }
+        ]
+      }
+    ]
+  },
+  "E05": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [
+      "E"
+    ],
+    "exclusions": [
+      {
+        "zone": "E"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "E",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "low_battery",
+            "action": "forbid"
+          },
+          {
+            "priority": 10,
+            "state_condition": "low_battery",
+            "action": "allow_shortest"
+          }
+        ]
+      }
+    ]
+  },
+  "E06": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "A",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "allow_shortest"
+          }
+        ]
+      }
+    ]
+  },
+  "E07": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "E08": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "E09": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D",
+        "duration_minutes": 0
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "D",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "low_battery",
+            "action": "forbid"
+          }
+        ]
+      }
+    ]
+  },
+  "E10": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "E"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "E",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "forbid"
+          }
+        ]
+      }
+    ]
+  },
+  "E11": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "A",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "low_battery",
+            "action": "forbid"
+          }
+        ]
+      }
+    ]
+  },
+  "E12": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "B"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "B",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "forbid"
+          }
+        ]
+      }
+    ]
+  },
+  "E13": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP1"
+      }
+    ],
+    "via_zones": [
+      "C"
+    ],
+    "exclusions": [
+      {
+        "zone": "C"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "C",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "low_battery",
+            "action": "forbid"
+          }
+        ]
+      }
+    ]
+  },
+  "E14": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "D",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "forbid"
+          }
+        ]
+      }
+    ]
+  },
+  "E15": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "E"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "E",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "low_battery",
+            "action": "forbid"
+          }
+        ]
+      }
+    ]
+  },
+  "E16": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "E17": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "E18": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "C"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "C",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "allow_shortest"
+          }
+        ]
+      }
+    ]
+  },
+  "E19": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "D",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "low_battery",
+            "action": "forbid"
+          }
+        ]
+      }
+    ]
+  },
+  "E20": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "E"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "E",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "forbid"
+          }
+        ]
+      }
+    ]
+  },
+  "T01": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A",
+        "duration_minutes": 5
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "T02": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "B",
+        "duration_minutes": 10
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "T03": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "C",
+        "duration_minutes": 15
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "T04": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "T05": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "E",
+        "duration_minutes": 30
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "T06": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A",
+        "duration_minutes": 8
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "T07": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "T08": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "C",
+        "duration_minutes": 25
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "T09": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D",
+        "duration_minutes": 6
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "T10": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "E",
+        "duration_minutes": 18
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "T11": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A",
+        "duration_minutes": 40
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "T12": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "B",
+        "duration_minutes": 7
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "T13": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "C",
+        "duration_minutes": 14
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "T14": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP7"
+      }
+    ],
+    "via_zones": [
+      "D"
+    ],
+    "exclusions": [
+      {
+        "zone": "D",
+        "duration_minutes": 22
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "T15": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP3"
+      }
+    ],
+    "via_zones": [
+      "E"
+    ],
+    "exclusions": [
+      {
+        "zone": "E",
+        "duration_minutes": 9
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "T16": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A",
+        "duration_minutes": 16
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "T17": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "B",
+        "duration_minutes": 11
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "T18": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [
+      "C"
+    ],
+    "exclusions": [
+      {
+        "zone": "C",
+        "duration_minutes": 35
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "T19": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D",
+        "duration_minutes": 13
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "T20": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "E",
+        "duration_minutes": 24
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  }
+}

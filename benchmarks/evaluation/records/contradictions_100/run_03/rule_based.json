@@ -1,0 +1,3709 @@
+{
+  "method": "rule_based",
+  "results": [
+    {
+      "id": "F01",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.094863,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F02",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "D"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "D"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.126273,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "F03",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP7"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "B"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP7"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "B"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.137663,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "F04",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "C"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "C"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.108723,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "F05",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [
+          "E"
+        ],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [
+          "E"
+        ],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.129303,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "F06",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.087892,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F07",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.120553,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "F08",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.110923,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "F09",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.117963,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "F10",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "E"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "E"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.127713,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "F11",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [
+          "A"
+        ],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [
+          "A"
+        ],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.116023,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "F12",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.116413,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "F13",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP7"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP7"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.129293,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "F14",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.095812,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F15",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "E"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "E"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.179745,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "F16",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [
+          "A"
+        ],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [
+          "A"
+        ],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.118133,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "F17",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.121473,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "F18",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.086902,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F19",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "C"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "C"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.126423,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "F20",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [
+          "E"
+        ],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [
+          "E"
+        ],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.127143,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "O01",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.124423,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "O02",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.124323,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "O03",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.128953,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "O04",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "D"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "D"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.121913,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "O05",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.090202,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "O06",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP7"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP7"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.117063,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "O07",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.120713,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "O08",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.126743,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "O09",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.111113,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "O10",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.085852,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "O11",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.192675,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "O12",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.215795,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "O13",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.183965,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "O14",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP7"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP7"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.169324,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "O15",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "E"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "E"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.172254,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "O16",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.179375,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "O17",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.172975,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "O18",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.171444,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "O19",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.186685,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "O20",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.133893,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D01",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.126223,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D02",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.103363,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D03",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.192075,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D04",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.131853,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D05",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.149564,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D06",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP7"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP7"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.127173,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D07",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.138733,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D08",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.149393,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D09",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.119323,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D10",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.129783,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D11",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.133303,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D12",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.141703,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D13",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.129033,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D14",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.134083,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D15",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.115213,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D16",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.127743,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D17",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.119193,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D18",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.121033,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D19",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.131233,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D20",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.128873,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "E01",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "A"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "A"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.207775,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "E02",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.216206,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "E03",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.148984,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E04",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.158734,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E05",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.135764,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E06",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP7"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "A"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP7"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "A"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.208295,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "E07",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [
+          "B"
+        ],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [
+          "B"
+        ],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.183685,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "E08",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.204415,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "E09",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.173564,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "E10",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.200525,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "E11",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.157274,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E12",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.143204,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E13",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "C"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "C"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.190605,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "E14",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.141244,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E15",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.174284,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "E16",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.144894,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E17",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.177004,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "E18",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.194344,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "E19",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "D"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "D"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.187065,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "E20",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.138123,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T01",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.118503,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T02",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "B",
+            "duration_minutes": 10.0
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "B",
+            "time_condition": {
+              "start": "2026-07-25T22:12:32.955038+09:00",
+              "end": "2026-07-25T22:22:32.955038+09:00",
+              "repeat": null
+            }
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.149814,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "T03",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.111062,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T04",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.113832,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T05",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.108653,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T06",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.111432,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T07",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "B",
+            "duration_minutes": 12.0
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "B",
+            "time_condition": {
+              "start": "2026-07-25T22:12:32.965850+09:00",
+              "end": "2026-07-25T22:24:32.965850+09:00",
+              "repeat": null
+            }
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.147194,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "T08",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "C"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "C"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.155703,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "T09",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [
+          "D"
+        ],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [
+          "D"
+        ],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.140304,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "T10",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "E",
+            "duration_minutes": 18.0
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "E",
+            "time_condition": {
+              "start": "2026-07-25T22:12:32.973061+09:00",
+              "end": "2026-07-25T22:30:32.973061+09:00",
+              "repeat": null
+            }
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.144273,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "T11",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.115403,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T12",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.159024,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "T13",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "C",
+            "duration_minutes": 14.0
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "C",
+            "time_condition": {
+              "start": "2026-07-25T22:12:32.980484+09:00",
+              "end": "2026-07-25T22:26:32.980484+09:00",
+              "repeat": null
+            }
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.157394,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "T14",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.124174,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T15",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.112503,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T16",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "A",
+            "duration_minutes": 16.0
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "A",
+            "time_condition": {
+              "start": "2026-07-25T22:12:32.987897+09:00",
+              "end": "2026-07-25T22:28:32.987897+09:00",
+              "repeat": null
+            }
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.156264,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "T17",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.092423,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T18",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.145954,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "T19",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "D",
+            "duration_minutes": 13.0
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "D",
+            "time_condition": {
+              "start": "2026-07-25T22:12:32.995423+09:00",
+              "end": "2026-07-25T22:25:32.995423+09:00",
+              "repeat": null
+            }
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 0.158754,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "T20",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 0.103883,
+      "llm_metadata": {},
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    }
+  ]
+}

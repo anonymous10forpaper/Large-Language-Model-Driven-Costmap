@@ -1,0 +1,3204 @@
+{
+  "N01-L0": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N01-L0-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N01-L0-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N01-L1": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N01-L1-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N01-L1-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N01-L2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N01-L2-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N01-L2-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N01-L3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [
+      "A"
+    ],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N01-L3-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N01-L3-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N01-L4": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N01-L4-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N01-L4-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N02-L0": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      },
+      {
+        "dest": "WP7"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N02-L0-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      },
+      {
+        "dest": "WP7"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N02-L0-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      },
+      {
+        "dest": "WP7"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N02-L1": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      },
+      {
+        "dest": "WP7"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N02-L1-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      },
+      {
+        "dest": "WP7"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N02-L1-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      },
+      {
+        "dest": "WP7"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N02-L2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      },
+      {
+        "dest": "WP7"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N02-L2-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP7"
+      },
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N02-L2-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      },
+      {
+        "dest": "WP7"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N02-L3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      },
+      {
+        "dest": "WP7"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N02-L3-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      },
+      {
+        "dest": "WP7"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N02-L3-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      },
+      {
+        "dest": "WP7"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N02-L4": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      },
+      {
+        "dest": "WP7"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N02-L4-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      },
+      {
+        "dest": "WP7"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N02-L4-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      },
+      {
+        "dest": "WP7"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N03-L0": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP3"
+      }
+    ],
+    "via_zones": [
+      {
+        "dest": {
+          "x": 0,
+          "y": 0,
+          "yaw": 0
+        }
+      }
+    ],
+    "exclusions": [],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 5
+      },
+      {
+        "zone": "B",
+        "cost": 200
+      }
+    ],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N03-L0-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP3"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 5
+      },
+      {
+        "zone": "B",
+        "cost": 200
+      }
+    ],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N03-L0-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP3"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 5
+      },
+      {
+        "zone": "B",
+        "cost": 200
+      }
+    ],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N03-L1": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP3"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 5
+      },
+      {
+        "zone": "B",
+        "cost": 200
+      }
+    ],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N03-L1-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP3"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 5
+      },
+      {
+        "zone": "B",
+        "cost": 200
+      }
+    ],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N03-L1-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP3"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 5
+      },
+      {
+        "zone": "B",
+        "cost": 200
+      }
+    ],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N03-L2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP3"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 5
+      },
+      {
+        "zone": "B",
+        "cost": 200
+      }
+    ],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N03-L2-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP3"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [
+      {
+        "zone": "B",
+        "cost": 200
+      },
+      {
+        "zone": "A",
+        "cost": 5
+      }
+    ],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N03-L2-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP3"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [
+      {
+        "zone": "B",
+        "cost": 200
+      },
+      {
+        "zone": "A",
+        "cost": 5
+      }
+    ],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N03-L3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP3"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 5
+      },
+      {
+        "zone": "B",
+        "cost": 200
+      }
+    ],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N03-L3-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP3"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 5
+      },
+      {
+        "zone": "B",
+        "cost": 200
+      }
+    ],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N03-L3-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP3"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [
+      {
+        "zone": "B",
+        "cost": 200
+      },
+      {
+        "zone": "A",
+        "cost": 5
+      }
+    ],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N03-L4": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP3"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 5
+      },
+      {
+        "zone": "B",
+        "cost": 200
+      }
+    ],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N03-L4-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP3"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 5
+      },
+      {
+        "zone": "B",
+        "cost": 200
+      }
+    ],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N03-L4-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 5
+      },
+      {
+        "zone": "B",
+        "cost": 200
+      }
+    ],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N04-L0": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP8"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 1.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N04-L0-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP8"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 1.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N04-L0-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP8"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 1.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N04-L1": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP8"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 1.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N04-L1-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP8"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 1.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N04-L1-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP8"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 1.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N04-L2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP8"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 1.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N04-L2-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP8"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 1.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N04-L2-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP8"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 1.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N04-L3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP8"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 1.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N04-L3-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP8"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 1.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N04-L3-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP8"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N04-L4": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP8"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 1.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N04-L4-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP8"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 1.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N04-L4-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP8"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 1.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N05-L0": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N05-L0-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N05-L0-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N05-L1": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N05-L1-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N05-L1-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N05-L2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N05-L2-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N05-L2-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N05-L3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N05-L3-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N05-L3-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N05-L4": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N05-L4-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N05-L4-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.5
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N06-L0": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A",
+        "duration_minutes": 30
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N06-L0-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A",
+        "duration_minutes": 30
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N06-L0-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A",
+        "duration_minutes": 30
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N06-L1": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A",
+        "duration_minutes": 30
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N06-L1-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A",
+        "duration_minutes": 30
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N06-L1-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A",
+        "duration_minutes": 30
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N06-L2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A",
+        "duration_minutes": 30
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N06-L2-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A",
+        "duration_minutes": 30
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N06-L2-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A",
+        "duration_minutes": 30
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N06-L3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A",
+        "duration_minutes": 30
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N06-L3-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A",
+        "duration_minutes": 30
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N06-L3-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A",
+        "duration_minutes": 30
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N06-L4": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A",
+        "duration_minutes": 30
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N06-L4-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A",
+        "duration_minutes": 30
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N06-L4-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A",
+        "duration_minutes": 30
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N07-L0": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [
+      "C"
+    ],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N07-L0-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [
+      "C"
+    ],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N07-L0-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [
+      "C"
+    ],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N07-L1": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [
+      "C"
+    ],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N07-L1-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [
+      "C"
+    ],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N07-L1-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [
+      "C"
+    ],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N07-L2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [
+      "C"
+    ],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N07-L2-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [
+      "C"
+    ],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N07-L2-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [
+      "C"
+    ],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N07-L3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [
+      "C"
+    ],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N07-L3-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [
+      "C"
+    ],
+    "exclusions": [
+      {
+        "zone": "D"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N07-L3-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [
+      "C"
+    ],
+    "exclusions": [
+      {
+        "zone": "B"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N07-L4": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [
+      "C"
+    ],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N07-L4-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [
+      "C"
+    ],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N07-L4-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP6"
+      }
+    ],
+    "via_zones": [
+      "C"
+    ],
+    "exclusions": [],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N08-L0": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N08-L0-V2": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      "A"
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N08-L0-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP4"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N08-L1": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP4"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N08-L1-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP4"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N08-L1-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP4"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N08-L2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP4"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N08-L2-V2": {
+    "decision": "reject",
+    "reason_code": "contradiction",
+    "plan": [],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N08-L2-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP4"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N08-L3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP4"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N08-L3-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP4"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N08-L3-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP4"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N08-L4": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP4"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N08-L4-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP4"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N08-L4-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP4"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": []
+  },
+  "N09-L0": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "C"
+      }
+    ],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 40
+      }
+    ],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.0
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N09-L0-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "C"
+      }
+    ],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 40
+      }
+    ],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.0
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N09-L0-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "C"
+      },
+      {
+        "zone": "A",
+        "duration_minutes": 0
+      }
+    ],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 40
+      }
+    ],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.0
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N09-L1": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "A"
+      },
+      {
+        "zone": "C",
+        "duration_minutes": 0
+      }
+    ],
+    "weights": [
+      {
+        "zone": "C",
+        "cost": 40
+      }
+    ],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.0
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N09-L1-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "C"
+      },
+      {
+        "zone": "A",
+        "duration_minutes": 0
+      }
+    ],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 40
+      }
+    ],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.0
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N09-L1-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "C"
+      },
+      {
+        "zone": "A",
+        "duration_minutes": 0
+      }
+    ],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 40
+      }
+    ],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.0
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N09-L2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "C"
+      },
+      {
+        "zone": "A",
+        "duration_minutes": 0
+      }
+    ],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 40
+      }
+    ],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.0
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N09-L2-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "C"
+      },
+      {
+        "zone": "A",
+        "duration_minutes": 0
+      }
+    ],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 40
+      }
+    ],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.0
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N09-L2-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "A",
+        "cost": 40
+      },
+      {
+        "zone": "C"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.0
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N09-L3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "C"
+      },
+      {
+        "zone": "A",
+        "duration_minutes": 0
+      }
+    ],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 40
+      }
+    ],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.0
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N09-L3-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "C"
+      },
+      {
+        "zone": "A",
+        "duration_minutes": 0
+      }
+    ],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 40
+      }
+    ],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.0
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N09-L3-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "C"
+      },
+      {
+        "zone": "A",
+        "cost": 40
+      }
+    ],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 40
+      }
+    ],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.0
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N09-L4": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "C"
+      }
+    ],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 40
+      }
+    ],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.0
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N09-L4-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "C"
+      },
+      {
+        "zone": "A",
+        "duration_minutes": 0
+      }
+    ],
+    "weights": [
+      {
+        "zone": "A",
+        "cost": 40
+      }
+    ],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.0
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N09-L4-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP5"
+      }
+    ],
+    "via_zones": [
+      "B"
+    ],
+    "exclusions": [
+      {
+        "zone": "C"
+      },
+      {
+        "zone": "A",
+        "duration_minutes": 40
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 2.0
+      }
+    ],
+    "conditional_rules": []
+  },
+  "N10-L0": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [
+      "A"
+    ],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "A",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "allow_shortest"
+          }
+        ]
+      }
+    ]
+  },
+  "N10-L0-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "A",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "allow_shortest"
+          }
+        ]
+      }
+    ]
+  },
+  "N10-L0-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "A",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "allow_shortest"
+          }
+        ]
+      }
+    ]
+  },
+  "N10-L1": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "A",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "allow_shortest"
+          }
+        ]
+      }
+    ]
+  },
+  "N10-L1-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "A",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "allow_shortest"
+          }
+        ]
+      }
+    ]
+  },
+  "N10-L1-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [
+      "A"
+    ],
+    "exclusions": [
+      {
+        "zone": "A",
+        "duration_minutes": 0
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "A",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "allow_shortest"
+          }
+        ]
+      }
+    ]
+  },
+  "N10-L2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "A",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "allow_shortest"
+          }
+        ]
+      }
+    ]
+  },
+  "N10-L2-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "A",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "allow_shortest"
+          }
+        ]
+      }
+    ]
+  },
+  "N10-L2-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "A",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "allow_shortest"
+          }
+        ]
+      }
+    ]
+  },
+  "N10-L3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "A",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "allow_shortest"
+          }
+        ]
+      }
+    ]
+  },
+  "N10-L3-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 1.5
+      }
+    ],
+    "conditional_rules": [
+      {
+        "zone": "A",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "allow_shortest"
+          }
+        ]
+      }
+    ]
+  },
+  "N10-L3-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [
+      "A"
+    ],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "A",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "low_battery",
+            "action": "forbid"
+          },
+          {
+            "priority": 1,
+            "state_condition": "fire_alarm",
+            "action": "allow_shortest"
+          }
+        ]
+      }
+    ]
+  },
+  "N10-L4": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "A",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "allow_shortest"
+          }
+        ]
+      }
+    ]
+  },
+  "N10-L4-V2": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [
+      "A"
+    ],
+    "exclusions": [
+      {
+        "zone": "A",
+        "duration_minutes": 0
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [],
+    "conditional_rules": [
+      {
+        "zone": "A",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "allow_shortest"
+          }
+        ]
+      }
+    ]
+  },
+  "N10-L4-V3": {
+    "decision": "accept",
+    "reason_code": "none",
+    "plan": [
+      {
+        "dest": "WP2"
+      }
+    ],
+    "via_zones": [],
+    "exclusions": [
+      {
+        "zone": "A"
+      }
+    ],
+    "weights": [],
+    "dynamic_object_rules": [
+      {
+        "class": "person",
+        "radius": 1.5
+      }
+    ],
+    "conditional_rules": [
+      {
+        "zone": "A",
+        "rules": [
+          {
+            "priority": 10,
+            "state_condition": "fire_alarm",
+            "action": "allow_shortest"
+          }
+        ]
+      }
+    ]
+  }
+}

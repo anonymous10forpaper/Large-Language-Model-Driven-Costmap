@@ -1,0 +1,2366 @@
+{
+  "method": "qwen2.5:7b",
+  "run": "run_04",
+  "summary": {
+    "commands": 150,
+    "raw_exact": 122,
+    "post_validator_exact": 122,
+    "processing_outcomes": {
+      "correct_acceptance": 122,
+      "incorrect_acceptance": 10,
+      "interpreter_rejection": 3,
+      "parsing_rejection": 0,
+      "validator_rejection": 15
+    },
+    "raw_accuracy_percent": 81.3333,
+    "post_validator_accuracy_percent": 81.3333,
+    "post_validator_wilson95_percent": [
+      74.3443,
+      86.7576
+    ]
+  },
+  "results": {
+    "N01-L0": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N01-L0-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N01-L0-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N01-L1": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N01-L1-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N01-L1-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N01-L2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N01-L2-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N01-L2-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N01-L3": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "incorrect_acceptance",
+      "raw_mismatches": {
+        "via_zones": {
+          "expected": [],
+          "actual": [
+            "A"
+          ]
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "via_zones": {
+          "expected": [],
+          "actual": [
+            "A"
+          ]
+        }
+      },
+      "post_validator_issues": []
+    },
+    "N01-L3-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N01-L3-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N01-L4": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N01-L4-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N01-L4-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N02-L0": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N02-L0-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N02-L0-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N02-L1": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N02-L1-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N02-L1-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N02-L2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N02-L2-V2": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "incorrect_acceptance",
+      "raw_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP2",
+            "WP7"
+          ],
+          "actual": [
+            "WP7",
+            "WP2"
+          ]
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP2",
+            "WP7"
+          ],
+          "actual": [
+            "WP7",
+            "WP2"
+          ]
+        }
+      },
+      "post_validator_issues": []
+    },
+    "N02-L2-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N02-L3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N02-L3-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N02-L3-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N02-L4": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N02-L4-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N02-L4-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N03-L0": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "validator_rejection",
+      "raw_mismatches": {},
+      "raw_issues": [
+        {
+          "path": "via_zones[0].dest",
+          "reason": "unexpected_field",
+          "value": {
+            "x": 0,
+            "y": 0,
+            "yaw": 0
+          }
+        },
+        {
+          "path": "via_zones[0]",
+          "reason": "zone_string_required",
+          "value": null
+        }
+      ],
+      "post_validator_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP3"
+          ],
+          "actual": []
+        },
+        "weights": {
+          "expected": {
+            "A": 5.0,
+            "B": 200.0
+          },
+          "actual": {}
+        }
+      },
+      "post_validator_issues": [
+        {
+          "path": "policy",
+          "reason": "object_required",
+          "value": null
+        }
+      ]
+    },
+    "N03-L0-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N03-L0-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N03-L1": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N03-L1-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N03-L1-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N03-L2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N03-L2-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N03-L2-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N03-L3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N03-L3-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N03-L3-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N03-L4": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N03-L4-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N03-L4-V3": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "incorrect_acceptance",
+      "raw_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP3"
+          ],
+          "actual": []
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP3"
+          ],
+          "actual": []
+        }
+      },
+      "post_validator_issues": []
+    },
+    "N04-L0": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N04-L0-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N04-L0-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N04-L1": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N04-L1-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N04-L1-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N04-L2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N04-L2-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N04-L2-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N04-L3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N04-L3-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N04-L3-V3": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "incorrect_acceptance",
+      "raw_mismatches": {
+        "objects": {
+          "expected": {
+            "person": 1.5
+          },
+          "actual": {}
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "objects": {
+          "expected": {
+            "person": 1.5
+          },
+          "actual": {}
+        }
+      },
+      "post_validator_issues": []
+    },
+    "N04-L4": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N04-L4-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N04-L4-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N05-L0": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N05-L0-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N05-L0-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N05-L1": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N05-L1-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N05-L1-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N05-L2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N05-L2-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N05-L2-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N05-L3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N05-L3-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N05-L3-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N05-L4": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N05-L4-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N05-L4-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N06-L0": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N06-L0-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N06-L0-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N06-L1": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N06-L1-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N06-L1-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N06-L2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N06-L2-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N06-L2-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N06-L3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N06-L3-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N06-L3-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N06-L4": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N06-L4-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N06-L4-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N07-L0": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N07-L0-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N07-L0-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N07-L1": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N07-L1-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N07-L1-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N07-L2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N07-L2-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N07-L2-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N07-L3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N07-L3-V2": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "incorrect_acceptance",
+      "raw_mismatches": {
+        "keepouts": {
+          "expected": [],
+          "actual": [
+            "D"
+          ]
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "keepouts": {
+          "expected": [],
+          "actual": [
+            "D"
+          ]
+        }
+      },
+      "post_validator_issues": []
+    },
+    "N07-L3-V3": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "incorrect_acceptance",
+      "raw_mismatches": {
+        "keepouts": {
+          "expected": [],
+          "actual": [
+            "B"
+          ]
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "keepouts": {
+          "expected": [],
+          "actual": [
+            "B"
+          ]
+        }
+      },
+      "post_validator_issues": []
+    },
+    "N07-L4": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N07-L4-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N07-L4-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N08-L0": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "interpreter_rejection",
+      "raw_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP4"
+          ],
+          "actual": []
+        },
+        "via_zones": {
+          "expected": [
+            "B"
+          ],
+          "actual": []
+        }
+      },
+      "raw_issues": [
+        {
+          "path": "decision",
+          "reason": "accept_required",
+          "value": "reject"
+        },
+        {
+          "path": "reason_code",
+          "reason": "none_required",
+          "value": "contradiction"
+        }
+      ],
+      "post_validator_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP4"
+          ],
+          "actual": []
+        },
+        "via_zones": {
+          "expected": [
+            "B"
+          ],
+          "actual": []
+        },
+        "keepouts": {
+          "expected": [
+            "A"
+          ],
+          "actual": []
+        }
+      },
+      "post_validator_issues": [
+        {
+          "path": "policy",
+          "reason": "object_required",
+          "value": null
+        }
+      ]
+    },
+    "N08-L0-V2": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "interpreter_rejection",
+      "raw_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP4"
+          ],
+          "actual": []
+        },
+        "via_zones": {
+          "expected": [
+            "B"
+          ],
+          "actual": []
+        }
+      },
+      "raw_issues": [
+        {
+          "path": "decision",
+          "reason": "accept_required",
+          "value": "reject"
+        },
+        {
+          "path": "reason_code",
+          "reason": "none_required",
+          "value": "contradiction"
+        }
+      ],
+      "post_validator_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP4"
+          ],
+          "actual": []
+        },
+        "via_zones": {
+          "expected": [
+            "B"
+          ],
+          "actual": []
+        },
+        "keepouts": {
+          "expected": [
+            "A"
+          ],
+          "actual": []
+        }
+      },
+      "post_validator_issues": [
+        {
+          "path": "policy",
+          "reason": "object_required",
+          "value": null
+        }
+      ]
+    },
+    "N08-L0-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N08-L1": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N08-L1-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N08-L1-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N08-L2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N08-L2-V2": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "interpreter_rejection",
+      "raw_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP4"
+          ],
+          "actual": []
+        },
+        "via_zones": {
+          "expected": [
+            "B"
+          ],
+          "actual": []
+        }
+      },
+      "raw_issues": [
+        {
+          "path": "decision",
+          "reason": "accept_required",
+          "value": "reject"
+        },
+        {
+          "path": "reason_code",
+          "reason": "none_required",
+          "value": "contradiction"
+        }
+      ],
+      "post_validator_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP4"
+          ],
+          "actual": []
+        },
+        "via_zones": {
+          "expected": [
+            "B"
+          ],
+          "actual": []
+        },
+        "keepouts": {
+          "expected": [
+            "A"
+          ],
+          "actual": []
+        }
+      },
+      "post_validator_issues": [
+        {
+          "path": "policy",
+          "reason": "object_required",
+          "value": null
+        }
+      ]
+    },
+    "N08-L2-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N08-L3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N08-L3-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N08-L3-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N08-L4": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N08-L4-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N08-L4-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N09-L0": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N09-L0-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N09-L0-V3": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "validator_rejection",
+      "raw_mismatches": {
+        "timed_keepouts": {
+          "expected": {},
+          "actual": {
+            "A": 0.0
+          }
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP5"
+          ],
+          "actual": []
+        },
+        "via_zones": {
+          "expected": [
+            "B"
+          ],
+          "actual": []
+        },
+        "keepouts": {
+          "expected": [
+            "C"
+          ],
+          "actual": []
+        },
+        "weights": {
+          "expected": {
+            "A": 40.0
+          },
+          "actual": {}
+        },
+        "objects": {
+          "expected": {
+            "person": 2.0
+          },
+          "actual": {}
+        }
+      },
+      "post_validator_issues": [
+        {
+          "path": "policy",
+          "reason": "object_required",
+          "value": null
+        }
+      ]
+    },
+    "N09-L1": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "validator_rejection",
+      "raw_mismatches": {
+        "keepouts": {
+          "expected": [
+            "C"
+          ],
+          "actual": [
+            "A"
+          ]
+        },
+        "timed_keepouts": {
+          "expected": {},
+          "actual": {
+            "C": 0.0
+          }
+        },
+        "weights": {
+          "expected": {
+            "A": 40.0
+          },
+          "actual": {
+            "C": 40.0
+          }
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP5"
+          ],
+          "actual": []
+        },
+        "via_zones": {
+          "expected": [
+            "B"
+          ],
+          "actual": []
+        },
+        "keepouts": {
+          "expected": [
+            "C"
+          ],
+          "actual": []
+        },
+        "weights": {
+          "expected": {
+            "A": 40.0
+          },
+          "actual": {}
+        },
+        "objects": {
+          "expected": {
+            "person": 2.0
+          },
+          "actual": {}
+        }
+      },
+      "post_validator_issues": [
+        {
+          "path": "policy",
+          "reason": "object_required",
+          "value": null
+        }
+      ]
+    },
+    "N09-L1-V2": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "validator_rejection",
+      "raw_mismatches": {
+        "timed_keepouts": {
+          "expected": {},
+          "actual": {
+            "A": 0.0
+          }
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP5"
+          ],
+          "actual": []
+        },
+        "via_zones": {
+          "expected": [
+            "B"
+          ],
+          "actual": []
+        },
+        "keepouts": {
+          "expected": [
+            "C"
+          ],
+          "actual": []
+        },
+        "weights": {
+          "expected": {
+            "A": 40.0
+          },
+          "actual": {}
+        },
+        "objects": {
+          "expected": {
+            "person": 2.0
+          },
+          "actual": {}
+        }
+      },
+      "post_validator_issues": [
+        {
+          "path": "policy",
+          "reason": "object_required",
+          "value": null
+        }
+      ]
+    },
+    "N09-L1-V3": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "validator_rejection",
+      "raw_mismatches": {
+        "timed_keepouts": {
+          "expected": {},
+          "actual": {
+            "A": 0.0
+          }
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP5"
+          ],
+          "actual": []
+        },
+        "via_zones": {
+          "expected": [
+            "B"
+          ],
+          "actual": []
+        },
+        "keepouts": {
+          "expected": [
+            "C"
+          ],
+          "actual": []
+        },
+        "weights": {
+          "expected": {
+            "A": 40.0
+          },
+          "actual": {}
+        },
+        "objects": {
+          "expected": {
+            "person": 2.0
+          },
+          "actual": {}
+        }
+      },
+      "post_validator_issues": [
+        {
+          "path": "policy",
+          "reason": "object_required",
+          "value": null
+        }
+      ]
+    },
+    "N09-L2": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "validator_rejection",
+      "raw_mismatches": {
+        "timed_keepouts": {
+          "expected": {},
+          "actual": {
+            "A": 0.0
+          }
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP5"
+          ],
+          "actual": []
+        },
+        "via_zones": {
+          "expected": [
+            "B"
+          ],
+          "actual": []
+        },
+        "keepouts": {
+          "expected": [
+            "C"
+          ],
+          "actual": []
+        },
+        "weights": {
+          "expected": {
+            "A": 40.0
+          },
+          "actual": {}
+        },
+        "objects": {
+          "expected": {
+            "person": 2.0
+          },
+          "actual": {}
+        }
+      },
+      "post_validator_issues": [
+        {
+          "path": "policy",
+          "reason": "object_required",
+          "value": null
+        }
+      ]
+    },
+    "N09-L2-V2": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "validator_rejection",
+      "raw_mismatches": {
+        "timed_keepouts": {
+          "expected": {},
+          "actual": {
+            "A": 0.0
+          }
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP5"
+          ],
+          "actual": []
+        },
+        "via_zones": {
+          "expected": [
+            "B"
+          ],
+          "actual": []
+        },
+        "keepouts": {
+          "expected": [
+            "C"
+          ],
+          "actual": []
+        },
+        "weights": {
+          "expected": {
+            "A": 40.0
+          },
+          "actual": {}
+        },
+        "objects": {
+          "expected": {
+            "person": 2.0
+          },
+          "actual": {}
+        }
+      },
+      "post_validator_issues": [
+        {
+          "path": "policy",
+          "reason": "object_required",
+          "value": null
+        }
+      ]
+    },
+    "N09-L2-V3": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "incorrect_acceptance",
+      "raw_mismatches": {
+        "keepouts": {
+          "expected": [
+            "C"
+          ],
+          "actual": [
+            "A",
+            "C"
+          ]
+        },
+        "weights": {
+          "expected": {
+            "A": 40.0
+          },
+          "actual": {}
+        }
+      },
+      "raw_issues": [
+        {
+          "path": "exclusions[0].cost",
+          "reason": "unexpected_field",
+          "value": 40
+        }
+      ],
+      "post_validator_mismatches": {
+        "keepouts": {
+          "expected": [
+            "C"
+          ],
+          "actual": [
+            "A",
+            "C"
+          ]
+        },
+        "weights": {
+          "expected": {
+            "A": 40.0
+          },
+          "actual": {}
+        }
+      },
+      "post_validator_issues": []
+    },
+    "N09-L3": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "validator_rejection",
+      "raw_mismatches": {
+        "timed_keepouts": {
+          "expected": {},
+          "actual": {
+            "A": 0.0
+          }
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP5"
+          ],
+          "actual": []
+        },
+        "via_zones": {
+          "expected": [
+            "B"
+          ],
+          "actual": []
+        },
+        "keepouts": {
+          "expected": [
+            "C"
+          ],
+          "actual": []
+        },
+        "weights": {
+          "expected": {
+            "A": 40.0
+          },
+          "actual": {}
+        },
+        "objects": {
+          "expected": {
+            "person": 2.0
+          },
+          "actual": {}
+        }
+      },
+      "post_validator_issues": [
+        {
+          "path": "policy",
+          "reason": "object_required",
+          "value": null
+        }
+      ]
+    },
+    "N09-L3-V2": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "validator_rejection",
+      "raw_mismatches": {
+        "timed_keepouts": {
+          "expected": {},
+          "actual": {
+            "A": 0.0
+          }
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP5"
+          ],
+          "actual": []
+        },
+        "via_zones": {
+          "expected": [
+            "B"
+          ],
+          "actual": []
+        },
+        "keepouts": {
+          "expected": [
+            "C"
+          ],
+          "actual": []
+        },
+        "weights": {
+          "expected": {
+            "A": 40.0
+          },
+          "actual": {}
+        },
+        "objects": {
+          "expected": {
+            "person": 2.0
+          },
+          "actual": {}
+        }
+      },
+      "post_validator_issues": [
+        {
+          "path": "policy",
+          "reason": "object_required",
+          "value": null
+        }
+      ]
+    },
+    "N09-L3-V3": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "validator_rejection",
+      "raw_mismatches": {
+        "keepouts": {
+          "expected": [
+            "C"
+          ],
+          "actual": [
+            "A",
+            "C"
+          ]
+        }
+      },
+      "raw_issues": [
+        {
+          "path": "exclusions[1].cost",
+          "reason": "unexpected_field",
+          "value": 40
+        }
+      ],
+      "post_validator_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP5"
+          ],
+          "actual": []
+        },
+        "via_zones": {
+          "expected": [
+            "B"
+          ],
+          "actual": []
+        },
+        "keepouts": {
+          "expected": [
+            "C"
+          ],
+          "actual": []
+        },
+        "weights": {
+          "expected": {
+            "A": 40.0
+          },
+          "actual": {}
+        },
+        "objects": {
+          "expected": {
+            "person": 2.0
+          },
+          "actual": {}
+        }
+      },
+      "post_validator_issues": [
+        {
+          "path": "policy",
+          "reason": "object_required",
+          "value": null
+        }
+      ]
+    },
+    "N09-L4": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N09-L4-V2": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "validator_rejection",
+      "raw_mismatches": {
+        "timed_keepouts": {
+          "expected": {},
+          "actual": {
+            "A": 0.0
+          }
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP5"
+          ],
+          "actual": []
+        },
+        "via_zones": {
+          "expected": [
+            "B"
+          ],
+          "actual": []
+        },
+        "keepouts": {
+          "expected": [
+            "C"
+          ],
+          "actual": []
+        },
+        "weights": {
+          "expected": {
+            "A": 40.0
+          },
+          "actual": {}
+        },
+        "objects": {
+          "expected": {
+            "person": 2.0
+          },
+          "actual": {}
+        }
+      },
+      "post_validator_issues": [
+        {
+          "path": "policy",
+          "reason": "object_required",
+          "value": null
+        }
+      ]
+    },
+    "N09-L4-V3": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "incorrect_acceptance",
+      "raw_mismatches": {
+        "timed_keepouts": {
+          "expected": {},
+          "actual": {
+            "A": 40.0
+          }
+        },
+        "weights": {
+          "expected": {
+            "A": 40.0
+          },
+          "actual": {}
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "timed_keepouts": {
+          "expected": {},
+          "actual": {
+            "A": 40.0
+          }
+        },
+        "weights": {
+          "expected": {
+            "A": 40.0
+          },
+          "actual": {}
+        }
+      },
+      "post_validator_issues": []
+    },
+    "N10-L0": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "validator_rejection",
+      "raw_mismatches": {
+        "via_zones": {
+          "expected": [],
+          "actual": [
+            "A"
+          ]
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP2"
+          ],
+          "actual": []
+        },
+        "keepouts": {
+          "expected": [
+            "A"
+          ],
+          "actual": []
+        },
+        "conditional": {
+          "expected": [
+            "A:fire_alarm:allow_shortest:10"
+          ],
+          "actual": []
+        }
+      },
+      "post_validator_issues": [
+        {
+          "path": "policy",
+          "reason": "object_required",
+          "value": null
+        }
+      ]
+    },
+    "N10-L0-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N10-L0-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N10-L1": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N10-L1-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N10-L1-V3": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "validator_rejection",
+      "raw_mismatches": {
+        "via_zones": {
+          "expected": [],
+          "actual": [
+            "A"
+          ]
+        },
+        "keepouts": {
+          "expected": [
+            "A"
+          ],
+          "actual": []
+        },
+        "timed_keepouts": {
+          "expected": {},
+          "actual": {
+            "A": 0.0
+          }
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP2"
+          ],
+          "actual": []
+        },
+        "keepouts": {
+          "expected": [
+            "A"
+          ],
+          "actual": []
+        },
+        "conditional": {
+          "expected": [
+            "A:fire_alarm:allow_shortest:10"
+          ],
+          "actual": []
+        }
+      },
+      "post_validator_issues": [
+        {
+          "path": "policy",
+          "reason": "object_required",
+          "value": null
+        }
+      ]
+    },
+    "N10-L2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N10-L2-V2": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N10-L2-V3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N10-L3": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N10-L3-V2": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "incorrect_acceptance",
+      "raw_mismatches": {
+        "objects": {
+          "expected": {},
+          "actual": {
+            "person": 1.5
+          }
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "objects": {
+          "expected": {},
+          "actual": {
+            "person": 1.5
+          }
+        }
+      },
+      "post_validator_issues": []
+    },
+    "N10-L3-V3": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "validator_rejection",
+      "raw_mismatches": {
+        "via_zones": {
+          "expected": [],
+          "actual": [
+            "A"
+          ]
+        },
+        "conditional": {
+          "expected": [
+            "A:fire_alarm:allow_shortest:10"
+          ],
+          "actual": [
+            "A:fire_alarm:allow_shortest:1",
+            "A:low_battery:forbid:10"
+          ]
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP2"
+          ],
+          "actual": []
+        },
+        "keepouts": {
+          "expected": [
+            "A"
+          ],
+          "actual": []
+        },
+        "conditional": {
+          "expected": [
+            "A:fire_alarm:allow_shortest:10"
+          ],
+          "actual": []
+        }
+      },
+      "post_validator_issues": [
+        {
+          "path": "policy",
+          "reason": "object_required",
+          "value": null
+        }
+      ]
+    },
+    "N10-L4": {
+      "raw_exact": true,
+      "post_validator_exact": true,
+      "processing_outcome": "correct_acceptance",
+      "raw_mismatches": {},
+      "raw_issues": [],
+      "post_validator_mismatches": {},
+      "post_validator_issues": []
+    },
+    "N10-L4-V2": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "validator_rejection",
+      "raw_mismatches": {
+        "via_zones": {
+          "expected": [],
+          "actual": [
+            "A"
+          ]
+        },
+        "keepouts": {
+          "expected": [
+            "A"
+          ],
+          "actual": []
+        },
+        "timed_keepouts": {
+          "expected": {},
+          "actual": {
+            "A": 0.0
+          }
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "destinations": {
+          "expected": [
+            "WP2"
+          ],
+          "actual": []
+        },
+        "keepouts": {
+          "expected": [
+            "A"
+          ],
+          "actual": []
+        },
+        "conditional": {
+          "expected": [
+            "A:fire_alarm:allow_shortest:10"
+          ],
+          "actual": []
+        }
+      },
+      "post_validator_issues": [
+        {
+          "path": "policy",
+          "reason": "object_required",
+          "value": null
+        }
+      ]
+    },
+    "N10-L4-V3": {
+      "raw_exact": false,
+      "post_validator_exact": false,
+      "processing_outcome": "incorrect_acceptance",
+      "raw_mismatches": {
+        "objects": {
+          "expected": {},
+          "actual": {
+            "person": 1.5
+          }
+        }
+      },
+      "raw_issues": [],
+      "post_validator_mismatches": {
+        "objects": {
+          "expected": {},
+          "actual": {
+            "person": 1.5
+          }
+        }
+      },
+      "post_validator_issues": []
+    }
+  }
+}

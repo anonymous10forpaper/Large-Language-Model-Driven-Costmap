@@ -1,0 +1,702 @@
+[
+  {
+    "id": "F01",
+    "command": "Keep zone A closed, but route through A on the way to WP2.",
+    "case_type": "same_zone_forbid_via",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "F02",
+    "command": "Make zone D off limits and use D as the required transit aisle to WP4.",
+    "case_type": "same_zone_forbid_via",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "F03",
+    "command": "Zone B is unavailable for this run, but the robot must cross B before reaching WP7.",
+    "case_type": "same_zone_forbid_via",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "F04",
+    "command": "Avoid zone C completely while using C as the corridor to WP5.",
+    "case_type": "same_zone_forbid_via",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "F05",
+    "command": "Do not enter zone E, and pass through E before arriving at WP1.",
+    "case_type": "same_zone_forbid_via",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "F06",
+    "command": "Block aisle A for the WP6 delivery and require the route to go through A.",
+    "case_type": "same_zone_forbid_via",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "F07",
+    "command": "Skip zone D on this mission, yet include D as the mandatory passage to WP3.",
+    "case_type": "same_zone_forbid_via",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "F08",
+    "command": "Keep the robot out of zone B while making B part of the route to WP8.",
+    "case_type": "same_zone_forbid_via",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "F09",
+    "command": "Route around zone C and use that same zone as the transit aisle to WP6.",
+    "case_type": "same_zone_forbid_via",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "F10",
+    "command": "Zone E must stay closed for the trip, and the WP4 route must cross E.",
+    "case_type": "same_zone_forbid_via",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "F11",
+    "command": "Treat zone A as a no-go area and approach WP5 through A.",
+    "case_type": "same_zone_forbid_via",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "F12",
+    "command": "Seal off zone B, then use B as the required passage before WP2.",
+    "case_type": "same_zone_forbid_via",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "F13",
+    "command": "Do not use zone D, but make D the intermediate corridor on the way to WP7.",
+    "case_type": "same_zone_forbid_via",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "F14",
+    "command": "Zone C is closed for maintenance, and the robot should travel via C to WP1.",
+    "case_type": "same_zone_forbid_via",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "F15",
+    "command": "Avoid zone E for the entire WP3 run while requiring the path to cross E.",
+    "case_type": "same_zone_forbid_via",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "F16",
+    "command": "Keep zone A inaccessible and pass through A before reaching WP8.",
+    "case_type": "same_zone_forbid_via",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "F17",
+    "command": "Prohibit entry to zone B and include B as the transit section for WP4.",
+    "case_type": "same_zone_forbid_via",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "F18",
+    "command": "Make zone D unavailable, although the delivery route to WP6 must go via D.",
+    "case_type": "same_zone_forbid_via",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "F19",
+    "command": "Forbid zone C and require a crossing of C before the robot reaches WP2.",
+    "case_type": "same_zone_forbid_via",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "F20",
+    "command": "Zone E cannot be used on this job, but use E as the passage to WP5.",
+    "case_type": "same_zone_forbid_via",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "O01",
+    "command": "Keep zone A open and closed at the same time while going to WP2.",
+    "case_type": "simultaneous_open_closed",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "O02",
+    "command": "For the entire WP4 trip, make zone B available and off limits simultaneously.",
+    "case_type": "simultaneous_open_closed",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "O03",
+    "command": "Leave zone C open to traffic and completely blocked without changing states, then go to WP6.",
+    "case_type": "simultaneous_open_closed",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "O04",
+    "command": "Zone D must remain unrestricted and closed at the same time on the WP1 mission.",
+    "case_type": "simultaneous_open_closed",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "O05",
+    "command": "Permit all traffic through zone E while forbidding every entry to E, then head to WP5.",
+    "case_type": "simultaneous_open_closed",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "O06",
+    "command": "Keep aisle A accessible and inaccessible simultaneously for the run to WP7.",
+    "case_type": "simultaneous_open_closed",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "O07",
+    "command": "Zone B should stay open to the robot and remain a no-go area on the way to WP3.",
+    "case_type": "simultaneous_open_closed",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "O08",
+    "command": "Do not change the state of C; keep it both open and closed until WP8 is reached.",
+    "case_type": "simultaneous_open_closed",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "O09",
+    "command": "Make zone D passable and fully sealed for the same WP2 delivery.",
+    "case_type": "simultaneous_open_closed",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "O10",
+    "command": "Allow passage through E and keep E unavailable throughout the trip to WP6.",
+    "case_type": "simultaneous_open_closed",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "O11",
+    "command": "For this single operating state, zone A must be available and forbidden before going to WP4.",
+    "case_type": "simultaneous_open_closed",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "O12",
+    "command": "Keep B open for normal traffic and closed to all traffic during the WP5 mission.",
+    "case_type": "simultaneous_open_closed",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "O13",
+    "command": "Zone C is to remain usable and off limits at once while the robot travels to WP1.",
+    "case_type": "simultaneous_open_closed",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "O14",
+    "command": "Maintain D as both an open corridor and a closed corridor for the full WP7 run.",
+    "case_type": "simultaneous_open_closed",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "O15",
+    "command": "Keep zone E unrestricted while blocking all access to E on the way to WP3.",
+    "case_type": "simultaneous_open_closed",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "O16",
+    "command": "Set A to available and unavailable in the same policy, then proceed to WP8.",
+    "case_type": "simultaneous_open_closed",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "O17",
+    "command": "B must admit traffic and reject all traffic at the same time for the WP6 task.",
+    "case_type": "simultaneous_open_closed",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "O18",
+    "command": "Keep C open without interruption and closed without interruption until the robot reaches WP2.",
+    "case_type": "simultaneous_open_closed",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "O19",
+    "command": "Make D a usable aisle and a prohibited aisle simultaneously, then go to WP5.",
+    "case_type": "simultaneous_open_closed",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "O20",
+    "command": "Throughout the WP4 route, E must stay open and remain completely closed.",
+    "case_type": "simultaneous_open_closed",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "D01",
+    "command": "For this single-stop mission, make WP2 and WP6 the sole final destination at the same time.",
+    "case_type": "exclusive_final_destination",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "D02",
+    "command": "Complete this one-destination job only at WP3 and only at WP7.",
+    "case_type": "exclusive_final_destination",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "D03",
+    "command": "WP1 must be the sole destination, while WP8 must also be the sole destination for the same run.",
+    "case_type": "exclusive_final_destination",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "D04",
+    "command": "Without intermediate stops, finish the mission exclusively at both WP4 and WP5.",
+    "case_type": "exclusive_final_destination",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "D05",
+    "command": "Set WP6 as the only final station and WP2 as the only final station for this job.",
+    "case_type": "exclusive_final_destination",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "D06",
+    "command": "This single-destination mission must end only at WP7 and only at WP3.",
+    "case_type": "exclusive_final_destination",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "D07",
+    "command": "Send the robot to one sole endpoint: WP1 and WP5 must each be that endpoint.",
+    "case_type": "exclusive_final_destination",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "D08",
+    "command": "For the same non-stop delivery, WP2 is the exclusive destination and WP8 is also the exclusive destination.",
+    "case_type": "exclusive_final_destination",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "D09",
+    "command": "End this one-stop task nowhere except WP3 and nowhere except WP6.",
+    "case_type": "exclusive_final_destination",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "D10",
+    "command": "Use WP4 as the single final goal and WP7 as the single final goal of this run.",
+    "case_type": "exclusive_final_destination",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "D11",
+    "command": "The mission has exactly one endpoint, which must be WP5 and must also be WP1.",
+    "case_type": "exclusive_final_destination",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "D12",
+    "command": "Finish only at WP6, but make WP8 the only place where the same mission can finish.",
+    "case_type": "exclusive_final_destination",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "D13",
+    "command": "For this direct trip, designate both WP2 and WP7 as the one exclusive destination.",
+    "case_type": "exclusive_final_destination",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "D14",
+    "command": "WP3 is the sole drop-off point, and WP5 is simultaneously the sole drop-off point.",
+    "case_type": "exclusive_final_destination",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "D15",
+    "command": "Complete the single-stop route only at WP1 and exclusively at WP4.",
+    "case_type": "exclusive_final_destination",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "D16",
+    "command": "The only valid final destination is WP8, and the only valid final destination is WP2.",
+    "case_type": "exclusive_final_destination",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "D17",
+    "command": "Make WP5 the sole terminal for this job while making WP7 its sole terminal as well.",
+    "case_type": "exclusive_final_destination",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "D18",
+    "command": "This mission must have one final waypoint: only WP4 and only WP6 qualify.",
+    "case_type": "exclusive_final_destination",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "D19",
+    "command": "Go directly to the single endpoint, which is exclusively WP3 and exclusively WP8.",
+    "case_type": "exclusive_final_destination",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "D20",
+    "command": "Assign the same one-stop delivery two sole destinations, WP1 and WP7.",
+    "case_type": "exclusive_final_destination",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "E01",
+    "command": "While the fire alarm is active, the safety plan requires zone A to remain closed, yet the emergency delivery to WP2 must cross A during that same alarm.",
+    "case_type": "event_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "E02",
+    "command": "Throughout a fire-alarm response, security must keep zone B inaccessible, but the response route to WP4 is also required to use B before the alarm is cleared.",
+    "case_type": "event_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "E03",
+    "command": "When the battery enters low-power status, maintenance rules close zone C, while the charging run to WP6 must pass through C under that same status.",
+    "case_type": "event_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "E04",
+    "command": "During a fire emergency, zone D must remain blocked for personnel safety, although the robot must travel through D to reach WP1 during the emergency.",
+    "case_type": "event_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "E05",
+    "command": "If low battery mode is triggered, keep zone E unavailable for inspection and send the robot through E to WP5 while that mode remains active.",
+    "case_type": "event_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "E06",
+    "command": "For as long as the fire siren is sounding, operations require zone A to stay off limits, but the evacuation-support trip to WP7 must use A in that interval.",
+    "case_type": "event_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "E07",
+    "command": "Once low-battery status is reported, isolate zone B until the status clears and route the robot through B to WP3 before it clears.",
+    "case_type": "event_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "E08",
+    "command": "While the fire warning remains in effect, the safety procedure prohibits entry to zone C, yet the required response path to WP8 crosses C during that warning.",
+    "case_type": "event_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "E09",
+    "command": "Under the same low-battery condition, keep zone D sealed for servicing and use D as the return corridor to WP2.",
+    "case_type": "event_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "E10",
+    "command": "During an active fire alarm, access control must deny entry to zone E, while the WP6 emergency route must enter and cross E before the alarm ends.",
+    "case_type": "event_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "E11",
+    "command": "If the battery remains low, the inspection policy keeps zone A closed, but the robot's trip to WP4 must go through A while the battery is still low.",
+    "case_type": "event_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "E12",
+    "command": "While a fire response is underway, keep zone B closed to all traffic and require the supply mission to WP5 to pass through B during that response.",
+    "case_type": "event_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "E13",
+    "command": "When low-power mode is active, zone C must be treated as a no-entry maintenance area, although the return path to WP1 must cross C in that mode.",
+    "case_type": "event_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "E14",
+    "command": "Until the fire alarm is reset, zone D is required to stay closed, yet the emergency inspection at WP7 requires the robot to travel through D before reset.",
+    "case_type": "event_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "E15",
+    "command": "During a low-battery alert, prohibit use of zone E and make E the mandatory corridor for reaching WP3 during the same alert.",
+    "case_type": "event_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "E16",
+    "command": "As long as the fire alarm condition holds, zone A must be unavailable, while the response team requires the WP8 route to pass through A under that condition.",
+    "case_type": "event_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "E17",
+    "command": "If a low-battery event is active, lock down zone B for maintenance and route the robot across B to WP6 before the event ends.",
+    "case_type": "event_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "E18",
+    "command": "For the duration of the fire warning, zone C must remain inaccessible, but the emergency trip to WP4 must use C during that same warning.",
+    "case_type": "event_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "E19",
+    "command": "While battery power is low, keep zone D closed for diagnostics and require the robot to cross D on its way to WP5 while power remains low.",
+    "case_type": "event_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "E20",
+    "command": "When the fire-response state is active, safety control blocks zone E, yet the assigned route to WP2 must pass through E in that same state.",
+    "case_type": "event_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "T01",
+    "command": "For the next 5 minutes, keep zone A closed and require the route through A to WP2.",
+    "case_type": "timed_same_zone_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "T02",
+    "command": "During the next 10 minutes, block B and make the WP4 route cross B.",
+    "case_type": "timed_same_zone_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "T03",
+    "command": "Until 15 minutes have passed, keep C off limits and travel through C to WP6.",
+    "case_type": "timed_same_zone_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "T04",
+    "command": "For the coming 20 minutes, make D unavailable and use D as the corridor to WP1.",
+    "case_type": "timed_same_zone_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "T05",
+    "command": "Over the next 30 minutes, forbid E and require passage through E before WP5.",
+    "case_type": "timed_same_zone_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "T06",
+    "command": "Keep A closed for 8 minutes and route the robot through A to WP7 during those same 8 minutes.",
+    "case_type": "timed_same_zone_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "T07",
+    "command": "For exactly 12 minutes, block B while using B as the transit aisle to WP3.",
+    "case_type": "timed_same_zone_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "T08",
+    "command": "During the same 25-minute window, keep C closed and require the WP8 path to cross C.",
+    "case_type": "timed_same_zone_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "T09",
+    "command": "For the next 6 minutes, prohibit D and send the robot via D to WP2.",
+    "case_type": "timed_same_zone_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "T10",
+    "command": "Keep E off limits for 18 minutes and use E for the WP6 route throughout that interval.",
+    "case_type": "timed_same_zone_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "T11",
+    "command": "For the next 40 minutes, close A and make all WP4 traffic pass through A.",
+    "case_type": "timed_same_zone_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "T12",
+    "command": "During the coming 7 minutes, make B inaccessible and cross B before reaching WP5.",
+    "case_type": "timed_same_zone_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "T13",
+    "command": "For 14 minutes from now, avoid C and use C as the mandatory passage to WP1.",
+    "case_type": "timed_same_zone_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "T14",
+    "command": "Until the next 22 minutes end, block D and require the route via D to WP7.",
+    "case_type": "timed_same_zone_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "T15",
+    "command": "For the same 9-minute period, keep E unavailable and let the WP3 delivery pass through E.",
+    "case_type": "timed_same_zone_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "T16",
+    "command": "Over the next 16 minutes, forbid A and require A as the corridor to WP8.",
+    "case_type": "timed_same_zone_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "T17",
+    "command": "Keep B closed for the next 11 minutes while routing the robot through B to WP6.",
+    "case_type": "timed_same_zone_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "T18",
+    "command": "During a 35-minute interval starting now, prohibit C and make the WP2 path cross C.",
+    "case_type": "timed_same_zone_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "T19",
+    "command": "For the coming 13 minutes, close D and use D as the required transit zone to WP5.",
+    "case_type": "timed_same_zone_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  },
+  {
+    "id": "T20",
+    "command": "Keep E blocked for 24 minutes and require passage through E to WP4 within those same 24 minutes.",
+    "case_type": "timed_same_zone_conflict",
+    "gold_decision": "reject",
+    "gold_reason_code": "contradiction"
+  }
+]

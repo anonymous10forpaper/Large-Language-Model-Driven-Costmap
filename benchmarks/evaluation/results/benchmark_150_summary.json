@@ -1,0 +1,505 @@
+{
+  "unique_commands": 150,
+  "runs": [
+    {
+      "method": "llama3.1:latest",
+      "run": "run_01",
+      "commands": 150,
+      "raw_exact": 106,
+      "post_validator_exact": 107,
+      "processing_outcomes": {
+        "correct_acceptance": 107,
+        "incorrect_acceptance": 20,
+        "interpreter_rejection": 0,
+        "parsing_rejection": 0,
+        "validator_rejection": 23
+      },
+      "raw_accuracy_percent": 70.6667,
+      "post_validator_accuracy_percent": 71.3333,
+      "post_validator_wilson95_percent": [
+        63.6351,
+        77.9662
+      ]
+    },
+    {
+      "method": "qwen2.5:7b",
+      "run": "run_01",
+      "commands": 150,
+      "raw_exact": 122,
+      "post_validator_exact": 122,
+      "processing_outcomes": {
+        "correct_acceptance": 122,
+        "incorrect_acceptance": 10,
+        "interpreter_rejection": 3,
+        "parsing_rejection": 0,
+        "validator_rejection": 15
+      },
+      "raw_accuracy_percent": 81.3333,
+      "post_validator_accuracy_percent": 81.3333,
+      "post_validator_wilson95_percent": [
+        74.3443,
+        86.7576
+      ]
+    },
+    {
+      "method": "qwen3.5:9b",
+      "run": "run_01",
+      "commands": 150,
+      "raw_exact": 142,
+      "post_validator_exact": 142,
+      "processing_outcomes": {
+        "correct_acceptance": 142,
+        "incorrect_acceptance": 3,
+        "interpreter_rejection": 4,
+        "parsing_rejection": 0,
+        "validator_rejection": 1
+      },
+      "raw_accuracy_percent": 94.6667,
+      "post_validator_accuracy_percent": 94.6667,
+      "post_validator_wilson95_percent": [
+        89.8296,
+        97.273
+      ]
+    },
+    {
+      "method": "qwen3:8b",
+      "run": "run_01",
+      "commands": 150,
+      "raw_exact": 141,
+      "post_validator_exact": 141,
+      "processing_outcomes": {
+        "correct_acceptance": 141,
+        "incorrect_acceptance": 7,
+        "interpreter_rejection": 1,
+        "parsing_rejection": 0,
+        "validator_rejection": 1
+      },
+      "raw_accuracy_percent": 94.0,
+      "post_validator_accuracy_percent": 94.0,
+      "post_validator_wilson95_percent": [
+        88.991,
+        96.8116
+      ]
+    },
+    {
+      "method": "rule_based",
+      "run": "run_01",
+      "commands": 150,
+      "raw_exact": 44,
+      "post_validator_exact": 44,
+      "processing_outcomes": {
+        "correct_acceptance": 44,
+        "incorrect_acceptance": 101,
+        "interpreter_rejection": 5,
+        "parsing_rejection": 0,
+        "validator_rejection": 0
+      },
+      "raw_accuracy_percent": 29.3333,
+      "post_validator_accuracy_percent": 29.3333,
+      "post_validator_wilson95_percent": [
+        22.6364,
+        37.0623
+      ]
+    },
+    {
+      "method": "llama3.1:latest",
+      "run": "run_02",
+      "commands": 150,
+      "raw_exact": 106,
+      "post_validator_exact": 107,
+      "processing_outcomes": {
+        "correct_acceptance": 107,
+        "incorrect_acceptance": 20,
+        "interpreter_rejection": 0,
+        "parsing_rejection": 0,
+        "validator_rejection": 23
+      },
+      "raw_accuracy_percent": 70.6667,
+      "post_validator_accuracy_percent": 71.3333,
+      "post_validator_wilson95_percent": [
+        63.6351,
+        77.9662
+      ]
+    },
+    {
+      "method": "qwen2.5:7b",
+      "run": "run_02",
+      "commands": 150,
+      "raw_exact": 122,
+      "post_validator_exact": 122,
+      "processing_outcomes": {
+        "correct_acceptance": 122,
+        "incorrect_acceptance": 10,
+        "interpreter_rejection": 3,
+        "parsing_rejection": 0,
+        "validator_rejection": 15
+      },
+      "raw_accuracy_percent": 81.3333,
+      "post_validator_accuracy_percent": 81.3333,
+      "post_validator_wilson95_percent": [
+        74.3443,
+        86.7576
+      ]
+    },
+    {
+      "method": "qwen3.5:9b",
+      "run": "run_02",
+      "commands": 150,
+      "raw_exact": 142,
+      "post_validator_exact": 142,
+      "processing_outcomes": {
+        "correct_acceptance": 142,
+        "incorrect_acceptance": 3,
+        "interpreter_rejection": 4,
+        "parsing_rejection": 0,
+        "validator_rejection": 1
+      },
+      "raw_accuracy_percent": 94.6667,
+      "post_validator_accuracy_percent": 94.6667,
+      "post_validator_wilson95_percent": [
+        89.8296,
+        97.273
+      ]
+    },
+    {
+      "method": "qwen3:8b",
+      "run": "run_02",
+      "commands": 150,
+      "raw_exact": 141,
+      "post_validator_exact": 141,
+      "processing_outcomes": {
+        "correct_acceptance": 141,
+        "incorrect_acceptance": 7,
+        "interpreter_rejection": 1,
+        "parsing_rejection": 0,
+        "validator_rejection": 1
+      },
+      "raw_accuracy_percent": 94.0,
+      "post_validator_accuracy_percent": 94.0,
+      "post_validator_wilson95_percent": [
+        88.991,
+        96.8116
+      ]
+    },
+    {
+      "method": "rule_based",
+      "run": "run_02",
+      "commands": 150,
+      "raw_exact": 44,
+      "post_validator_exact": 44,
+      "processing_outcomes": {
+        "correct_acceptance": 44,
+        "incorrect_acceptance": 101,
+        "interpreter_rejection": 5,
+        "parsing_rejection": 0,
+        "validator_rejection": 0
+      },
+      "raw_accuracy_percent": 29.3333,
+      "post_validator_accuracy_percent": 29.3333,
+      "post_validator_wilson95_percent": [
+        22.6364,
+        37.0623
+      ]
+    },
+    {
+      "method": "llama3.1:latest",
+      "run": "run_03",
+      "commands": 150,
+      "raw_exact": 106,
+      "post_validator_exact": 107,
+      "processing_outcomes": {
+        "correct_acceptance": 107,
+        "incorrect_acceptance": 20,
+        "interpreter_rejection": 0,
+        "parsing_rejection": 0,
+        "validator_rejection": 23
+      },
+      "raw_accuracy_percent": 70.6667,
+      "post_validator_accuracy_percent": 71.3333,
+      "post_validator_wilson95_percent": [
+        63.6351,
+        77.9662
+      ]
+    },
+    {
+      "method": "qwen2.5:7b",
+      "run": "run_03",
+      "commands": 150,
+      "raw_exact": 122,
+      "post_validator_exact": 122,
+      "processing_outcomes": {
+        "correct_acceptance": 122,
+        "incorrect_acceptance": 10,
+        "interpreter_rejection": 3,
+        "parsing_rejection": 0,
+        "validator_rejection": 15
+      },
+      "raw_accuracy_percent": 81.3333,
+      "post_validator_accuracy_percent": 81.3333,
+      "post_validator_wilson95_percent": [
+        74.3443,
+        86.7576
+      ]
+    },
+    {
+      "method": "qwen3.5:9b",
+      "run": "run_03",
+      "commands": 150,
+      "raw_exact": 142,
+      "post_validator_exact": 142,
+      "processing_outcomes": {
+        "correct_acceptance": 142,
+        "incorrect_acceptance": 3,
+        "interpreter_rejection": 4,
+        "parsing_rejection": 0,
+        "validator_rejection": 1
+      },
+      "raw_accuracy_percent": 94.6667,
+      "post_validator_accuracy_percent": 94.6667,
+      "post_validator_wilson95_percent": [
+        89.8296,
+        97.273
+      ]
+    },
+    {
+      "method": "qwen3:8b",
+      "run": "run_03",
+      "commands": 150,
+      "raw_exact": 141,
+      "post_validator_exact": 141,
+      "processing_outcomes": {
+        "correct_acceptance": 141,
+        "incorrect_acceptance": 7,
+        "interpreter_rejection": 1,
+        "parsing_rejection": 0,
+        "validator_rejection": 1
+      },
+      "raw_accuracy_percent": 94.0,
+      "post_validator_accuracy_percent": 94.0,
+      "post_validator_wilson95_percent": [
+        88.991,
+        96.8116
+      ]
+    },
+    {
+      "method": "rule_based",
+      "run": "run_03",
+      "commands": 150,
+      "raw_exact": 44,
+      "post_validator_exact": 44,
+      "processing_outcomes": {
+        "correct_acceptance": 44,
+        "incorrect_acceptance": 101,
+        "interpreter_rejection": 5,
+        "parsing_rejection": 0,
+        "validator_rejection": 0
+      },
+      "raw_accuracy_percent": 29.3333,
+      "post_validator_accuracy_percent": 29.3333,
+      "post_validator_wilson95_percent": [
+        22.6364,
+        37.0623
+      ]
+    },
+    {
+      "method": "llama3.1:latest",
+      "run": "run_04",
+      "commands": 150,
+      "raw_exact": 106,
+      "post_validator_exact": 107,
+      "processing_outcomes": {
+        "correct_acceptance": 107,
+        "incorrect_acceptance": 20,
+        "interpreter_rejection": 0,
+        "parsing_rejection": 0,
+        "validator_rejection": 23
+      },
+      "raw_accuracy_percent": 70.6667,
+      "post_validator_accuracy_percent": 71.3333,
+      "post_validator_wilson95_percent": [
+        63.6351,
+        77.9662
+      ]
+    },
+    {
+      "method": "qwen2.5:7b",
+      "run": "run_04",
+      "commands": 150,
+      "raw_exact": 122,
+      "post_validator_exact": 122,
+      "processing_outcomes": {
+        "correct_acceptance": 122,
+        "incorrect_acceptance": 10,
+        "interpreter_rejection": 3,
+        "parsing_rejection": 0,
+        "validator_rejection": 15
+      },
+      "raw_accuracy_percent": 81.3333,
+      "post_validator_accuracy_percent": 81.3333,
+      "post_validator_wilson95_percent": [
+        74.3443,
+        86.7576
+      ]
+    },
+    {
+      "method": "qwen3.5:9b",
+      "run": "run_04",
+      "commands": 150,
+      "raw_exact": 142,
+      "post_validator_exact": 142,
+      "processing_outcomes": {
+        "correct_acceptance": 142,
+        "incorrect_acceptance": 3,
+        "interpreter_rejection": 4,
+        "parsing_rejection": 0,
+        "validator_rejection": 1
+      },
+      "raw_accuracy_percent": 94.6667,
+      "post_validator_accuracy_percent": 94.6667,
+      "post_validator_wilson95_percent": [
+        89.8296,
+        97.273
+      ]
+    },
+    {
+      "method": "qwen3:8b",
+      "run": "run_04",
+      "commands": 150,
+      "raw_exact": 141,
+      "post_validator_exact": 141,
+      "processing_outcomes": {
+        "correct_acceptance": 141,
+        "incorrect_acceptance": 7,
+        "interpreter_rejection": 1,
+        "parsing_rejection": 0,
+        "validator_rejection": 1
+      },
+      "raw_accuracy_percent": 94.0,
+      "post_validator_accuracy_percent": 94.0,
+      "post_validator_wilson95_percent": [
+        88.991,
+        96.8116
+      ]
+    },
+    {
+      "method": "rule_based",
+      "run": "run_04",
+      "commands": 150,
+      "raw_exact": 44,
+      "post_validator_exact": 44,
+      "processing_outcomes": {
+        "correct_acceptance": 44,
+        "incorrect_acceptance": 101,
+        "interpreter_rejection": 5,
+        "parsing_rejection": 0,
+        "validator_rejection": 0
+      },
+      "raw_accuracy_percent": 29.3333,
+      "post_validator_accuracy_percent": 29.3333,
+      "post_validator_wilson95_percent": [
+        22.6364,
+        37.0623
+      ]
+    },
+    {
+      "method": "llama3.1:latest",
+      "run": "run_05",
+      "commands": 150,
+      "raw_exact": 106,
+      "post_validator_exact": 107,
+      "processing_outcomes": {
+        "correct_acceptance": 107,
+        "incorrect_acceptance": 20,
+        "interpreter_rejection": 0,
+        "parsing_rejection": 0,
+        "validator_rejection": 23
+      },
+      "raw_accuracy_percent": 70.6667,
+      "post_validator_accuracy_percent": 71.3333,
+      "post_validator_wilson95_percent": [
+        63.6351,
+        77.9662
+      ]
+    },
+    {
+      "method": "qwen2.5:7b",
+      "run": "run_05",
+      "commands": 150,
+      "raw_exact": 122,
+      "post_validator_exact": 122,
+      "processing_outcomes": {
+        "correct_acceptance": 122,
+        "incorrect_acceptance": 10,
+        "interpreter_rejection": 3,
+        "parsing_rejection": 0,
+        "validator_rejection": 15
+      },
+      "raw_accuracy_percent": 81.3333,
+      "post_validator_accuracy_percent": 81.3333,
+      "post_validator_wilson95_percent": [
+        74.3443,
+        86.7576
+      ]
+    },
+    {
+      "method": "qwen3.5:9b",
+      "run": "run_05",
+      "commands": 150,
+      "raw_exact": 142,
+      "post_validator_exact": 142,
+      "processing_outcomes": {
+        "correct_acceptance": 142,
+        "incorrect_acceptance": 3,
+        "interpreter_rejection": 4,
+        "parsing_rejection": 0,
+        "validator_rejection": 1
+      },
+      "raw_accuracy_percent": 94.6667,
+      "post_validator_accuracy_percent": 94.6667,
+      "post_validator_wilson95_percent": [
+        89.8296,
+        97.273
+      ]
+    },
+    {
+      "method": "qwen3:8b",
+      "run": "run_05",
+      "commands": 150,
+      "raw_exact": 141,
+      "post_validator_exact": 141,
+      "processing_outcomes": {
+        "correct_acceptance": 141,
+        "incorrect_acceptance": 7,
+        "interpreter_rejection": 1,
+        "parsing_rejection": 0,
+        "validator_rejection": 1
+      },
+      "raw_accuracy_percent": 94.0,
+      "post_validator_accuracy_percent": 94.0,
+      "post_validator_wilson95_percent": [
+        88.991,
+        96.8116
+      ]
+    },
+    {
+      "method": "rule_based",
+      "run": "run_05",
+      "commands": 150,
+      "raw_exact": 44,
+      "post_validator_exact": 44,
+      "processing_outcomes": {
+        "correct_acceptance": 44,
+        "incorrect_acceptance": 101,
+        "interpreter_rejection": 5,
+        "parsing_rejection": 0,
+        "validator_rejection": 0
+      },
+      "raw_accuracy_percent": 29.3333,
+      "post_validator_accuracy_percent": 29.3333,
+      "post_validator_wilson95_percent": [
+        22.6364,
+        37.0623
+      ]
+    }
+  ]
+}

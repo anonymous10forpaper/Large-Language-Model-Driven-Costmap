@@ -1,0 +1,480 @@
+{
+  "unique_commands": 100,
+  "runs": [
+    {
+      "method": "llama3.1:latest",
+      "run": "run_01",
+      "commands": 100,
+      "contradiction_recognition": 45,
+      "strict_reject_contract": 27,
+      "end_to_end_containment": 96,
+      "stage3_eligible": 4,
+      "recognized_with_residual_policy": 18,
+      "validator_containment_without_recognition": 51,
+      "recognition_wilson95_percent": [
+        35.6145,
+        54.7554
+      ],
+      "containment_wilson95_percent": [
+        90.1629,
+        98.4337
+      ]
+    },
+    {
+      "method": "qwen2.5:7b",
+      "run": "run_01",
+      "commands": 100,
+      "contradiction_recognition": 77,
+      "strict_reject_contract": 34,
+      "end_to_end_containment": 97,
+      "stage3_eligible": 3,
+      "recognized_with_residual_policy": 43,
+      "validator_containment_without_recognition": 20,
+      "recognition_wilson95_percent": [
+        67.8456,
+        84.1567
+      ],
+      "containment_wilson95_percent": [
+        91.5481,
+        98.9745
+      ]
+    },
+    {
+      "method": "qwen3.5:9b",
+      "run": "run_01",
+      "commands": 100,
+      "contradiction_recognition": 100,
+      "strict_reject_contract": 72,
+      "end_to_end_containment": 100,
+      "stage3_eligible": 0,
+      "recognized_with_residual_policy": 28,
+      "validator_containment_without_recognition": 0,
+      "recognition_wilson95_percent": [
+        96.3007,
+        100.0
+      ],
+      "containment_wilson95_percent": [
+        96.3007,
+        100.0
+      ]
+    },
+    {
+      "method": "qwen3:8b",
+      "run": "run_01",
+      "commands": 100,
+      "contradiction_recognition": 92,
+      "strict_reject_contract": 44,
+      "end_to_end_containment": 99,
+      "stage3_eligible": 1,
+      "recognized_with_residual_policy": 48,
+      "validator_containment_without_recognition": 7,
+      "recognition_wilson95_percent": [
+        85.0019,
+        95.8907
+      ],
+      "containment_wilson95_percent": [
+        94.5514,
+        99.8233
+      ]
+    },
+    {
+      "method": "rule_based",
+      "run": "run_01",
+      "commands": 100,
+      "contradiction_recognition": 24,
+      "strict_reject_contract": 24,
+      "end_to_end_containment": 24,
+      "stage3_eligible": 76,
+      "recognized_with_residual_policy": 0,
+      "validator_containment_without_recognition": 0,
+      "recognition_wilson95_percent": [
+        16.6913,
+        33.2323
+      ],
+      "containment_wilson95_percent": [
+        16.6913,
+        33.2323
+      ]
+    },
+    {
+      "method": "llama3.1:latest",
+      "run": "run_02",
+      "commands": 100,
+      "contradiction_recognition": 45,
+      "strict_reject_contract": 27,
+      "end_to_end_containment": 96,
+      "stage3_eligible": 4,
+      "recognized_with_residual_policy": 18,
+      "validator_containment_without_recognition": 51,
+      "recognition_wilson95_percent": [
+        35.6145,
+        54.7554
+      ],
+      "containment_wilson95_percent": [
+        90.1629,
+        98.4337
+      ]
+    },
+    {
+      "method": "qwen2.5:7b",
+      "run": "run_02",
+      "commands": 100,
+      "contradiction_recognition": 77,
+      "strict_reject_contract": 34,
+      "end_to_end_containment": 97,
+      "stage3_eligible": 3,
+      "recognized_with_residual_policy": 43,
+      "validator_containment_without_recognition": 20,
+      "recognition_wilson95_percent": [
+        67.8456,
+        84.1567
+      ],
+      "containment_wilson95_percent": [
+        91.5481,
+        98.9745
+      ]
+    },
+    {
+      "method": "qwen3.5:9b",
+      "run": "run_02",
+      "commands": 100,
+      "contradiction_recognition": 100,
+      "strict_reject_contract": 72,
+      "end_to_end_containment": 100,
+      "stage3_eligible": 0,
+      "recognized_with_residual_policy": 28,
+      "validator_containment_without_recognition": 0,
+      "recognition_wilson95_percent": [
+        96.3007,
+        100.0
+      ],
+      "containment_wilson95_percent": [
+        96.3007,
+        100.0
+      ]
+    },
+    {
+      "method": "qwen3:8b",
+      "run": "run_02",
+      "commands": 100,
+      "contradiction_recognition": 92,
+      "strict_reject_contract": 44,
+      "end_to_end_containment": 99,
+      "stage3_eligible": 1,
+      "recognized_with_residual_policy": 48,
+      "validator_containment_without_recognition": 7,
+      "recognition_wilson95_percent": [
+        85.0019,
+        95.8907
+      ],
+      "containment_wilson95_percent": [
+        94.5514,
+        99.8233
+      ]
+    },
+    {
+      "method": "rule_based",
+      "run": "run_02",
+      "commands": 100,
+      "contradiction_recognition": 24,
+      "strict_reject_contract": 24,
+      "end_to_end_containment": 24,
+      "stage3_eligible": 76,
+      "recognized_with_residual_policy": 0,
+      "validator_containment_without_recognition": 0,
+      "recognition_wilson95_percent": [
+        16.6913,
+        33.2323
+      ],
+      "containment_wilson95_percent": [
+        16.6913,
+        33.2323
+      ]
+    },
+    {
+      "method": "llama3.1:latest",
+      "run": "run_03",
+      "commands": 100,
+      "contradiction_recognition": 45,
+      "strict_reject_contract": 27,
+      "end_to_end_containment": 96,
+      "stage3_eligible": 4,
+      "recognized_with_residual_policy": 18,
+      "validator_containment_without_recognition": 51,
+      "recognition_wilson95_percent": [
+        35.6145,
+        54.7554
+      ],
+      "containment_wilson95_percent": [
+        90.1629,
+        98.4337
+      ]
+    },
+    {
+      "method": "qwen2.5:7b",
+      "run": "run_03",
+      "commands": 100,
+      "contradiction_recognition": 77,
+      "strict_reject_contract": 34,
+      "end_to_end_containment": 97,
+      "stage3_eligible": 3,
+      "recognized_with_residual_policy": 43,
+      "validator_containment_without_recognition": 20,
+      "recognition_wilson95_percent": [
+        67.8456,
+        84.1567
+      ],
+      "containment_wilson95_percent": [
+        91.5481,
+        98.9745
+      ]
+    },
+    {
+      "method": "qwen3.5:9b",
+      "run": "run_03",
+      "commands": 100,
+      "contradiction_recognition": 100,
+      "strict_reject_contract": 72,
+      "end_to_end_containment": 100,
+      "stage3_eligible": 0,
+      "recognized_with_residual_policy": 28,
+      "validator_containment_without_recognition": 0,
+      "recognition_wilson95_percent": [
+        96.3007,
+        100.0
+      ],
+      "containment_wilson95_percent": [
+        96.3007,
+        100.0
+      ]
+    },
+    {
+      "method": "qwen3:8b",
+      "run": "run_03",
+      "commands": 100,
+      "contradiction_recognition": 92,
+      "strict_reject_contract": 44,
+      "end_to_end_containment": 99,
+      "stage3_eligible": 1,
+      "recognized_with_residual_policy": 48,
+      "validator_containment_without_recognition": 7,
+      "recognition_wilson95_percent": [
+        85.0019,
+        95.8907
+      ],
+      "containment_wilson95_percent": [
+        94.5514,
+        99.8233
+      ]
+    },
+    {
+      "method": "rule_based",
+      "run": "run_03",
+      "commands": 100,
+      "contradiction_recognition": 24,
+      "strict_reject_contract": 24,
+      "end_to_end_containment": 24,
+      "stage3_eligible": 76,
+      "recognized_with_residual_policy": 0,
+      "validator_containment_without_recognition": 0,
+      "recognition_wilson95_percent": [
+        16.6913,
+        33.2323
+      ],
+      "containment_wilson95_percent": [
+        16.6913,
+        33.2323
+      ]
+    },
+    {
+      "method": "llama3.1:latest",
+      "run": "run_04",
+      "commands": 100,
+      "contradiction_recognition": 45,
+      "strict_reject_contract": 27,
+      "end_to_end_containment": 96,
+      "stage3_eligible": 4,
+      "recognized_with_residual_policy": 18,
+      "validator_containment_without_recognition": 51,
+      "recognition_wilson95_percent": [
+        35.6145,
+        54.7554
+      ],
+      "containment_wilson95_percent": [
+        90.1629,
+        98.4337
+      ]
+    },
+    {
+      "method": "qwen2.5:7b",
+      "run": "run_04",
+      "commands": 100,
+      "contradiction_recognition": 77,
+      "strict_reject_contract": 34,
+      "end_to_end_containment": 97,
+      "stage3_eligible": 3,
+      "recognized_with_residual_policy": 43,
+      "validator_containment_without_recognition": 20,
+      "recognition_wilson95_percent": [
+        67.8456,
+        84.1567
+      ],
+      "containment_wilson95_percent": [
+        91.5481,
+        98.9745
+      ]
+    },
+    {
+      "method": "qwen3.5:9b",
+      "run": "run_04",
+      "commands": 100,
+      "contradiction_recognition": 100,
+      "strict_reject_contract": 72,
+      "end_to_end_containment": 100,
+      "stage3_eligible": 0,
+      "recognized_with_residual_policy": 28,
+      "validator_containment_without_recognition": 0,
+      "recognition_wilson95_percent": [
+        96.3007,
+        100.0
+      ],
+      "containment_wilson95_percent": [
+        96.3007,
+        100.0
+      ]
+    },
+    {
+      "method": "qwen3:8b",
+      "run": "run_04",
+      "commands": 100,
+      "contradiction_recognition": 92,
+      "strict_reject_contract": 44,
+      "end_to_end_containment": 99,
+      "stage3_eligible": 1,
+      "recognized_with_residual_policy": 48,
+      "validator_containment_without_recognition": 7,
+      "recognition_wilson95_percent": [
+        85.0019,
+        95.8907
+      ],
+      "containment_wilson95_percent": [
+        94.5514,
+        99.8233
+      ]
+    },
+    {
+      "method": "rule_based",
+      "run": "run_04",
+      "commands": 100,
+      "contradiction_recognition": 24,
+      "strict_reject_contract": 24,
+      "end_to_end_containment": 24,
+      "stage3_eligible": 76,
+      "recognized_with_residual_policy": 0,
+      "validator_containment_without_recognition": 0,
+      "recognition_wilson95_percent": [
+        16.6913,
+        33.2323
+      ],
+      "containment_wilson95_percent": [
+        16.6913,
+        33.2323
+      ]
+    },
+    {
+      "method": "llama3.1:latest",
+      "run": "run_05",
+      "commands": 100,
+      "contradiction_recognition": 45,
+      "strict_reject_contract": 27,
+      "end_to_end_containment": 96,
+      "stage3_eligible": 4,
+      "recognized_with_residual_policy": 18,
+      "validator_containment_without_recognition": 51,
+      "recognition_wilson95_percent": [
+        35.6145,
+        54.7554
+      ],
+      "containment_wilson95_percent": [
+        90.1629,
+        98.4337
+      ]
+    },
+    {
+      "method": "qwen2.5:7b",
+      "run": "run_05",
+      "commands": 100,
+      "contradiction_recognition": 77,
+      "strict_reject_contract": 34,
+      "end_to_end_containment": 97,
+      "stage3_eligible": 3,
+      "recognized_with_residual_policy": 43,
+      "validator_containment_without_recognition": 20,
+      "recognition_wilson95_percent": [
+        67.8456,
+        84.1567
+      ],
+      "containment_wilson95_percent": [
+        91.5481,
+        98.9745
+      ]
+    },
+    {
+      "method": "qwen3.5:9b",
+      "run": "run_05",
+      "commands": 100,
+      "contradiction_recognition": 100,
+      "strict_reject_contract": 72,
+      "end_to_end_containment": 100,
+      "stage3_eligible": 0,
+      "recognized_with_residual_policy": 28,
+      "validator_containment_without_recognition": 0,
+      "recognition_wilson95_percent": [
+        96.3007,
+        100.0
+      ],
+      "containment_wilson95_percent": [
+        96.3007,
+        100.0
+      ]
+    },
+    {
+      "method": "qwen3:8b",
+      "run": "run_05",
+      "commands": 100,
+      "contradiction_recognition": 92,
+      "strict_reject_contract": 44,
+      "end_to_end_containment": 99,
+      "stage3_eligible": 1,
+      "recognized_with_residual_policy": 48,
+      "validator_containment_without_recognition": 7,
+      "recognition_wilson95_percent": [
+        85.0019,
+        95.8907
+      ],
+      "containment_wilson95_percent": [
+        94.5514,
+        99.8233
+      ]
+    },
+    {
+      "method": "rule_based",
+      "run": "run_05",
+      "commands": 100,
+      "contradiction_recognition": 24,
+      "strict_reject_contract": 24,
+      "end_to_end_containment": 24,
+      "stage3_eligible": 76,
+      "recognized_with_residual_policy": 0,
+      "validator_containment_without_recognition": 0,
+      "recognition_wilson95_percent": [
+        16.6913,
+        33.2323
+      ],
+      "containment_wilson95_percent": [
+        16.6913,
+        33.2323
+      ]
+    }
+  ]
+}

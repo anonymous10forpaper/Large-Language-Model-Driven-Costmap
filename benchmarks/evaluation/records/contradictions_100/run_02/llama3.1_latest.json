@@ -1,0 +1,4393 @@
+{
+  "method": "llama3.1:latest",
+  "results": [
+    {
+      "id": "F01",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "A"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 2089.013369,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:13.862431181Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2084286677,
+        "load_duration": 270387771,
+        "prompt_eval_count": 2751,
+        "prompt_eval_duration": 172252000,
+        "eval_count": 61,
+        "eval_duration": 1632868000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F02",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [
+          "D"
+        ],
+        "exclusions": [
+          {
+            "zone": "D"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 2134.940862,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:15.997761318Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2130350291,
+        "load_duration": 252738990,
+        "prompt_eval_count": 2752,
+        "prompt_eval_duration": 180561000,
+        "eval_count": 63,
+        "eval_duration": 1687636000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F03",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP7"
+          }
+        ],
+        "via_zones": [
+          "B"
+        ],
+        "exclusions": [
+          {
+            "zone": "B"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: B",
+      "schema_valid": false,
+      "latency_ms": 2272.732682,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:18.270205736Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2267399270,
+        "load_duration": 244504342,
+        "prompt_eval_count": 2754,
+        "prompt_eval_duration": 176070000,
+        "eval_count": 68,
+        "eval_duration": 1837462000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F04",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "C"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 2123.633297,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:20.394150918Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2118112643,
+        "load_duration": 300706855,
+        "prompt_eval_count": 2749,
+        "prompt_eval_duration": 176846000,
+        "eval_count": 61,
+        "eval_duration": 1631716000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F05",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "E"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 2124.501126,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:22.520597784Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2120441274,
+        "load_duration": 267371832,
+        "prompt_eval_count": 2751,
+        "prompt_eval_duration": 179016000,
+        "eval_count": 61,
+        "eval_duration": 1665343000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F06",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [
+          "A"
+        ],
+        "exclusions": [
+          {
+            "zone": "A"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 2162.611908,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:24.682032284Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2156800559,
+        "load_duration": 261674784,
+        "prompt_eval_count": 2752,
+        "prompt_eval_duration": 175816000,
+        "eval_count": 63,
+        "eval_duration": 1711971000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F07",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "D"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 2108.543934,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:26.791693634Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2103261942,
+        "load_duration": 278049745,
+        "prompt_eval_count": 2753,
+        "prompt_eval_duration": 181415000,
+        "eval_count": 61,
+        "eval_duration": 1633206000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F08",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [
+          "B"
+        ],
+        "exclusions": [
+          {
+            "zone": "B"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: B",
+      "schema_valid": false,
+      "latency_ms": 2248.187962,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:29.040679669Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2243162935,
+        "load_duration": 263573093,
+        "prompt_eval_count": 2753,
+        "prompt_eval_duration": 175531000,
+        "eval_count": 68,
+        "eval_duration": 1793836000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F09",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [
+          "C"
+        ],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [
+          "C"
+        ],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 2094.155705,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:31.136071723Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2089618095,
+        "load_duration": 252553533,
+        "prompt_eval_count": 2752,
+        "prompt_eval_duration": 179286000,
+        "eval_count": 62,
+        "eval_duration": 1647326000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "F10",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "E"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 2086.32122,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:33.223369218Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2082070895,
+        "load_duration": 259090063,
+        "prompt_eval_count": 2753,
+        "prompt_eval_duration": 175546000,
+        "eval_count": 61,
+        "eval_duration": 1637162000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F11",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [
+          "A"
+        ],
+        "exclusions": [
+          {
+            "zone": "A"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 2154.696055,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:35.377473363Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2149180650,
+        "load_duration": 267354299,
+        "prompt_eval_count": 2750,
+        "prompt_eval_duration": 183159000,
+        "eval_count": 63,
+        "eval_duration": 1690233000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F12",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [
+          "B"
+        ],
+        "exclusions": [
+          {
+            "zone": "B"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: B",
+      "schema_valid": false,
+      "latency_ms": 2333.606935,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:37.711738089Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2327906558,
+        "load_duration": 280041223,
+        "prompt_eval_count": 2751,
+        "prompt_eval_duration": 173519000,
+        "eval_count": 68,
+        "eval_duration": 1865101000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F13",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP7"
+          }
+        ],
+        "via_zones": [
+          "D"
+        ],
+        "exclusions": [
+          {
+            "zone": "D"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: D",
+      "schema_valid": false,
+      "latency_ms": 2280.769693,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:39.993825232Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2274979364,
+        "load_duration": 273839787,
+        "prompt_eval_count": 2754,
+        "prompt_eval_duration": 180205000,
+        "eval_count": 68,
+        "eval_duration": 1812532000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F14",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [
+          "C"
+        ],
+        "exclusions": [
+          {
+            "zone": "C"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: C",
+      "schema_valid": false,
+      "latency_ms": 2298.109572,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:42.294840998Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2294575348,
+        "load_duration": 272924993,
+        "prompt_eval_count": 2753,
+        "prompt_eval_duration": 175315000,
+        "eval_count": 68,
+        "eval_duration": 1838417000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F15",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [
+          "E"
+        ],
+        "exclusions": [
+          {
+            "zone": "E"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 2100.221075,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:44.39482661Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2095510103,
+        "load_duration": 253217750,
+        "prompt_eval_count": 2752,
+        "prompt_eval_duration": 177375000,
+        "eval_count": 63,
+        "eval_duration": 1656579000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F16",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [
+          "A"
+        ],
+        "exclusions": [
+          {
+            "zone": "A"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 2179.309142,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:46.574989985Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2173893049,
+        "load_duration": 290598673,
+        "prompt_eval_count": 2748,
+        "prompt_eval_duration": 175640000,
+        "eval_count": 63,
+        "eval_duration": 1698842000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F17",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [
+          "B"
+        ],
+        "exclusions": [
+          {
+            "zone": "B"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: B",
+      "schema_valid": false,
+      "latency_ms": 2297.461197,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:48.872704897Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2291502836,
+        "load_duration": 300783558,
+        "prompt_eval_count": 2752,
+        "prompt_eval_duration": 174632000,
+        "eval_count": 68,
+        "eval_duration": 1806063000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F18",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [
+          "D"
+        ],
+        "exclusions": [
+          {
+            "zone": "D"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: D",
+      "schema_valid": false,
+      "latency_ms": 2269.754159,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:51.144560027Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2264479318,
+        "load_duration": 249261759,
+        "prompt_eval_count": 2752,
+        "prompt_eval_duration": 179867000,
+        "eval_count": 68,
+        "eval_duration": 1826721000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F19",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [
+          "C"
+        ],
+        "exclusions": [
+          {
+            "zone": "C"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: C",
+      "schema_valid": false,
+      "latency_ms": 2350.535251,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:53.497875661Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2346451848,
+        "load_duration": 297024559,
+        "prompt_eval_count": 2752,
+        "prompt_eval_duration": 177817000,
+        "eval_count": 68,
+        "eval_duration": 1862082000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "F20",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "E"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 2134.480617,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:55.631396373Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2128707539,
+        "load_duration": 286255144,
+        "prompt_eval_count": 2754,
+        "prompt_eval_duration": 176813000,
+        "eval_count": 61,
+        "eval_duration": 1654754000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "O01",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1898.117004,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:57.531770171Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1893364241,
+        "load_duration": 245946527,
+        "prompt_eval_count": 2751,
+        "prompt_eval_duration": 173267000,
+        "eval_count": 55,
+        "eval_duration": 1466312000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "O02",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "B"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 2134.063953,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:38:59.667222195Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2128991705,
+        "load_duration": 244568285,
+        "prompt_eval_count": 2751,
+        "prompt_eval_duration": 174695000,
+        "eval_count": 61,
+        "eval_duration": 1701493000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "O03",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "C",
+            "duration_minutes": 0
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: field 'exclusions' contains an invalid duration for zone C",
+      "schema_valid": false,
+      "latency_ms": 2402.150834,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:02.069839847Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2396018081,
+        "load_duration": 263770988,
+        "prompt_eval_count": 2754,
+        "prompt_eval_duration": 188326000,
+        "eval_count": 72,
+        "eval_duration": 1934615000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "O04",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1910.361941,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:03.981549139Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1904652844,
+        "load_duration": 257887498,
+        "prompt_eval_count": 2752,
+        "prompt_eval_duration": 177350000,
+        "eval_count": 55,
+        "eval_duration": 1460610000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "O05",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [
+          "E"
+        ],
+        "exclusions": [
+          {
+            "zone": "E"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: E",
+      "schema_valid": false,
+      "latency_ms": 2248.619313,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:06.232054841Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2243410204,
+        "load_duration": 246278140,
+        "prompt_eval_count": 2755,
+        "prompt_eval_duration": 174442000,
+        "eval_count": 68,
+        "eval_duration": 1814386000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "O06",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1927.739951,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:08.161350056Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1922846496,
+        "load_duration": 298047481,
+        "prompt_eval_count": 2749,
+        "prompt_eval_duration": 173641000,
+        "eval_count": 55,
+        "eval_duration": 1443014000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "O07",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [
+          "B"
+        ],
+        "exclusions": [
+          {
+            "zone": "B"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: B",
+      "schema_valid": false,
+      "latency_ms": 2313.909185,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:10.477391374Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2309097732,
+        "load_duration": 296110691,
+        "prompt_eval_count": 2756,
+        "prompt_eval_duration": 176240000,
+        "eval_count": 68,
+        "eval_duration": 1828183000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "O08",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1925.734383,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:12.405029686Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1921032041,
+        "load_duration": 290367223,
+        "prompt_eval_count": 2755,
+        "prompt_eval_duration": 177163000,
+        "eval_count": 55,
+        "eval_duration": 1440560000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "O09",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [
+          "D"
+        ],
+        "exclusions": [
+          {
+            "zone": "D"
+          }
+        ],
+        "weights": [
+          {
+            "zone": "D",
+            "cost": 254
+          }
+        ],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: field 'weights' contains an invalid cost for zone D",
+      "schema_valid": false,
+      "latency_ms": 2559.492063,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:14.965305381Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2554458666,
+        "load_duration": 258016377,
+        "prompt_eval_count": 2750,
+        "prompt_eval_duration": 178918000,
+        "eval_count": 79,
+        "eval_duration": 2110558000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "O10",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [
+          "E"
+        ],
+        "exclusions": [
+          {
+            "zone": "E"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: E",
+      "schema_valid": false,
+      "latency_ms": 2250.233039,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:17.217282207Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2245557497,
+        "load_duration": 269982739,
+        "prompt_eval_count": 2750,
+        "prompt_eval_duration": 172868000,
+        "eval_count": 68,
+        "eval_duration": 1793302000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "O11",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "A"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "A"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 2237.173783,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:19.455177182Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2231872393,
+        "load_duration": 297968647,
+        "prompt_eval_count": 2754,
+        "prompt_eval_duration": 176247000,
+        "eval_count": 66,
+        "eval_duration": 1749290000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "O12",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [
+          "B"
+        ],
+        "exclusions": [
+          {
+            "zone": "B"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": [
+          {
+            "zone": "B",
+            "rules": [
+              {
+                "priority": 10,
+                "state_condition": "none",
+                "action": "allow"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: unsupported condition or action for zone B",
+      "schema_valid": false,
+      "latency_ms": 3033.863871,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:22.490935822Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3029021107,
+        "load_duration": 264682827,
+        "prompt_eval_count": 2752,
+        "prompt_eval_duration": 173781000,
+        "eval_count": 97,
+        "eval_duration": 2581876000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "O13",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "C"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 2059.907964,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:24.553513306Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2055883302,
+        "load_duration": 279061387,
+        "prompt_eval_count": 2754,
+        "prompt_eval_duration": 175586000,
+        "eval_count": 61,
+        "eval_duration": 1592331000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "O14",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "D"
+          }
+        ],
+        "weights": [
+          {
+            "zone": "D",
+            "cost": 254
+          }
+        ],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 2393.828625,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:26.949106268Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2389141723,
+        "load_duration": 276587069,
+        "prompt_eval_count": 2753,
+        "prompt_eval_duration": 184491000,
+        "eval_count": 72,
+        "eval_duration": 1920402000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "O15",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [
+          "E"
+        ],
+        "exclusions": [
+          {
+            "zone": "E"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: E",
+      "schema_valid": false,
+      "latency_ms": 2281.963971,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:29.234250658Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2277943640,
+        "load_duration": 262490513,
+        "prompt_eval_count": 2752,
+        "prompt_eval_duration": 174704000,
+        "eval_count": 68,
+        "eval_duration": 1832252000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "O16",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1894.284761,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:31.129189289Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1889703851,
+        "load_duration": 237970087,
+        "prompt_eval_count": 2752,
+        "prompt_eval_duration": 181167000,
+        "eval_count": 55,
+        "eval_duration": 1462520000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "O17",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1972.991691,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:33.103879716Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1968480802,
+        "load_duration": 277017973,
+        "prompt_eval_count": 2753,
+        "prompt_eval_duration": 176266000,
+        "eval_count": 55,
+        "eval_duration": 1504581000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "O18",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [
+          "C"
+        ],
+        "exclusions": [
+          {
+            "zone": "C",
+            "duration_minutes": 0
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": [
+          {
+            "zone": "C",
+            "rules": [
+              {
+                "priority": 10,
+                "state_condition": "none",
+                "action": "allow_shortest"
+              },
+              {
+                "priority": 10,
+                "state_condition": "none",
+                "action": "forbid"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: field 'exclusions' contains an invalid duration for zone C",
+      "schema_valid": false,
+      "latency_ms": 3910.319068,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:37.016180974Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3906298457,
+        "load_duration": 255369333,
+        "prompt_eval_count": 2751,
+        "prompt_eval_duration": 194721000,
+        "eval_count": 125,
+        "eval_duration": 3446541000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "O19",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1965.549417,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:38.981677381Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1959468415,
+        "load_duration": 266912698,
+        "prompt_eval_count": 2752,
+        "prompt_eval_duration": 186912000,
+        "eval_count": 55,
+        "eval_duration": 1496981000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "O20",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1920.628559,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:40.904697236Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1914416864,
+        "load_duration": 249434131,
+        "prompt_eval_count": 2750,
+        "prompt_eval_duration": 174688000,
+        "eval_count": 55,
+        "eval_duration": 1482133000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "D01",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1932.73422,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:42.839400707Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1927350849,
+        "load_duration": 248123510,
+        "prompt_eval_count": 2756,
+        "prompt_eval_duration": 181759000,
+        "eval_count": 55,
+        "eval_duration": 1488273000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "D02",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1913.445913,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:44.757668244Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1909432212,
+        "load_duration": 254043311,
+        "prompt_eval_count": 2751,
+        "prompt_eval_duration": 175311000,
+        "eval_count": 55,
+        "eval_duration": 1472347000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "D03",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1983.880186,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:46.741396787Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1978329541,
+        "load_duration": 254473516,
+        "prompt_eval_count": 2757,
+        "prompt_eval_duration": 191693000,
+        "eval_count": 55,
+        "eval_duration": 1521217000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "D04",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1890.932654,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:48.634584316Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1885716695,
+        "load_duration": 257851888,
+        "prompt_eval_count": 2751,
+        "prompt_eval_duration": 173349000,
+        "eval_count": 55,
+        "eval_duration": 1444814000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "D05",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 2020.985607,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:50.656570238Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2014757222,
+        "load_duration": 281408297,
+        "prompt_eval_count": 2755,
+        "prompt_eval_duration": 188050000,
+        "eval_count": 55,
+        "eval_duration": 1537090000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "D06",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1883.477714,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:52.544116453Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1879154498,
+        "load_duration": 248128499,
+        "prompt_eval_count": 2752,
+        "prompt_eval_duration": 176432000,
+        "eval_count": 55,
+        "eval_duration": 1445886000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "D07",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1981.11009,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:54.527062981Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1976711813,
+        "load_duration": 290494405,
+        "prompt_eval_count": 2754,
+        "prompt_eval_duration": 181573000,
+        "eval_count": 55,
+        "eval_duration": 1495562000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "D08",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1934.688438,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:56.462245176Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1928763647,
+        "load_duration": 301681005,
+        "prompt_eval_count": 2757,
+        "prompt_eval_duration": 176664000,
+        "eval_count": 55,
+        "eval_duration": 1443258000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "D09",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1986.581738,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:39:58.451893251Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1981805965,
+        "load_duration": 277106099,
+        "prompt_eval_count": 2750,
+        "prompt_eval_duration": 177125000,
+        "eval_count": 55,
+        "eval_duration": 1519641000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "D10",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1922.217664,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:00.377369615Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1917315300,
+        "load_duration": 262323104,
+        "prompt_eval_count": 2755,
+        "prompt_eval_duration": 175587000,
+        "eval_count": 55,
+        "eval_duration": 1471316000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "D11",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1984.892357,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:02.363020903Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1979021227,
+        "load_duration": 271999401,
+        "prompt_eval_count": 2754,
+        "prompt_eval_duration": 179799000,
+        "eval_count": 55,
+        "eval_duration": 1518739000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "D12",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          },
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          },
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 2385.963064,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:04.751916171Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2380125134,
+        "load_duration": 250200757,
+        "prompt_eval_count": 2755,
+        "prompt_eval_duration": 177709000,
+        "eval_count": 71,
+        "eval_duration": 1944048000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D13",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1958.211563,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:06.715380884Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1953568232,
+        "load_duration": 253127212,
+        "prompt_eval_count": 2753,
+        "prompt_eval_duration": 181136000,
+        "eval_count": 55,
+        "eval_duration": 1510403000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "D14",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1895.536134,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:08.614400621Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1891201547,
+        "load_duration": 247195961,
+        "prompt_eval_count": 2755,
+        "prompt_eval_duration": 177443000,
+        "eval_count": 55,
+        "eval_duration": 1457641000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "D15",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          },
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          },
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "validation_error": null,
+      "schema_valid": true,
+      "latency_ms": 2299.703796,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:10.914397581Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2293808275,
+        "load_duration": 269750254,
+        "prompt_eval_count": 2750,
+        "prompt_eval_duration": 183595000,
+        "eval_count": 67,
+        "eval_duration": 1832250000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": true
+    },
+    {
+      "id": "D16",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1931.095661,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:12.848330326Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1925414765,
+        "load_duration": 269254097,
+        "prompt_eval_count": 2754,
+        "prompt_eval_duration": 178132000,
+        "eval_count": 55,
+        "eval_duration": 1469342000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "D17",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1888.379316,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:14.739331052Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1883071965,
+        "load_duration": 232720239,
+        "prompt_eval_count": 2754,
+        "prompt_eval_duration": 180734000,
+        "eval_count": 55,
+        "eval_duration": 1460562000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "D18",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1943.533084,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:16.685770111Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1938777202,
+        "load_duration": 305770722,
+        "prompt_eval_count": 2752,
+        "prompt_eval_duration": 174545000,
+        "eval_count": 55,
+        "eval_duration": 1447992000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "D19",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 2008.789136,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:18.69667767Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2003691620,
+        "load_duration": 302616535,
+        "prompt_eval_count": 2752,
+        "prompt_eval_duration": 183876000,
+        "eval_count": 55,
+        "eval_duration": 1507524000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "D20",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1919.902528,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:20.621184688Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1915735394,
+        "load_duration": 285876948,
+        "prompt_eval_count": 2751,
+        "prompt_eval_duration": 175962000,
+        "eval_count": 55,
+        "eval_duration": 1446129000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E01",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [
+          "A"
+        ],
+        "exclusions": [
+          {
+            "zone": "A"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": [
+          {
+            "zone": "A",
+            "rules": [
+              {
+                "priority": 10,
+                "state_condition": "fire_alarm",
+                "action": "allow_shortest"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: A",
+      "schema_valid": false,
+      "latency_ms": 3408.505047,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:24.032729471Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3403746444,
+        "load_duration": 278036088,
+        "prompt_eval_count": 2767,
+        "prompt_eval_duration": 177255000,
+        "eval_count": 109,
+        "eval_duration": 2939604000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E02",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [
+          "B"
+        ],
+        "exclusions": [
+          {
+            "zone": "B"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": [
+          {
+            "zone": "B",
+            "rules": [
+              {
+                "priority": 10,
+                "state_condition": "fire_alarm",
+                "action": "forbid"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: B",
+      "schema_valid": false,
+      "latency_ms": 3357.528193,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:27.39330558Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3353210337,
+        "load_duration": 253853900,
+        "prompt_eval_count": 2768,
+        "prompt_eval_duration": 172014000,
+        "eval_count": 108,
+        "eval_duration": 2918888000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E03",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": {
+              "x": 0,
+              "y": 0,
+              "yaw": 0
+            }
+          },
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [
+          "C"
+        ],
+        "exclusions": [
+          {
+            "zone": "C"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": [
+          {
+            "zone": "C",
+            "rules": [
+              {
+                "priority": 10,
+                "state_condition": "low_battery",
+                "action": "allow_shortest"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: C",
+      "schema_valid": false,
+      "latency_ms": 4068.189992,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:31.463966031Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 4063578813,
+        "load_duration": 296754993,
+        "prompt_eval_count": 2765,
+        "prompt_eval_duration": 171049000,
+        "eval_count": 131,
+        "eval_duration": 3588224000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E04",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": {
+              "x": 0,
+              "y": 0,
+              "yaw": 0
+            }
+          },
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [
+          "D"
+        ],
+        "exclusions": [
+          {
+            "zone": "D"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [
+          {
+            "class": "person",
+            "radius": 1.5
+          }
+        ],
+        "conditional_rules": [
+          {
+            "zone": "D",
+            "rules": [
+              {
+                "priority": 10,
+                "state_condition": "fire_alarm",
+                "action": "allow_shortest"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: D",
+      "schema_valid": false,
+      "latency_ms": 4056.676905,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:35.522606825Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 4050916827,
+        "load_duration": 242937551,
+        "prompt_eval_count": 2764,
+        "prompt_eval_duration": 184490000,
+        "eval_count": 134,
+        "eval_duration": 3616237000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E05",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": {
+              "x": 0,
+              "y": 0,
+              "yaw": 0
+            }
+          },
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [
+          "E"
+        ],
+        "exclusions": [
+          {
+            "zone": "E",
+            "duration_minutes": 0
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": [
+          {
+            "zone": "E",
+            "rules": [
+              {
+                "priority": 10,
+                "state_condition": "low_battery",
+                "action": "forbid"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: field 'exclusions' contains an invalid duration for zone E",
+      "schema_valid": false,
+      "latency_ms": 4137.632595,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:39.663704022Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 4132791091,
+        "load_duration": 264859275,
+        "prompt_eval_count": 2763,
+        "prompt_eval_duration": 172787000,
+        "eval_count": 136,
+        "eval_duration": 3685425000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E06",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP7"
+          }
+        ],
+        "via_zones": [
+          "A"
+        ],
+        "exclusions": [
+          {
+            "zone": "A"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": [
+          {
+            "zone": "A",
+            "rules": [
+              {
+                "priority": 10,
+                "state_condition": "fire_alarm",
+                "action": "allow_shortest"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: A",
+      "schema_valid": false,
+      "latency_ms": 3411.122726,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:43.078097027Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3405701693,
+        "load_duration": 268685032,
+        "prompt_eval_count": 2770,
+        "prompt_eval_duration": 170006000,
+        "eval_count": 109,
+        "eval_duration": 2957969000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E07",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [
+          "B"
+        ],
+        "exclusions": [
+          {
+            "zone": "B"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": [
+          {
+            "zone": "B",
+            "rules": [
+              {
+                "priority": 10,
+                "state_condition": "low_battery",
+                "action": "forbid"
+              },
+              {
+                "priority": 10,
+                "state_condition": "fire_alarm",
+                "action": "allow_shortest"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: B",
+      "schema_valid": false,
+      "latency_ms": 4005.041428,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:47.087991799Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 4000127083,
+        "load_duration": 245451938,
+        "prompt_eval_count": 2763,
+        "prompt_eval_duration": 172253000,
+        "eval_count": 131,
+        "eval_duration": 3573432000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E08",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [
+          "C"
+        ],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": [
+          {
+            "zone": "C",
+            "rules": [
+              {
+                "priority": 10,
+                "state_condition": "fire_warning",
+                "action": "forbid"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: unsupported condition or action for zone C",
+      "schema_valid": false,
+      "latency_ms": 3282.268033,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:50.373723364Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3277403769,
+        "load_duration": 301786445,
+        "prompt_eval_count": 2766,
+        "prompt_eval_duration": 190604000,
+        "eval_count": 102,
+        "eval_duration": 2775149000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E09",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "D",
+            "duration_minutes": 0
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": [
+          {
+            "zone": "D",
+            "rules": [
+              {
+                "priority": 10,
+                "state_condition": "low_battery",
+                "action": "forbid"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 3061.892562,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:53.438630072Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3056536460,
+        "load_duration": 261307378,
+        "prompt_eval_count": 2760,
+        "prompt_eval_duration": 179578000,
+        "eval_count": 98,
+        "eval_duration": 2606736000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E10",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [
+          "E"
+        ],
+        "exclusions": [
+          {
+            "zone": "E"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": [
+          {
+            "zone": "E",
+            "rules": [
+              {
+                "priority": 10,
+                "state_condition": "fire_alarm",
+                "action": "forbid"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: E",
+      "schema_valid": false,
+      "latency_ms": 3350.04016,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:56.792828996Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3345185736,
+        "load_duration": 277669716,
+        "prompt_eval_count": 2766,
+        "prompt_eval_duration": 176879000,
+        "eval_count": 108,
+        "eval_duration": 2881892000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E11",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 1983.401173,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:40:58.78157282Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1978530919,
+        "load_duration": 295133242,
+        "prompt_eval_count": 2768,
+        "prompt_eval_duration": 182847000,
+        "eval_count": 55,
+        "eval_duration": 1491785000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E12",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [
+          "B"
+        ],
+        "exclusions": [
+          {
+            "zone": "B"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": [
+          {
+            "zone": "B",
+            "rules": [
+              {
+                "priority": 10,
+                "state_condition": "fire_alarm",
+                "action": "allow_shortest"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: B",
+      "schema_valid": false,
+      "latency_ms": 3458.903738,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:41:02.243227791Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3454785196,
+        "load_duration": 258230600,
+        "prompt_eval_count": 2765,
+        "prompt_eval_duration": 183606000,
+        "eval_count": 109,
+        "eval_duration": 3002575000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E13",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [
+          "C"
+        ],
+        "exclusions": [
+          {
+            "zone": "C",
+            "duration_minutes": 0
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": [
+          {
+            "zone": "C",
+            "rules": [
+              {
+                "priority": 10,
+                "state_condition": "low_battery",
+                "action": "forbid"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: field 'exclusions' contains an invalid duration for zone C",
+      "schema_valid": false,
+      "latency_ms": 3557.334062,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:41:05.803845552Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3552955475,
+        "load_duration": 243049468,
+        "prompt_eval_count": 2768,
+        "prompt_eval_duration": 175340000,
+        "eval_count": 114,
+        "eval_duration": 3124820000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E14",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP7"
+          }
+        ],
+        "via_zones": [
+          "D"
+        ],
+        "exclusions": [
+          {
+            "zone": "D"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": [
+          {
+            "zone": "D",
+            "rules": [
+              {
+                "priority": 10,
+                "state_condition": "fire_alarm",
+                "action": "allow_shortest"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: D",
+      "schema_valid": false,
+      "latency_ms": 3347.080167,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:41:09.153505479Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3342246644,
+        "load_duration": 282552358,
+        "prompt_eval_count": 2767,
+        "prompt_eval_duration": 174395000,
+        "eval_count": 106,
+        "eval_duration": 2874167000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E15",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": {
+              "x": 0,
+              "y": 0,
+              "yaw": 0
+            }
+          },
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [
+          "E"
+        ],
+        "exclusions": [
+          {
+            "zone": "E"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": [
+          {
+            "zone": "E",
+            "rules": [
+              {
+                "priority": 10,
+                "state_condition": "low_battery",
+                "action": "forbid"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: E",
+      "schema_valid": false,
+      "latency_ms": 3261.691842,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:41:12.41975792Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3257025521,
+        "load_duration": 225412118,
+        "prompt_eval_count": 2762,
+        "prompt_eval_duration": 188173000,
+        "eval_count": 104,
+        "eval_duration": 2834966000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E16",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [
+          "A"
+        ],
+        "exclusions": [
+          {
+            "zone": "A"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": [
+          {
+            "zone": "A",
+            "rules": [
+              {
+                "priority": 10,
+                "state_condition": "fire_alarm",
+                "action": "allow_shortest"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: A",
+      "schema_valid": false,
+      "latency_ms": 3488.154587,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:41:15.912119712Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3483760051,
+        "load_duration": 259586438,
+        "prompt_eval_count": 2767,
+        "prompt_eval_duration": 183102000,
+        "eval_count": 109,
+        "eval_duration": 3031403000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E17",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": {
+              "x": 0,
+              "y": 0,
+              "yaw": 0
+            }
+          },
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [
+          "B"
+        ],
+        "exclusions": [
+          {
+            "zone": "B",
+            "duration_minutes": 0
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": [
+          {
+            "zone": "B",
+            "rules": [
+              {
+                "priority": 10,
+                "state_condition": "low_battery",
+                "action": "forbid"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: field 'exclusions' contains an invalid duration for zone B",
+      "schema_valid": false,
+      "latency_ms": 4161.6913,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:41:20.076597224Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 4156372529,
+        "load_duration": 256866676,
+        "prompt_eval_count": 2764,
+        "prompt_eval_duration": 174220000,
+        "eval_count": 136,
+        "eval_duration": 3717717000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E18",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [
+          "C"
+        ],
+        "exclusions": [
+          {
+            "zone": "C"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": [
+          {
+            "zone": "C",
+            "rules": [
+              {
+                "priority": 10,
+                "state_condition": "fire_alarm",
+                "action": "allow_shortest"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: C",
+      "schema_valid": false,
+      "latency_ms": 3434.294867,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:41:23.51410851Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3427195999,
+        "load_duration": 298343696,
+        "prompt_eval_count": 2764,
+        "prompt_eval_duration": 175907000,
+        "eval_count": 109,
+        "eval_duration": 2944038000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E19",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": {
+              "x": 0,
+              "y": 0,
+              "yaw": 0
+            }
+          },
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [
+          "D"
+        ],
+        "exclusions": [
+          {
+            "zone": "D",
+            "duration_minutes": 0
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [
+          {
+            "class": "person",
+            "radius": 1.5
+          }
+        ],
+        "conditional_rules": [
+          {
+            "zone": "D",
+            "rules": [
+              {
+                "priority": 10,
+                "state_condition": "low_battery",
+                "action": "allow"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: field 'exclusions' contains an invalid duration for zone D",
+      "schema_valid": false,
+      "latency_ms": 4236.804122,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:41:27.75540783Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 4230856061,
+        "load_duration": 247858737,
+        "prompt_eval_count": 2765,
+        "prompt_eval_duration": 174692000,
+        "eval_count": 142,
+        "eval_duration": 3800469000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "E20",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "E"
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": [
+          {
+            "zone": "E",
+            "rules": [
+              {
+                "priority": 10,
+                "state_condition": "fire_alarm",
+                "action": "forbid"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 2965.719519,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:41:30.724467401Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2959910882,
+        "load_duration": 267003168,
+        "prompt_eval_count": 2765,
+        "prompt_eval_duration": 176079000,
+        "eval_count": 92,
+        "eval_duration": 2509470000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T01",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": {
+              "x": 0,
+              "y": 0,
+              "yaw": 0
+            }
+          },
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [
+          "A"
+        ],
+        "exclusions": [
+          {
+            "zone": "A",
+            "duration_minutes": 5
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: A",
+      "schema_valid": false,
+      "latency_ms": 3045.568659,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:41:33.77403609Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3039982315,
+        "load_duration": 282928640,
+        "prompt_eval_count": 2756,
+        "prompt_eval_duration": 176754000,
+        "eval_count": 95,
+        "eval_duration": 2570515000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T02",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [
+          "B"
+        ],
+        "exclusions": [
+          {
+            "zone": "B",
+            "duration_minutes": 10
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: B",
+      "schema_valid": false,
+      "latency_ms": 2431.836908,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:41:36.210616071Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2427323560,
+        "load_duration": 269088499,
+        "prompt_eval_count": 2753,
+        "prompt_eval_duration": 174956000,
+        "eval_count": 74,
+        "eval_duration": 1974827000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T03",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": {
+              "x": 0,
+              "y": 0,
+              "yaw": 0
+            }
+          },
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [
+          "C"
+        ],
+        "exclusions": [
+          {
+            "zone": "C",
+            "duration_minutes": 15
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: C",
+      "schema_valid": false,
+      "latency_ms": 2880.765033,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:41:39.095024159Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2875692926,
+        "load_duration": 262838173,
+        "prompt_eval_count": 2754,
+        "prompt_eval_duration": 179849000,
+        "eval_count": 88,
+        "eval_duration": 2422079000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T04",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": {
+              "x": 0,
+              "y": 0,
+              "yaw": 0
+            }
+          },
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [
+          "D"
+        ],
+        "exclusions": [
+          {
+            "zone": "D",
+            "duration_minutes": 20
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: D",
+      "schema_valid": false,
+      "latency_ms": 2871.272124,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:41:41.969967339Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2865720660,
+        "load_duration": 282971499,
+        "prompt_eval_count": 2755,
+        "prompt_eval_duration": 177397000,
+        "eval_count": 88,
+        "eval_duration": 2397043000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T05",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": {
+              "x": 0,
+              "y": 0,
+              "yaw": 0
+            }
+          },
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [
+          "E"
+        ],
+        "exclusions": [
+          {
+            "zone": "E",
+            "duration_minutes": 30
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: E",
+      "schema_valid": false,
+      "latency_ms": 2762.958956,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:41:44.738927716Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2758292255,
+        "load_duration": 261303869,
+        "prompt_eval_count": 2753,
+        "prompt_eval_duration": 178369000,
+        "eval_count": 85,
+        "eval_duration": 2310002000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T06",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": {
+              "x": 0,
+              "y": 0,
+              "yaw": 0
+            }
+          },
+          {
+            "dest": "WP7"
+          }
+        ],
+        "via_zones": [
+          "A"
+        ],
+        "exclusions": [
+          {
+            "zone": "A",
+            "duration_minutes": 8
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: A",
+      "schema_valid": false,
+      "latency_ms": 2838.552216,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:41:47.579256499Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2832881790,
+        "load_duration": 254949222,
+        "prompt_eval_count": 2758,
+        "prompt_eval_duration": 186038000,
+        "eval_count": 89,
+        "eval_duration": 2384166000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T07",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [
+          "B"
+        ],
+        "exclusions": [
+          {
+            "zone": "B",
+            "duration_minutes": 12
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: B",
+      "schema_valid": false,
+      "latency_ms": 2489.495051,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:41:50.075340821Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2484758330,
+        "load_duration": 250813819,
+        "prompt_eval_count": 2754,
+        "prompt_eval_duration": 183354000,
+        "eval_count": 74,
+        "eval_duration": 2042270000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T08",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": {
+              "x": 0,
+              "y": 0,
+              "yaw": 0
+            }
+          },
+          {
+            "dest": "WP8"
+          }
+        ],
+        "via_zones": [
+          "C"
+        ],
+        "exclusions": [
+          {
+            "zone": "C",
+            "duration_minutes": 25
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: C",
+      "schema_valid": false,
+      "latency_ms": 3019.115488,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:41:53.09842595Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3015116708,
+        "load_duration": 251722312,
+        "prompt_eval_count": 2756,
+        "prompt_eval_duration": 188894000,
+        "eval_count": 95,
+        "eval_duration": 2566823000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T09",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": {
+              "x": 0,
+              "y": 0,
+              "yaw": 0
+            }
+          },
+          {
+            "dest": "WP2"
+          }
+        ],
+        "via_zones": [
+          "D"
+        ],
+        "exclusions": [
+          {
+            "zone": "D",
+            "duration_minutes": 6
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: D",
+      "schema_valid": false,
+      "latency_ms": 2822.850844,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:41:55.925106012Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2819122948,
+        "load_duration": 248271000,
+        "prompt_eval_count": 2754,
+        "prompt_eval_duration": 189228000,
+        "eval_count": 88,
+        "eval_duration": 2371483000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T10",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [
+          "E"
+        ],
+        "exclusions": [
+          {
+            "zone": "E",
+            "duration_minutes": 18
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: E",
+      "schema_valid": false,
+      "latency_ms": 2531.658016,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:41:58.460197391Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2527206949,
+        "load_duration": 241777190,
+        "prompt_eval_count": 2755,
+        "prompt_eval_duration": 190072000,
+        "eval_count": 74,
+        "eval_duration": 2086583000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T11",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [
+          "A"
+        ],
+        "exclusions": [
+          {
+            "zone": "A",
+            "duration_minutes": 40
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: A",
+      "schema_valid": false,
+      "latency_ms": 2520.348552,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:42:00.98366948Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2515041821,
+        "load_duration": 269770795,
+        "prompt_eval_count": 2754,
+        "prompt_eval_duration": 174512000,
+        "eval_count": 74,
+        "eval_duration": 2061398000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T12",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP5"
+          }
+        ],
+        "via_zones": [
+          "B"
+        ],
+        "exclusions": [
+          {
+            "zone": "B",
+            "duration_minutes": 7
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: B",
+      "schema_valid": false,
+      "latency_ms": 2460.557719,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:42:03.447508649Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2455334090,
+        "load_duration": 256930259,
+        "prompt_eval_count": 2753,
+        "prompt_eval_duration": 181682000,
+        "eval_count": 74,
+        "eval_duration": 2007997000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T13",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": {
+              "x": 0,
+              "y": 0,
+              "yaw": 0
+            }
+          },
+          {
+            "dest": "WP1"
+          }
+        ],
+        "via_zones": [
+          "C"
+        ],
+        "exclusions": [
+          {
+            "zone": "C",
+            "duration_minutes": 14
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: C",
+      "schema_valid": false,
+      "latency_ms": 2955.844957,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:42:06.407907675Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2950908122,
+        "load_duration": 306328879,
+        "prompt_eval_count": 2755,
+        "prompt_eval_duration": 179382000,
+        "eval_count": 89,
+        "eval_duration": 2456490000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T14",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": {
+              "x": 0,
+              "y": 0,
+              "yaw": 0
+            }
+          },
+          {
+            "dest": {
+              "x": 0,
+              "y": 0,
+              "yaw": 0
+            }
+          }
+        ],
+        "via_zones": [
+          "D"
+        ],
+        "exclusions": [
+          {
+            "zone": "D",
+            "duration_minutes": 22
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: D",
+      "schema_valid": false,
+      "latency_ms": 3202.398236,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:42:09.616890711Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3197876948,
+        "load_duration": 292880614,
+        "prompt_eval_count": 2755,
+        "prompt_eval_duration": 188423000,
+        "eval_count": 96,
+        "eval_duration": 2706086000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T15",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP3"
+          }
+        ],
+        "via_zones": [
+          "E"
+        ],
+        "exclusions": [
+          {
+            "zone": "E",
+            "duration_minutes": 9
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: E",
+      "schema_valid": false,
+      "latency_ms": 2570.046928,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:42:12.191933377Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2565613093,
+        "load_duration": 303457254,
+        "prompt_eval_count": 2756,
+        "prompt_eval_duration": 183633000,
+        "eval_count": 74,
+        "eval_duration": 2067489000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T16",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [],
+        "exclusions": [
+          {
+            "zone": "A",
+            "duration_minutes": 16
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 2325.777115,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:42:14.520258243Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2320686985,
+        "load_duration": 258254062,
+        "prompt_eval_count": 2754,
+        "prompt_eval_duration": 175727000,
+        "eval_count": 67,
+        "eval_duration": 1876613000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T17",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": "WP6"
+          }
+        ],
+        "via_zones": [
+          "B"
+        ],
+        "exclusions": [
+          {
+            "zone": "B",
+            "duration_minutes": 11
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: B",
+      "schema_valid": false,
+      "latency_ms": 2517.787865,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:42:17.043469035Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2513689244,
+        "load_duration": 250906162,
+        "prompt_eval_count": 2754,
+        "prompt_eval_duration": 190144000,
+        "eval_count": 74,
+        "eval_duration": 2062235999
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T18",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": {
+              "x": 0,
+              "y": 0,
+              "yaw": 0
+            }
+          }
+        ],
+        "via_zones": [
+          "C"
+        ],
+        "exclusions": [
+          {
+            "zone": "C",
+            "duration_minutes": 35
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: C",
+      "schema_valid": false,
+      "latency_ms": 2696.829737,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:42:19.743359293Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2691403580,
+        "load_duration": 251266933,
+        "prompt_eval_count": 2755,
+        "prompt_eval_duration": 188687000,
+        "eval_count": 82,
+        "eval_duration": 2242573000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T19",
+      "raw_output": {
+        "decision": "reject",
+        "reason_code": "contradiction",
+        "plan": [],
+        "via_zones": [
+          "D"
+        ],
+        "exclusions": [
+          {
+            "zone": "D",
+            "duration_minutes": 13
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: interpreter decision=reject: contradiction",
+      "schema_valid": true,
+      "latency_ms": 2370.542555,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:42:22.118441648Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2365773932,
+        "load_duration": 281782630,
+        "prompt_eval_count": 2756,
+        "prompt_eval_duration": 190502000,
+        "eval_count": 69,
+        "eval_duration": 1882580000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    },
+    {
+      "id": "T20",
+      "raw_output": {
+        "decision": "accept",
+        "reason_code": "none",
+        "plan": [
+          {
+            "dest": {
+              "x": 0,
+              "y": 0,
+              "yaw": 0
+            }
+          },
+          {
+            "dest": "WP4"
+          }
+        ],
+        "via_zones": [
+          "E"
+        ],
+        "exclusions": [
+          {
+            "zone": "E",
+            "duration_minutes": 24
+          }
+        ],
+        "weights": [],
+        "dynamic_object_rules": [],
+        "conditional_rules": []
+      },
+      "raw_error": null,
+      "validated_policy": null,
+      "validation_error": "PolicyUpdateRejected: zones cannot be both required for traversal and excluded: E",
+      "schema_valid": false,
+      "latency_ms": 3124.831763,
+      "llm_metadata": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-07-25T13:42:25.248377972Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3120232903,
+        "load_duration": 294246368,
+        "prompt_eval_count": 2757,
+        "prompt_eval_duration": 178229000,
+        "eval_count": 95,
+        "eval_duration": 2634213000
+      },
+      "policy_state_unchanged": true,
+      "policy_version_unchanged": true,
+      "validation_accepted": false
+    }
+  ]
+}

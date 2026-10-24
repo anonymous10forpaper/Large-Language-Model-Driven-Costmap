@@ -1,0 +1,24 @@
+{
+  "source_snapshots/policybridge.py": {
+    "source_file": "policybridge.py",
+    "archive_sha256": "fe93358979c489e3f0b159dc8f2c3a95d06564a7ab3f4f02cc4b871cb1d0b77e",
+    "release_sha256": "59dd6d9b07f62d3ae543e4029135f54a3e478a8fb214360540ff71f0d279520c",
+    "transformations": [
+      "remove_comments",
+      "remove_docstrings",
+      "ast_unparse",
+      "escape_unicode",
+      "set_soft_cost_max_252",
+      "set_prompt_soft_cost_max_252"
+    ],
+    "executable_ast_equal": false,
+    "modified_at": "2026-10-23",
+    "soft_cost_max": 252
+  },
+  "scripts/policy_scoring.py": {
+    "source_file": "policy_evaluation.py",
+    "archive_sha256": "e29593b7b0c482533356ff2ac3cec56698e53d12af1b57b4c1324207d995c08c",
+    "release_sha256": "88b8e904f437278c3338f6b47c19700e29bfbe2840e753e8a9a4f4cb74266723",
+    "implementation": "full_field_scoring_2026_10_23"
+  }
+}

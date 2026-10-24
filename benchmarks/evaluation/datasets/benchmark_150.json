@@ -1,0 +1,3302 @@
+[
+  {
+    "id": "N01-L0",
+    "command": "Keep zone D closed and send the robot to WP5.",
+    "group": "N01",
+    "level": "L0",
+    "intent": "hard_keepout",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "D"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N01-L0-V2",
+    "command": "Forbid zone D and go to WP5.",
+    "group": "N01",
+    "level": "L0",
+    "intent": "hard_keepout",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "D"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N01-L0-V3",
+    "command": "Go to WP5 without entering zone D.",
+    "group": "N01",
+    "level": "L0",
+    "intent": "hard_keepout",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "D"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N01-L1",
+    "command": "D is blocked for loading today, so deliver to WP5 without using that aisle.",
+    "group": "N01",
+    "level": "L1",
+    "intent": "hard_keepout",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "D"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N01-L1-V2",
+    "command": "A loading crew is using D, so take the shipment to WP5 by another aisle.",
+    "group": "N01",
+    "level": "L1",
+    "intent": "hard_keepout",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "D"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N01-L1-V3",
+    "command": "Keep the robot out of D while it carries this order to WP5.",
+    "group": "N01",
+    "level": "L1",
+    "intent": "hard_keepout",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "D"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N01-L2",
+    "command": "The load needs to reach WP5. Take D out of service for this trip.",
+    "group": "N01",
+    "level": "L2",
+    "intent": "hard_keepout",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "D"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N01-L2-V2",
+    "command": "Mark D unavailable for this run; the delivery point is WP5.",
+    "group": "N01",
+    "level": "L2",
+    "intent": "hard_keepout",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "D"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N01-L2-V3",
+    "command": "The destination is WP5, and D must not be part of the route.",
+    "group": "N01",
+    "level": "L2",
+    "intent": "hard_keepout",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "D"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N01-L3",
+    "command": "A is still open, but D is closed for loading. Use another aisle to reach WP5.",
+    "group": "N01",
+    "level": "L3",
+    "intent": "hard_keepout",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "D"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N01-L3-V2",
+    "command": "B is open as usual. Close D and complete the job at WP5.",
+    "group": "N01",
+    "level": "L3",
+    "intent": "hard_keepout",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "D"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N01-L3-V3",
+    "command": "The earlier note about C is obsolete; only D is closed for the WP5 delivery.",
+    "group": "N01",
+    "level": "L3",
+    "intent": "hard_keepout",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "D"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N01-L4",
+    "command": "There's a loading operation in D; make sure the WP5 delivery stays out of that corridor.",
+    "group": "N01",
+    "level": "L4",
+    "intent": "hard_keepout",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "D"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N01-L4-V2",
+    "command": "The packing team has taken over D, so the robot should reach WP5 without crossing their work area.",
+    "group": "N01",
+    "level": "L4",
+    "intent": "hard_keepout",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "D"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N01-L4-V3",
+    "command": "Get the load to WP5 while leaving the aisle occupied by the D loading operation untouched.",
+    "group": "N01",
+    "level": "L4",
+    "intent": "hard_keepout",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "D"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N02-L0",
+    "command": "Visit WP2 first, then continue to WP7 and finish there.",
+    "group": "N02",
+    "level": "L0",
+    "intent": "ordered_waypoints",
+    "gold": {
+      "destinations": [
+        "WP2",
+        "WP7"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N02-L0-V2",
+    "command": "Go to WP2, then continue to WP7.",
+    "group": "N02",
+    "level": "L0",
+    "intent": "ordered_waypoints",
+    "gold": {
+      "destinations": [
+        "WP2",
+        "WP7"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N02-L0-V3",
+    "command": "First visit WP2 and afterward go to WP7.",
+    "group": "N02",
+    "level": "L0",
+    "intent": "ordered_waypoints",
+    "gold": {
+      "destinations": [
+        "WP2",
+        "WP7"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N02-L1",
+    "command": "For this delivery, make WP2 the first stop and WP7 the final destination.",
+    "group": "N02",
+    "level": "L1",
+    "intent": "ordered_waypoints",
+    "gold": {
+      "destinations": [
+        "WP2",
+        "WP7"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N02-L1-V2",
+    "command": "Pick up at WP2 before finishing the delivery at WP7.",
+    "group": "N02",
+    "level": "L1",
+    "intent": "ordered_waypoints",
+    "gold": {
+      "destinations": [
+        "WP2",
+        "WP7"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N02-L1-V3",
+    "command": "Make a stop at WP2 on the way to the final drop at WP7.",
+    "group": "N02",
+    "level": "L1",
+    "intent": "ordered_waypoints",
+    "gold": {
+      "destinations": [
+        "WP2",
+        "WP7"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N02-L2",
+    "command": "WP7 is the final destination; stop at WP2 before going there.",
+    "group": "N02",
+    "level": "L2",
+    "intent": "ordered_waypoints",
+    "gold": {
+      "destinations": [
+        "WP2",
+        "WP7"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N02-L2-V2",
+    "command": "End at WP7, but visit WP2 before that.",
+    "group": "N02",
+    "level": "L2",
+    "intent": "ordered_waypoints",
+    "gold": {
+      "destinations": [
+        "WP2",
+        "WP7"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N02-L2-V3",
+    "command": "The route should have two stops: WP2 followed by WP7.",
+    "group": "N02",
+    "level": "L2",
+    "intent": "ordered_waypoints",
+    "gold": {
+      "destinations": [
+        "WP2",
+        "WP7"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N02-L3",
+    "command": "WP4 belonged to the previous job. On this run, visit WP2 and then complete the delivery at WP7.",
+    "group": "N02",
+    "level": "L3",
+    "intent": "ordered_waypoints",
+    "gold": {
+      "destinations": [
+        "WP2",
+        "WP7"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N02-L3-V2",
+    "command": "Ignore WP6 from the old schedule; the current order is WP2 and then WP7.",
+    "group": "N02",
+    "level": "L3",
+    "intent": "ordered_waypoints",
+    "gold": {
+      "destinations": [
+        "WP2",
+        "WP7"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N02-L3-V3",
+    "command": "WP7 remains the final stop; despite the earlier WP4 note, visit WP2 first.",
+    "group": "N02",
+    "level": "L3",
+    "intent": "ordered_waypoints",
+    "gold": {
+      "destinations": [
+        "WP2",
+        "WP7"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N02-L4",
+    "command": "The load ultimately needs to reach WP7, with a stop at WP2 beforehand.",
+    "group": "N02",
+    "level": "L4",
+    "intent": "ordered_waypoints",
+    "gold": {
+      "destinations": [
+        "WP2",
+        "WP7"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N02-L4-V2",
+    "command": "Before the load reaches its final station at WP7, it still needs to call at WP2.",
+    "group": "N02",
+    "level": "L4",
+    "intent": "ordered_waypoints",
+    "gold": {
+      "destinations": [
+        "WP2",
+        "WP7"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N02-L4-V3",
+    "command": "The job closes at WP7 only after the robot has handled the earlier stop at WP2.",
+    "group": "N02",
+    "level": "L4",
+    "intent": "ordered_waypoints",
+    "gold": {
+      "destinations": [
+        "WP2",
+        "WP7"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N03-L0",
+    "command": "Go to WP3 with traversal cost 5 for A and 200 for B.",
+    "group": "N03",
+    "level": "L0",
+    "intent": "numeric_cost",
+    "gold": {
+      "destinations": [
+        "WP3"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 5,
+        "B": 200
+      },
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N03-L0-V2",
+    "command": "Set A to cost 5 and B to cost 200, then go to WP3.",
+    "group": "N03",
+    "level": "L0",
+    "intent": "numeric_cost",
+    "gold": {
+      "destinations": [
+        "WP3"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 5,
+        "B": 200
+      },
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N03-L0-V3",
+    "command": "Navigate to WP3 with cost 5 on A and 200 on B.",
+    "group": "N03",
+    "level": "L0",
+    "intent": "numeric_cost",
+    "gold": {
+      "destinations": [
+        "WP3"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 5,
+        "B": 200
+      },
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N03-L1",
+    "command": "For the WP3 run, set A's cost to 5 and B's cost to 200.",
+    "group": "N03",
+    "level": "L1",
+    "intent": "numeric_cost",
+    "gold": {
+      "destinations": [
+        "WP3"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 5,
+        "B": 200
+      },
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N03-L1-V2",
+    "command": "For the next WP3 delivery, give A a cost of 5 and B a cost of 200.",
+    "group": "N03",
+    "level": "L1",
+    "intent": "numeric_cost",
+    "gold": {
+      "destinations": [
+        "WP3"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 5,
+        "B": 200
+      },
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N03-L1-V3",
+    "command": "Put value 5 on A and 200 on B before sending the robot to WP3.",
+    "group": "N03",
+    "level": "L1",
+    "intent": "numeric_cost",
+    "gold": {
+      "destinations": [
+        "WP3"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 5,
+        "B": 200
+      },
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N03-L2",
+    "command": "WP3 is the destination; configure the route costs as A equals 5 and B equals 200.",
+    "group": "N03",
+    "level": "L2",
+    "intent": "numeric_cost",
+    "gold": {
+      "destinations": [
+        "WP3"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 5,
+        "B": 200
+      },
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N03-L2-V2",
+    "command": "With WP3 as the goal, assign B a cost of 200 and A a cost of 5.",
+    "group": "N03",
+    "level": "L2",
+    "intent": "numeric_cost",
+    "gold": {
+      "destinations": [
+        "WP3"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 5,
+        "B": 200
+      },
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N03-L2-V3",
+    "command": "Configure B at 200 and A at 5; the destination remains WP3.",
+    "group": "N03",
+    "level": "L2",
+    "intent": "numeric_cost",
+    "gold": {
+      "destinations": [
+        "WP3"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 5,
+        "B": 200
+      },
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N03-L3",
+    "command": "Keep C unchanged. For this WP3 job, use cost 5 on A and 200 on B.",
+    "group": "N03",
+    "level": "L3",
+    "intent": "numeric_cost",
+    "gold": {
+      "destinations": [
+        "WP3"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 5,
+        "B": 200
+      },
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N03-L3-V2",
+    "command": "D needs no change. For the WP3 run, use cost 5 on A and 200 on B.",
+    "group": "N03",
+    "level": "L3",
+    "intent": "numeric_cost",
+    "gold": {
+      "destinations": [
+        "WP3"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 5,
+        "B": 200
+      },
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N03-L3-V3",
+    "command": "The previous value 160 for B no longer applies; set B to 200 and A to 5, then send the robot to WP3.",
+    "group": "N03",
+    "level": "L3",
+    "intent": "numeric_cost",
+    "gold": {
+      "destinations": [
+        "WP3"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 5,
+        "B": 200
+      },
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N03-L4",
+    "command": "Send the load to WP3 after setting the costmap values for A and B to 5 and 200, respectively.",
+    "group": "N03",
+    "level": "L4",
+    "intent": "numeric_cost",
+    "gold": {
+      "destinations": [
+        "WP3"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 5,
+        "B": 200
+      },
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N03-L4-V2",
+    "command": "Prepare the WP3 run so that A carries score 5 whereas B carries 200.",
+    "group": "N03",
+    "level": "L4",
+    "intent": "numeric_cost",
+    "gold": {
+      "destinations": [
+        "WP3"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 5,
+        "B": 200
+      },
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N03-L4-V3",
+    "command": "Before dispatching to WP3, encode A as five and B as two hundred in the costmap.",
+    "group": "N03",
+    "level": "L4",
+    "intent": "numeric_cost",
+    "gold": {
+      "destinations": [
+        "WP3"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 5,
+        "B": 200
+      },
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N04-L0",
+    "command": "Go to WP8 and keep a safe distance from people.",
+    "group": "N04",
+    "level": "L0",
+    "intent": "person_default",
+    "gold": {
+      "destinations": [
+        "WP8"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 1.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N04-L0-V2",
+    "command": "Go to WP8 and avoid people.",
+    "group": "N04",
+    "level": "L0",
+    "intent": "person_default",
+    "gold": {
+      "destinations": [
+        "WP8"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 1.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N04-L0-V3",
+    "command": "Send the robot to WP8 while keeping its distance from workers.",
+    "group": "N04",
+    "level": "L0",
+    "intent": "person_default",
+    "gold": {
+      "destinations": [
+        "WP8"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 1.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N04-L1",
+    "command": "Deliver to WP8 without getting too close to anyone working nearby.",
+    "group": "N04",
+    "level": "L1",
+    "intent": "person_default",
+    "gold": {
+      "destinations": [
+        "WP8"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 1.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N04-L1-V2",
+    "command": "Take the delivery to WP8 and give nearby staff plenty of room.",
+    "group": "N04",
+    "level": "L1",
+    "intent": "person_default",
+    "gold": {
+      "destinations": [
+        "WP8"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 1.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N04-L1-V3",
+    "command": "Reach WP8 without making close passes by people.",
+    "group": "N04",
+    "level": "L1",
+    "intent": "person_default",
+    "gold": {
+      "destinations": [
+        "WP8"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 1.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N04-L2",
+    "command": "People have priority along the route; leave them enough space while taking the load to WP8.",
+    "group": "N04",
+    "level": "L2",
+    "intent": "person_default",
+    "gold": {
+      "destinations": [
+        "WP8"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 1.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N04-L2-V2",
+    "command": "WP8 is the goal; keep the standard safety clearance around personnel along the route.",
+    "group": "N04",
+    "level": "L2",
+    "intent": "person_default",
+    "gold": {
+      "destinations": [
+        "WP8"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 1.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N04-L2-V3",
+    "command": "While avoiding close approaches to workers, complete the trip at WP8.",
+    "group": "N04",
+    "level": "L2",
+    "intent": "person_default",
+    "gold": {
+      "destinations": [
+        "WP8"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 1.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N04-L3",
+    "command": "WP2 is where workers were reported, not the destination. Continue to WP8 and keep the standard clearance from anyone you encounter.",
+    "group": "N04",
+    "level": "L3",
+    "intent": "person_default",
+    "gold": {
+      "destinations": [
+        "WP8"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 1.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N04-L3-V2",
+    "command": "Forklifts are not part of this request. Go to WP8 and maintain the standard distance from people.",
+    "group": "N04",
+    "level": "L3",
+    "intent": "person_default",
+    "gold": {
+      "destinations": [
+        "WP8"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 1.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N04-L3-V3",
+    "command": "WP3 is only the inspection point mentioned earlier; the actual trip is to WP8 with safe human clearance.",
+    "group": "N04",
+    "level": "L3",
+    "intent": "person_default",
+    "gold": {
+      "destinations": [
+        "WP8"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 1.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N04-L4",
+    "command": "Take the load to WP8 and give every worker along the way comfortable space as the robot passes.",
+    "group": "N04",
+    "level": "L4",
+    "intent": "person_default",
+    "gold": {
+      "destinations": [
+        "WP8"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 1.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N04-L4-V2",
+    "command": "Bring the shipment to WP8 and leave anyone working along the route enough personal space.",
+    "group": "N04",
+    "level": "L4",
+    "intent": "person_default",
+    "gold": {
+      "destinations": [
+        "WP8"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 1.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N04-L4-V3",
+    "command": "Complete the WP8 run without crowding staff in the aisles.",
+    "group": "N04",
+    "level": "L4",
+    "intent": "person_default",
+    "gold": {
+      "destinations": [
+        "WP8"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 1.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N05-L0",
+    "command": "Go to WP6 and keep at least 2.5 metres from every worker.",
+    "group": "N05",
+    "level": "L0",
+    "intent": "person_numeric",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 2.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N05-L0-V2",
+    "command": "Go to WP6 and keep 2.5 metres away from people.",
+    "group": "N05",
+    "level": "L0",
+    "intent": "person_numeric",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 2.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N05-L0-V3",
+    "command": "Send the robot to WP6 with a 2.5-metre person clearance.",
+    "group": "N05",
+    "level": "L0",
+    "intent": "person_numeric",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 2.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N05-L1",
+    "command": "During the WP6 delivery, do not come within 2.5 m of any person.",
+    "group": "N05",
+    "level": "L1",
+    "intent": "person_numeric",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 2.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N05-L1-V2",
+    "command": "Deliver to WP6 while maintaining a 2.5-metre buffer around staff.",
+    "group": "N05",
+    "level": "L1",
+    "intent": "person_numeric",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 2.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N05-L1-V3",
+    "command": "Keep the robot no closer than 2.5 m to workers on the way to WP6.",
+    "group": "N05",
+    "level": "L1",
+    "intent": "person_numeric",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 2.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N05-L2",
+    "command": "Make WP6 the destination and maintain a 2.5-metre safety buffer around all personnel.",
+    "group": "N05",
+    "level": "L2",
+    "intent": "person_numeric",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 2.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N05-L2-V2",
+    "command": "The destination is WP6, with personnel separation fixed at 2.5 metres throughout the trip.",
+    "group": "N05",
+    "level": "L2",
+    "intent": "person_numeric",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 2.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N05-L2-V3",
+    "command": "Maintain 2.5 metres from anyone and finish the mission at WP6.",
+    "group": "N05",
+    "level": "L2",
+    "intent": "person_numeric",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 2.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N05-L3",
+    "command": "WP1 is only where the crew was reported. The destination is WP6, and the robot must stay at least 2.5 metres from any worker it encounters.",
+    "group": "N05",
+    "level": "L3",
+    "intent": "person_numeric",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 2.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N05-L3-V2",
+    "command": "The 1.5-metre setting was for the previous run; use 2.5 metres for the current WP6 mission.",
+    "group": "N05",
+    "level": "L3",
+    "intent": "person_numeric",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 2.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N05-L3-V3",
+    "command": "WP4 was the old destination. The current destination is WP6 with a 2.5-metre worker clearance.",
+    "group": "N05",
+    "level": "L3",
+    "intent": "person_numeric",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 2.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N05-L4",
+    "command": "Take the load to WP6 while leaving a full two and a half metres between the robot and everyone along the route.",
+    "group": "N05",
+    "level": "L4",
+    "intent": "person_numeric",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 2.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N05-L4-V2",
+    "command": "Let every person have two and a half metres of space as the load travels to WP6.",
+    "group": "N05",
+    "level": "L4",
+    "intent": "person_numeric",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 2.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N05-L4-V3",
+    "command": "Get the shipment to WP6 without the robot entering the 2.5-metre space around anyone.",
+    "group": "N05",
+    "level": "L4",
+    "intent": "person_numeric",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {
+        "person": 2.5
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N06-L0",
+    "command": "Close zone A for the next 30 minutes and go to WP2.",
+    "group": "N06",
+    "level": "L0",
+    "intent": "timed_keepout",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {
+        "A": 30.0
+      },
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N06-L0-V2",
+    "command": "Forbid A for 30 minutes and go to WP2.",
+    "group": "N06",
+    "level": "L0",
+    "intent": "timed_keepout",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {
+        "A": 30.0
+      },
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N06-L0-V3",
+    "command": "Go to WP2 while A is closed for the next 30 minutes.",
+    "group": "N06",
+    "level": "L0",
+    "intent": "timed_keepout",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {
+        "A": 30.0
+      },
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N06-L1",
+    "command": "A is unavailable for the next half hour, so complete the WP2 delivery without using it.",
+    "group": "N06",
+    "level": "L1",
+    "intent": "timed_keepout",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {
+        "A": 30.0
+      },
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N06-L1-V2",
+    "command": "Keep A out of use for half an hour during the WP2 delivery.",
+    "group": "N06",
+    "level": "L1",
+    "intent": "timed_keepout",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {
+        "A": 30.0
+      },
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N06-L1-V3",
+    "command": "The delivery to WP2 must avoid A until 30 minutes have passed.",
+    "group": "N06",
+    "level": "L1",
+    "intent": "timed_keepout",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {
+        "A": 30.0
+      },
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N06-L2",
+    "command": "Start a 30-minute closure for A now; WP2 is the destination.",
+    "group": "N06",
+    "level": "L2",
+    "intent": "timed_keepout",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {
+        "A": 30.0
+      },
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N06-L2-V2",
+    "command": "The destination is WP2; activate a thirty-minute keepout on A now.",
+    "group": "N06",
+    "level": "L2",
+    "intent": "timed_keepout",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {
+        "A": 30.0
+      },
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N06-L2-V3",
+    "command": "Starting now, close A for half an hour and dispatch the robot to WP2.",
+    "group": "N06",
+    "level": "L2",
+    "intent": "timed_keepout",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {
+        "A": 30.0
+      },
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N06-L3",
+    "command": "B remains open. Temporarily remove A from the WP2 route for 30 minutes starting now.",
+    "group": "N06",
+    "level": "L3",
+    "intent": "timed_keepout",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {
+        "A": 30.0
+      },
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N06-L3-V2",
+    "command": "C remains available. A alone is closed for the next 30 minutes on the WP2 run.",
+    "group": "N06",
+    "level": "L3",
+    "intent": "timed_keepout",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {
+        "A": 30.0
+      },
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N06-L3-V3",
+    "command": "Ignore the old 20-minute note; close A for 30 minutes starting now and go to WP2.",
+    "group": "N06",
+    "level": "L3",
+    "intent": "timed_keepout",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {
+        "A": 30.0
+      },
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N06-L4",
+    "command": "Until half an hour has passed, keep the WP2 delivery out of A, then restore normal access.",
+    "group": "N06",
+    "level": "L4",
+    "intent": "timed_keepout",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {
+        "A": 30.0
+      },
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N06-L4-V2",
+    "command": "Until the next half hour is over, route the WP2 shipment outside A.",
+    "group": "N06",
+    "level": "L4",
+    "intent": "timed_keepout",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {
+        "A": 30.0
+      },
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N06-L4-V3",
+    "command": "Give A a temporary closure lasting half an hour from now while the load heads to WP2.",
+    "group": "N06",
+    "level": "L4",
+    "intent": "timed_keepout",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [],
+      "timed_keepouts": {
+        "A": 30.0
+      },
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N07-L0",
+    "command": "Go to WP6 through zone C.",
+    "group": "N07",
+    "level": "L0",
+    "intent": "via_zone",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [
+        "C"
+      ],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N07-L0-V2",
+    "command": "Go to WP6 via C.",
+    "group": "N07",
+    "level": "L0",
+    "intent": "via_zone",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [
+        "C"
+      ],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N07-L0-V3",
+    "command": "Pass through C and then go to WP6.",
+    "group": "N07",
+    "level": "L0",
+    "intent": "via_zone",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [
+        "C"
+      ],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N07-L1",
+    "command": "Use aisle C on the way to WP6.",
+    "group": "N07",
+    "level": "L1",
+    "intent": "via_zone",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [
+        "C"
+      ],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N07-L1-V2",
+    "command": "Use aisle C for the WP6 delivery.",
+    "group": "N07",
+    "level": "L1",
+    "intent": "via_zone",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [
+        "C"
+      ],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N07-L1-V3",
+    "command": "Take the shipment along C before arriving at WP6.",
+    "group": "N07",
+    "level": "L1",
+    "intent": "via_zone",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [
+        "C"
+      ],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N07-L2",
+    "command": "Make C an intermediate point before the robot reaches WP6.",
+    "group": "N07",
+    "level": "L2",
+    "intent": "via_zone",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [
+        "C"
+      ],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N07-L2-V2",
+    "command": "The destination is WP6, but the route must include C.",
+    "group": "N07",
+    "level": "L2",
+    "intent": "via_zone",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [
+        "C"
+      ],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N07-L2-V3",
+    "command": "Put C between the current position and the final stop at WP6.",
+    "group": "N07",
+    "level": "L2",
+    "intent": "via_zone",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [
+        "C"
+      ],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N07-L3",
+    "command": "A is only a landmark. For this delivery, pass through C and finish at WP6.",
+    "group": "N07",
+    "level": "L3",
+    "intent": "via_zone",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [
+        "C"
+      ],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N07-L3-V2",
+    "command": "D is open but irrelevant; cross C and finish at WP6.",
+    "group": "N07",
+    "level": "L3",
+    "intent": "via_zone",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [
+        "C"
+      ],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N07-L3-V3",
+    "command": "Do not use the old instruction to pass B; the current WP6 route must pass through C.",
+    "group": "N07",
+    "level": "L3",
+    "intent": "via_zone",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [
+        "C"
+      ],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N07-L4",
+    "command": "Before dropping the load at WP6, take the route that runs through C.",
+    "group": "N07",
+    "level": "L4",
+    "intent": "via_zone",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [
+        "C"
+      ],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N07-L4-V2",
+    "command": "Make sure the load enters C at some point before it is dropped at WP6.",
+    "group": "N07",
+    "level": "L4",
+    "intent": "via_zone",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [
+        "C"
+      ],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N07-L4-V3",
+    "command": "Reach WP6 only after the robot has traveled through corridor C.",
+    "group": "N07",
+    "level": "L4",
+    "intent": "via_zone",
+    "gold": {
+      "destinations": [
+        "WP6"
+      ],
+      "via_zones": [
+        "C"
+      ],
+      "keepouts": [],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N08-L0",
+    "command": "Keep A closed, go through B, and finish at WP4.",
+    "group": "N08",
+    "level": "L0",
+    "intent": "mixed_zone_roles",
+    "gold": {
+      "destinations": [
+        "WP4"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N08-L0-V2",
+    "command": "Forbid A, go through B, and finish at WP4.",
+    "group": "N08",
+    "level": "L0",
+    "intent": "mixed_zone_roles",
+    "gold": {
+      "destinations": [
+        "WP4"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N08-L0-V3",
+    "command": "Go to WP4 through B and avoid A.",
+    "group": "N08",
+    "level": "L0",
+    "intent": "mixed_zone_roles",
+    "gold": {
+      "destinations": [
+        "WP4"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N08-L1",
+    "command": "For the WP4 delivery, stay out of aisle A and use B as the transit aisle.",
+    "group": "N08",
+    "level": "L1",
+    "intent": "mixed_zone_roles",
+    "gold": {
+      "destinations": [
+        "WP4"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N08-L1-V2",
+    "command": "The WP4 delivery should use B and stay out of A.",
+    "group": "N08",
+    "level": "L1",
+    "intent": "mixed_zone_roles",
+    "gold": {
+      "destinations": [
+        "WP4"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N08-L1-V3",
+    "command": "Keep A unavailable and take aisle B on the way to WP4.",
+    "group": "N08",
+    "level": "L1",
+    "intent": "mixed_zone_roles",
+    "gold": {
+      "destinations": [
+        "WP4"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N08-L2",
+    "command": "Route the robot through B on its way to WP4, while keeping A off limits.",
+    "group": "N08",
+    "level": "L2",
+    "intent": "mixed_zone_roles",
+    "gold": {
+      "destinations": [
+        "WP4"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N08-L2-V2",
+    "command": "The destination is WP4; B is required for transit and A must remain closed.",
+    "group": "N08",
+    "level": "L2",
+    "intent": "mixed_zone_roles",
+    "gold": {
+      "destinations": [
+        "WP4"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N08-L2-V3",
+    "command": "Route through B before reaching WP4 while excluding A from the trip.",
+    "group": "N08",
+    "level": "L2",
+    "intent": "mixed_zone_roles",
+    "gold": {
+      "destinations": [
+        "WP4"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N08-L3",
+    "command": "A is closed for maintenance, but B is available and must be used. Deliver to WP4.",
+    "group": "N08",
+    "level": "L3",
+    "intent": "mixed_zone_roles",
+    "gold": {
+      "destinations": [
+        "WP4"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N08-L3-V2",
+    "command": "C remains normal. For WP4, close A and require B on the route.",
+    "group": "N08",
+    "level": "L3",
+    "intent": "mixed_zone_roles",
+    "gold": {
+      "destinations": [
+        "WP4"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N08-L3-V3",
+    "command": "The earlier route through D is canceled; use B, avoid A, and finish at WP4.",
+    "group": "N08",
+    "level": "L3",
+    "intent": "mixed_zone_roles",
+    "gold": {
+      "destinations": [
+        "WP4"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N08-L4",
+    "command": "Take the WP4 load through B; do not send the robot into A at any point.",
+    "group": "N08",
+    "level": "L4",
+    "intent": "mixed_zone_roles",
+    "gold": {
+      "destinations": [
+        "WP4"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N08-L4-V2",
+    "command": "Ensure the shipment reaches WP4 by crossing B without ever entering A.",
+    "group": "N08",
+    "level": "L4",
+    "intent": "mixed_zone_roles",
+    "gold": {
+      "destinations": [
+        "WP4"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N08-L4-V3",
+    "command": "Keep the robot on a path that includes B and leaves the closed aisle A untouched until WP4.",
+    "group": "N08",
+    "level": "L4",
+    "intent": "mixed_zone_roles",
+    "gold": {
+      "destinations": [
+        "WP4"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": []
+    }
+  },
+  {
+    "id": "N09-L0",
+    "command": "Go to WP5 through zone B, keep C closed, set A's cost to 40, and stay at least 2.0 metres from people.",
+    "group": "N09",
+    "level": "L0",
+    "intent": "explicit_multi_field",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "C"
+      ],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 40
+      },
+      "preferences": {},
+      "objects": {
+        "person": 2.0
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N09-L0-V2",
+    "command": "Go to WP5 via B, forbid C, set A to cost 40, and keep 2.0 metres from people.",
+    "group": "N09",
+    "level": "L0",
+    "intent": "explicit_multi_field",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "C"
+      ],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 40
+      },
+      "preferences": {},
+      "objects": {
+        "person": 2.0
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N09-L0-V3",
+    "command": "Route through B to WP5; keep C closed, give A cost 40, and maintain 2.0 metres from workers.",
+    "group": "N09",
+    "level": "L0",
+    "intent": "explicit_multi_field",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "C"
+      ],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 40
+      },
+      "preferences": {},
+      "objects": {
+        "person": 2.0
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N09-L1",
+    "command": "For the WP5 delivery, use B as the transit aisle. Give A cost 40, keep C off limits, and maintain 2.0 m from every worker.",
+    "group": "N09",
+    "level": "L1",
+    "intent": "explicit_multi_field",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "C"
+      ],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 40
+      },
+      "preferences": {},
+      "objects": {
+        "person": 2.0
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N09-L1-V2",
+    "command": "For the WP5 delivery, take B, keep C out of service, assign 40 to A, and stay 2.0 metres from staff.",
+    "group": "N09",
+    "level": "L1",
+    "intent": "explicit_multi_field",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "C"
+      ],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 40
+      },
+      "preferences": {},
+      "objects": {
+        "person": 2.0
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N09-L1-V3",
+    "command": "Use B on the way to WP5, avoid C, give A a cost of 40, and keep a 2.0-metre personnel buffer.",
+    "group": "N09",
+    "level": "L1",
+    "intent": "explicit_multi_field",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "C"
+      ],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 40
+      },
+      "preferences": {},
+      "objects": {
+        "person": 2.0
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N09-L2",
+    "command": "Maintain a 2.0-metre worker clearance and finish at WP5 after passing through B; C is forbidden and A has cost 40.",
+    "group": "N09",
+    "level": "L2",
+    "intent": "explicit_multi_field",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "C"
+      ],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 40
+      },
+      "preferences": {},
+      "objects": {
+        "person": 2.0
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N09-L2-V2",
+    "command": "Maintain 2.0 metres from people; with C closed and A at cost 40, pass through B before reaching WP5.",
+    "group": "N09",
+    "level": "L2",
+    "intent": "explicit_multi_field",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "C"
+      ],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 40
+      },
+      "preferences": {},
+      "objects": {
+        "person": 2.0
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N09-L2-V3",
+    "command": "WP5 is the goal; after setting A to 40 and closing C, route through B and keep 2.0 metres from workers.",
+    "group": "N09",
+    "level": "L2",
+    "intent": "explicit_multi_field",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "C"
+      ],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 40
+      },
+      "preferences": {},
+      "objects": {
+        "person": 2.0
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N09-L3",
+    "command": "D remains unchanged. For this WP5 run, pass through B, close C, assign cost 40 to A, and keep 2.0 m away from personnel.",
+    "group": "N09",
+    "level": "L3",
+    "intent": "explicit_multi_field",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "C"
+      ],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 40
+      },
+      "preferences": {},
+      "objects": {
+        "person": 2.0
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N09-L3-V2",
+    "command": "D remains unchanged. For WP5, pass through B, forbid C, set A to 40, and keep 2.0 metres from personnel.",
+    "group": "N09",
+    "level": "L3",
+    "intent": "explicit_multi_field",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "C"
+      ],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 40
+      },
+      "preferences": {},
+      "objects": {
+        "person": 2.0
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N09-L3-V3",
+    "command": "Disregard the old WP3 request. The current job is WP5 through B, with C closed, A at 40, and a 2.0-metre person clearance.",
+    "group": "N09",
+    "level": "L3",
+    "intent": "explicit_multi_field",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "C"
+      ],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 40
+      },
+      "preferences": {},
+      "objects": {
+        "person": 2.0
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N09-L4",
+    "command": "Before completing the job at WP5, route the robot through B. Do not enter C, apply cost 40 to A, and never come within 2.0 m of a worker.",
+    "group": "N09",
+    "level": "L4",
+    "intent": "explicit_multi_field",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "C"
+      ],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 40
+      },
+      "preferences": {},
+      "objects": {
+        "person": 2.0
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N09-L4-V2",
+    "command": "For the load finishing at WP5, let the path pass B but never C, mark A as 40, and leave 2.0 metres around anyone.",
+    "group": "N09",
+    "level": "L4",
+    "intent": "explicit_multi_field",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "C"
+      ],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 40
+      },
+      "preferences": {},
+      "objects": {
+        "person": 2.0
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N09-L4-V3",
+    "command": "Complete the WP5 job by crossing B, keeping C unavailable, applying forty to A, and giving staff two metres of space.",
+    "group": "N09",
+    "level": "L4",
+    "intent": "explicit_multi_field",
+    "gold": {
+      "destinations": [
+        "WP5"
+      ],
+      "via_zones": [
+        "B"
+      ],
+      "keepouts": [
+        "C"
+      ],
+      "timed_keepouts": {},
+      "weights": {
+        "A": 40
+      },
+      "preferences": {},
+      "objects": {
+        "person": 2.0
+      },
+      "conditional": []
+    }
+  },
+  {
+    "id": "N10-L0",
+    "command": "Go to WP2. Normally keep A closed; when the authorized fire-response signal is active, allow the shortest safe route through A.",
+    "group": "N10",
+    "level": "L0",
+    "intent": "authorized_event_override",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": [
+        "A:fire_alarm:allow_shortest:10"
+      ]
+    }
+  },
+  {
+    "id": "N10-L0-V2",
+    "command": "Go to WP2, normally forbid A, and during a fire alarm allow the shortest safe route through A.",
+    "group": "N10",
+    "level": "L0",
+    "intent": "authorized_event_override",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": [
+        "A:fire_alarm:allow_shortest:10"
+      ]
+    }
+  },
+  {
+    "id": "N10-L0-V3",
+    "command": "Keep A closed on the WP2 route unless the fire-response signal is active; then allow the shortest safe path through A.",
+    "group": "N10",
+    "level": "L0",
+    "intent": "authorized_event_override",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": [
+        "A:fire_alarm:allow_shortest:10"
+      ]
+    }
+  },
+  {
+    "id": "N10-L1",
+    "command": "For the WP2 delivery, keep A closed during normal operation. If the fire-response mode is activated, permit the quickest safe passage through that aisle.",
+    "group": "N10",
+    "level": "L1",
+    "intent": "authorized_event_override",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": [
+        "A:fire_alarm:allow_shortest:10"
+      ]
+    }
+  },
+  {
+    "id": "N10-L1-V2",
+    "command": "Send the robot to WP2 with A closed in routine operation; if the authorized fire alarm arrives, open A for the shortest safe route.",
+    "group": "N10",
+    "level": "L1",
+    "intent": "authorized_event_override",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": [
+        "A:fire_alarm:allow_shortest:10"
+      ]
+    }
+  },
+  {
+    "id": "N10-L1-V3",
+    "command": "During the WP2 delivery, treat A as no-go, except that the fire-response signal may permit direct safe passage.",
+    "group": "N10",
+    "level": "L1",
+    "intent": "authorized_event_override",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": [
+        "A:fire_alarm:allow_shortest:10"
+      ]
+    }
+  },
+  {
+    "id": "N10-L2",
+    "command": "A remains off limits on the normal route to WP2, but an authorized fire alarm should lift that policy restriction so the shortest safe route can be used.",
+    "group": "N10",
+    "level": "L2",
+    "intent": "authorized_event_override",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": [
+        "A:fire_alarm:allow_shortest:10"
+      ]
+    }
+  },
+  {
+    "id": "N10-L2-V2",
+    "command": "WP2 is the goal. A is unavailable by default, while an authorized fire alarm switches it to the shortest safe passage.",
+    "group": "N10",
+    "level": "L2",
+    "intent": "authorized_event_override",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": [
+        "A:fire_alarm:allow_shortest:10"
+      ]
+    }
+  },
+  {
+    "id": "N10-L2-V3",
+    "command": "A belongs to the exclusion set for the normal WP2 mission, but a fire event should lift that restriction for the quickest safe route.",
+    "group": "N10",
+    "level": "L2",
+    "intent": "authorized_event_override",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": [
+        "A:fire_alarm:allow_shortest:10"
+      ]
+    }
+  },
+  {
+    "id": "N10-L3",
+    "command": "B is unaffected. Keep A closed for the WP2 mission unless the authorized fire-response signal is active; then allow the shortest safe path through A.",
+    "group": "N10",
+    "level": "L3",
+    "intent": "authorized_event_override",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": [
+        "A:fire_alarm:allow_shortest:10"
+      ]
+    }
+  },
+  {
+    "id": "N10-L3-V2",
+    "command": "B remains unchanged. For WP2, forbid A unless the fire alarm is active, then allow the shortest safe route through it.",
+    "group": "N10",
+    "level": "L3",
+    "intent": "authorized_event_override",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": [
+        "A:fire_alarm:allow_shortest:10"
+      ]
+    }
+  },
+  {
+    "id": "N10-L3-V3",
+    "command": "The low-battery rule is unchanged. Only an authorized fire alert may open normally closed A for the shortest safe WP2 route.",
+    "group": "N10",
+    "level": "L3",
+    "intent": "authorized_event_override",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": [
+        "A:fire_alarm:allow_shortest:10"
+      ]
+    }
+  },
+  {
+    "id": "N10-L4",
+    "command": "Take the load to WP2 without using A under normal conditions. Only the authorized fire-response mode may open A for the most direct safe route.",
+    "group": "N10",
+    "level": "L4",
+    "intent": "authorized_event_override",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": [
+        "A:fire_alarm:allow_shortest:10"
+      ]
+    }
+  },
+  {
+    "id": "N10-L4-V2",
+    "command": "Under routine conditions, the WP2 shipment must go around A; emergency fire response alone may release that corridor for the most direct safe route.",
+    "group": "N10",
+    "level": "L4",
+    "intent": "authorized_event_override",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": [
+        "A:fire_alarm:allow_shortest:10"
+      ]
+    }
+  },
+  {
+    "id": "N10-L4-V3",
+    "command": "Keep the robot away from A on its way to WP2 unless the site fire system authorizes a direct route through it.",
+    "group": "N10",
+    "level": "L4",
+    "intent": "authorized_event_override",
+    "gold": {
+      "destinations": [
+        "WP2"
+      ],
+      "via_zones": [],
+      "keepouts": [
+        "A"
+      ],
+      "timed_keepouts": {},
+      "weights": {},
+      "preferences": {},
+      "objects": {},
+      "conditional": [
+        "A:fire_alarm:allow_shortest:10"
+      ]
+    }
+  }
+]

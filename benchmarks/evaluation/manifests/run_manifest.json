@@ -1,0 +1,568 @@
+{
+  "created_at": "2026-07-25T22:12:30.422269+09:00",
+  "version": "balanced-15-demo-person-role-2026-07-25",
+  "archive_manifest_sha256": "ec5ee1c88ba407b3884b3d32e0240721490e22778e1cfaac9e76e89906352106",
+  "methods": [
+    "rule_based",
+    "llama3.1:latest",
+    "qwen2.5:7b",
+    "qwen3:8b",
+    "qwen3.5:9b"
+  ],
+  "endpoint": "http://127.0.0.1:11435",
+  "policy_fields": [
+    "decision",
+    "reason_code",
+    "plan",
+    "via_zones",
+    "exclusions",
+    "weights",
+    "dynamic_object_rules",
+    "conditional_rules"
+  ],
+  "prompt_profile": {
+    "name": "balanced15_v3_person_role",
+    "evaluation_demonstrations": 15,
+    "demonstration_inputs_in_order": [
+      "Example input: Please send the robot to WP6 and keep it out of Zone B for this trip.",
+      "Example input: For this job, Zone C has cost 180, Zone E has cost 20, and the robot finishes at WP4.",
+      "Example input: Have the robot use aisle B before it reaches WP5.",
+      "Example input: On the trip to WP6, travel along Zone C and stay out of Zone A.",
+      "Example input: Keep two metres away from workers on the way to WP4.",
+      "Example input: Send the robot to WP5 while staying clear of both Zone B and nearby personnel.",
+      "Example input: Zone C should normally stay closed. If the fire alarm sounds, the robot may use C on the shortest route to WP6.",
+      "Example input: For the next 12 minutes, do not use Zone D. The destination is WP1.",
+      "Example input: Stop at WP3, continue to WP6, and end the run at WP8.",
+      "Example input: Cancel the mission that is running, then start a new trip to WP4 with Zone E closed.",
+      "Example input: Sorry, WP3 was the wrong destination. The robot should go to WP6 instead.",
+      "Example input: Keep Zone A closed for this trip, but make the route to WP5 go through A.",
+      "Example input: On the way to WP7, stay two metres from workers but also pass within half a metre of them.",
+      "Example input: Make WP2 the final stop, not a waypoint. WP5 must also be the final stop for the same trip.",
+      "Example input: When the battery is low, keep Zone B closed. At the same time, the route to WP4 must use B."
+    ],
+    "sha256": "9e8dac8362025027313d2006855aade7ec44833858cee55848cecadf8707d3f4"
+  },
+  "decoding": {
+    "temperature": 0.0,
+    "top_p": 0.0,
+    "seed": 42,
+    "repeat_penalty": 1.0,
+    "num_predict": 512,
+    "think": false,
+    "format": "json"
+  },
+  "datasets": {
+    "benchmark_150": {
+      "path": "datasets/benchmark_150.json",
+      "version": "gate3-executable-150-v1-2026-07-15",
+      "archive_sha256": "5dcb034343572814c3d7a4ffa59b65c4ee1b62f7df3ac96d9ab534b45b1267f4",
+      "release_sha256": "785dfacad55a5d44e851bb1221406c6bf61915b458214a58915195085c5e9a85",
+      "commands": 150,
+      "repeats": 5
+    },
+    "contradictions_100": {
+      "path": "datasets/contradictions_100.json",
+      "version": "gate5-contradiction-100-v2-event-scope-heldout-2026-07-20",
+      "archive_sha256": "9a69af286ab50dde640b6e0a3d894ae6da31860a2a76c40734464b60256d50a1",
+      "release_sha256": "b1697021d9d3267e28080817923ee55e8e5a6d3fde5a43489697dcc7d74b17ed",
+      "commands": 100,
+      "repeats": 5
+    }
+  },
+  "validation_context": {
+    "zones": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "waypoints": [
+      "WP1",
+      "WP2",
+      "WP3",
+      "WP4",
+      "WP5",
+      "WP6",
+      "WP7",
+      "WP8"
+    ],
+    "timezone": "Asia/Seoul",
+    "soft_cost_min": 0,
+    "soft_cost_max": 252
+  },
+  "runs": [
+    {
+      "experiment": "benchmark_150",
+      "method": "llama3.1:latest",
+      "run": "run_01",
+      "records": "records/benchmark_150/run_01/llama3.1_latest.json",
+      "records_sha256": "9e35bd8a5dde5ceccd1f13036b795e253e420e6d0cbf39c4dd16dbc38cf31996",
+      "archive_record_sha256": "b76368192b273448fea5e08bf4f7dc497531bec533dbb480aa17ea43433258e3",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen2.5:7b",
+      "run": "run_01",
+      "records": "records/benchmark_150/run_01/qwen2.5_7b.json",
+      "records_sha256": "a8a5576b6b706b0f1663a39169edbba2149d01cfd45299abd6d247e2d39f5033",
+      "archive_record_sha256": "85a009fee4065bb061dcf6b7de0601921b0323d86363c7e02c668477f0eb86e8",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen3.5:9b",
+      "run": "run_01",
+      "records": "records/benchmark_150/run_01/qwen3.5_9b.json",
+      "records_sha256": "822be6c89fe27212bce862fb24b8ada7ab8e60b246478e811da064c7740ad99f",
+      "archive_record_sha256": "9ece082026df24bd1ef07fbf3d3a7aabc32f361f0df7581f8dff7ccfa8feed5c",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen3:8b",
+      "run": "run_01",
+      "records": "records/benchmark_150/run_01/qwen3_8b.json",
+      "records_sha256": "e5746998c9080f88e99eab8df9777653ff7de91ad43178824569e3268c2530e8",
+      "archive_record_sha256": "31a4f67506cca1085a683684e5c65383e796bc83e9c591ceab16ba49ea97e3d5",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "rule_based",
+      "run": "run_01",
+      "records": "records/benchmark_150/run_01/rule_based.json",
+      "records_sha256": "55e30722967a6feb7e48a516a14ced25503bcb2cbd8248683812983b761e9185",
+      "archive_record_sha256": "66e07d308c3bdf647c53e4d45dbefdaddd053b0bbc2fecb98b5f327cac2f1baa",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "llama3.1:latest",
+      "run": "run_02",
+      "records": "records/benchmark_150/run_02/llama3.1_latest.json",
+      "records_sha256": "6409d8cf6b3805863b4739551953c857c46d59f59de87b9e45c43accbdf34ed5",
+      "archive_record_sha256": "3aeb884ba3d5b394dab432e7b3afc4784708ab7f5dedfe754cdd80c10ac41d25",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen2.5:7b",
+      "run": "run_02",
+      "records": "records/benchmark_150/run_02/qwen2.5_7b.json",
+      "records_sha256": "59f03b2ea3c47bc308ab19a0b446dec376f04f2d52c501aedd86ceec66415b02",
+      "archive_record_sha256": "03e3683bcc0faae2f94c32c9b888ffd37ddaf84231875977e8c5514bf657a43e",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen3.5:9b",
+      "run": "run_02",
+      "records": "records/benchmark_150/run_02/qwen3.5_9b.json",
+      "records_sha256": "0de1c42125884cfbc4a279656615a763835fe944339eea2c4770f4040a801b62",
+      "archive_record_sha256": "fe4d78636569d2a6af8ada3fd7027fa546168a0be23f9cee18d5f4274d18b21f",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen3:8b",
+      "run": "run_02",
+      "records": "records/benchmark_150/run_02/qwen3_8b.json",
+      "records_sha256": "a0e327bb93dcddc26a1a054c93865eb92b8d4495330649cbc9843e778d434102",
+      "archive_record_sha256": "cdffe18630f93c8ccc5d16210cbcf9a61ad070649754bf8285ccc7f8b262b6b8",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "rule_based",
+      "run": "run_02",
+      "records": "records/benchmark_150/run_02/rule_based.json",
+      "records_sha256": "9c72f15bd26ea0aa60e316db7725affa07a3b63a33a6d937ae8241b0a890129b",
+      "archive_record_sha256": "dd165b213bd3dff5ed0f16761713b2e78ac447e93b0d146f3d4f67704b3bbc24",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "llama3.1:latest",
+      "run": "run_03",
+      "records": "records/benchmark_150/run_03/llama3.1_latest.json",
+      "records_sha256": "00b188daf4c9ff6fbcf64db34e869495257ce6ac16c0b642ec9572b5bd4d8208",
+      "archive_record_sha256": "8edbabca4fdec089ebc267f6164cde7fa6b2ba3e6efd0507b0ee97921f569f2b",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen2.5:7b",
+      "run": "run_03",
+      "records": "records/benchmark_150/run_03/qwen2.5_7b.json",
+      "records_sha256": "4d3a4ee718b3ac149357005745f1d8570570e6371dc70a83b73c1d1812be588d",
+      "archive_record_sha256": "94cc7435162c3ab091d3658de5365f7e92228aa6f52df6f59bb23b1baad9775f",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen3.5:9b",
+      "run": "run_03",
+      "records": "records/benchmark_150/run_03/qwen3.5_9b.json",
+      "records_sha256": "7f1c1d1d8dad01726117dee4ede47c19abfdd10a9d806ae3240984d099dbaf79",
+      "archive_record_sha256": "ed735e7a9c4e55b14487737245184994bc87cd452abd16ca2e9c34661ea51357",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen3:8b",
+      "run": "run_03",
+      "records": "records/benchmark_150/run_03/qwen3_8b.json",
+      "records_sha256": "cd4a5c39c30a8641a89a85722c8c97b48f2775485ccd40490e6b9189b3782875",
+      "archive_record_sha256": "7b756b553fd05c93609aff29b0c2c99d249147f4fba1c65c08ae34d95ec6771e",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "rule_based",
+      "run": "run_03",
+      "records": "records/benchmark_150/run_03/rule_based.json",
+      "records_sha256": "ac82a9234fa77bbbb918d692b8fc08fc7b6d379203deebb2d3f3931e8b11e180",
+      "archive_record_sha256": "4eb48a3d6c51824ed82caf368f6eb467c287b3853d863f8f784038d59892ef59",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "llama3.1:latest",
+      "run": "run_04",
+      "records": "records/benchmark_150/run_04/llama3.1_latest.json",
+      "records_sha256": "dcf5f0f866a84a8f7454ff8cdf1cc862447be493ce37b7a252be2a4df9aa7262",
+      "archive_record_sha256": "5d095a78bcba7a9abdc12302424edcaec835bbf9b75f98e009b5c0f6bddc65bb",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen2.5:7b",
+      "run": "run_04",
+      "records": "records/benchmark_150/run_04/qwen2.5_7b.json",
+      "records_sha256": "02fdeef485cb738adf3cc4eb30f9c917d3415430d0e1b32f66361e7b0d9d884f",
+      "archive_record_sha256": "2ae2ed5e665d969526e451ebc14c79b17d2b34f9823dac6311c82287c7c84806",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen3.5:9b",
+      "run": "run_04",
+      "records": "records/benchmark_150/run_04/qwen3.5_9b.json",
+      "records_sha256": "8fbd910ffc1252e2a95d4ca8990f8cc941d17ff3117f52dfec952b849efba77d",
+      "archive_record_sha256": "9691789c577baef22585b5308a39cf24a5eb03400b8a1d57bfc075f295821605",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen3:8b",
+      "run": "run_04",
+      "records": "records/benchmark_150/run_04/qwen3_8b.json",
+      "records_sha256": "707dad2f62225b30423d429239f8aa9ea5c0c83f2ad5b792a41084f7d44fee8d",
+      "archive_record_sha256": "0d4b9f0651d30be3060da8e887221f24be35520d221dd7140592b890ed3f5830",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "rule_based",
+      "run": "run_04",
+      "records": "records/benchmark_150/run_04/rule_based.json",
+      "records_sha256": "6c62bf76e782d42634b176ae587f986ffa2660d8e956c7761a47b938d5342041",
+      "archive_record_sha256": "6a630b31a4133ad931407d003da3d6f149e94c6a4642d9dd2c18b8ddedfd2622",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "llama3.1:latest",
+      "run": "run_05",
+      "records": "records/benchmark_150/run_05/llama3.1_latest.json",
+      "records_sha256": "933fad1e689ead6c333316dde78b5198c98dee842dba4fa60429ccfa0b75198d",
+      "archive_record_sha256": "3c3a1af30b6cbec608e34c7cf69ede126ff62d38b8cee3e27d62cc7dadeaca0b",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen2.5:7b",
+      "run": "run_05",
+      "records": "records/benchmark_150/run_05/qwen2.5_7b.json",
+      "records_sha256": "7a4c40f3c653f31af9dea5ae1cd0828782e53b74ecc97b8a05d286bbd24c0c8a",
+      "archive_record_sha256": "8049e08f8754f763dd26e1654deac77fd168f1bbda2d6577b7b366c28d59453d",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen3.5:9b",
+      "run": "run_05",
+      "records": "records/benchmark_150/run_05/qwen3.5_9b.json",
+      "records_sha256": "f7e56c945637bf264774e40ca498cd4344295607e3af86f6d6bc2caf845dda36",
+      "archive_record_sha256": "f3d545cf18049a9fc9065af67ffab781c7cba9a3b97984b24381041c7abaf7f6",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "qwen3:8b",
+      "run": "run_05",
+      "records": "records/benchmark_150/run_05/qwen3_8b.json",
+      "records_sha256": "f9707739fd252f7012b4eeb2643a6fa81b33f698a61dd0efeff3400c097057b9",
+      "archive_record_sha256": "6da28f47509999e619451d21c67fe8a205976197830b36011d389005c73e047f",
+      "commands": 150
+    },
+    {
+      "experiment": "benchmark_150",
+      "method": "rule_based",
+      "run": "run_05",
+      "records": "records/benchmark_150/run_05/rule_based.json",
+      "records_sha256": "6049d2584c4f59793688c07b4b3f726eebb09de0f1cd1718f35eb33fe9f676c3",
+      "archive_record_sha256": "3e956a295b60d67e05cf967f3bc4e174a35e406470d1fae259825228270167bc",
+      "commands": 150
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "llama3.1:latest",
+      "run": "run_01",
+      "records": "records/contradictions_100/run_01/llama3.1_latest.json",
+      "records_sha256": "e2ea3619d55d1443bdcdb547a01188578fd14941ce14c6f8eeeed8714f99e07a",
+      "archive_record_sha256": "d3a824d7bac29cc3dafe33a158a8bd34b81be42c0051b714474a358fccff9301",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen2.5:7b",
+      "run": "run_01",
+      "records": "records/contradictions_100/run_01/qwen2.5_7b.json",
+      "records_sha256": "38f195ae4b252322e8269fcb9ea52981759fd5950cf1b0e6460273d481782183",
+      "archive_record_sha256": "e692270f729e1e80c1a436824e2476fee357d6ffd649f590bc9755f46f72ce06",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen3.5:9b",
+      "run": "run_01",
+      "records": "records/contradictions_100/run_01/qwen3.5_9b.json",
+      "records_sha256": "d96e89723ddbc0da7451c924e7afd3aacabe9d96fd8299708498ca0fddcf35e2",
+      "archive_record_sha256": "4e2e805012be912b36c407f3206d04d4d7985a208b15843448e270db3cb23d47",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen3:8b",
+      "run": "run_01",
+      "records": "records/contradictions_100/run_01/qwen3_8b.json",
+      "records_sha256": "f3ad941f2b7d2089b4ac333953c03bff2d3ed8d460d86ecde6953e07c63671f9",
+      "archive_record_sha256": "d93ac73f39a65df74561f96070d7c50d2410c02702c40c559da81c0d63d6105f",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "rule_based",
+      "run": "run_01",
+      "records": "records/contradictions_100/run_01/rule_based.json",
+      "records_sha256": "b7b53a8e2234ebb8a7b8ef056c8c407315ecf0e745415079ff099f49aee12873",
+      "archive_record_sha256": "372e25c5c31eba33bdd2d7623ce22c840165fcc1f1b4999127606c65aeabb01e",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "llama3.1:latest",
+      "run": "run_02",
+      "records": "records/contradictions_100/run_02/llama3.1_latest.json",
+      "records_sha256": "d2eb60cb44acf4359b5e7e4c867f04d90fd969ac62033309184db3c84e86ab09",
+      "archive_record_sha256": "02776e874566f798c508646c5f1fc7eef61b86c3891e709b7dd20e5baee9793e",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen2.5:7b",
+      "run": "run_02",
+      "records": "records/contradictions_100/run_02/qwen2.5_7b.json",
+      "records_sha256": "9bf075672d54e351cd0beba9dcee836eb21bf93a5d94610e06f9b7d667f28cb4",
+      "archive_record_sha256": "1db822c3d574936e5dbd97b462224a1bf1db73000208f3d105d50c32eba2565c",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen3.5:9b",
+      "run": "run_02",
+      "records": "records/contradictions_100/run_02/qwen3.5_9b.json",
+      "records_sha256": "05e955e77a0ca301f95d473fda134666854799e3eee1fdcbf367a658ed50792a",
+      "archive_record_sha256": "e678df5787fefaa78d67d8bdab267eb45b40456cee80a984fc223946e192d87b",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen3:8b",
+      "run": "run_02",
+      "records": "records/contradictions_100/run_02/qwen3_8b.json",
+      "records_sha256": "1d7beea4e2d6b292e796acdd8f7a8faffb8d52abd58d311ef13d7f8ed8ecf253",
+      "archive_record_sha256": "9032dee499cf244c20dab78abec902c2c8d9b1a834a105ff921f3a330bf15445",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "rule_based",
+      "run": "run_02",
+      "records": "records/contradictions_100/run_02/rule_based.json",
+      "records_sha256": "1e82a5abb516fcc228af1201958aca826792a676deab11f68aeccbf8cb8d027f",
+      "archive_record_sha256": "3342beaae738a492401ad175c8c70ec9d4488ab4ecead7ee57dbc24a3ddfb7bf",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "llama3.1:latest",
+      "run": "run_03",
+      "records": "records/contradictions_100/run_03/llama3.1_latest.json",
+      "records_sha256": "937fe357828d41fe66251c83ff61a675da85d10a8c4cd09bb3e38d665fc13fc9",
+      "archive_record_sha256": "7e045c06c620393b4d42e8b3e46c3aba6842381fda51d7b588393537bee50a9b",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen2.5:7b",
+      "run": "run_03",
+      "records": "records/contradictions_100/run_03/qwen2.5_7b.json",
+      "records_sha256": "83ce9c8e90e2bb5bcedcfa11b312f81ec4534c574444fced727bbb37f2616de3",
+      "archive_record_sha256": "9843675d98f4aa323e4852d46c27029c6526dc9b302dbe780af2e8716423ce1f",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen3.5:9b",
+      "run": "run_03",
+      "records": "records/contradictions_100/run_03/qwen3.5_9b.json",
+      "records_sha256": "bd026cee6cbda48b6e5e8f43c81bedfdfcbf29596f46a4f7ee787a6f542a48a4",
+      "archive_record_sha256": "f057005dadfb84209df5de115fa173b8f9db45a0fd16a1b04188b8852de90b27",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen3:8b",
+      "run": "run_03",
+      "records": "records/contradictions_100/run_03/qwen3_8b.json",
+      "records_sha256": "36929d2f8f8052d1c18c0a0fbd3266cd57045724faa7c9bee68b796cd108b1d9",
+      "archive_record_sha256": "52b1459f4fbdf6c0325f4fc4c1ade3411c015a74603f34e7209138f884222d57",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "rule_based",
+      "run": "run_03",
+      "records": "records/contradictions_100/run_03/rule_based.json",
+      "records_sha256": "723d9b56363a1f40a8e195f675f2455d9261f43787d83f38a11d759421d83119",
+      "archive_record_sha256": "556147e75460989584da0a29a7d2531ca6f973e35e8caab33c68ec6f04131d92",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "llama3.1:latest",
+      "run": "run_04",
+      "records": "records/contradictions_100/run_04/llama3.1_latest.json",
+      "records_sha256": "2f08d908e706eba7580ed52068abffff7e73cc37b5136b4a48478ad3f2bab317",
+      "archive_record_sha256": "d85432380a5f4dbe483f51c4fd06c7312654279ed8ca4eb75589885fd2e7aa35",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen2.5:7b",
+      "run": "run_04",
+      "records": "records/contradictions_100/run_04/qwen2.5_7b.json",
+      "records_sha256": "7d2243cb5c85ed381553a6437d76868ceb4eabaff954b292617d641b319fe35f",
+      "archive_record_sha256": "478ada572905e46b0bf798cc091b4b0014e2fa885ba8acc4142bd4c2854e9abb",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen3.5:9b",
+      "run": "run_04",
+      "records": "records/contradictions_100/run_04/qwen3.5_9b.json",
+      "records_sha256": "ddaa39c65fc67b9bc8e11e77d844a1db90fbf4746789254617e2c7777fb091f1",
+      "archive_record_sha256": "c58aa980324220e7ce70c3d8b74daa74d85e795885560a0d4958b8385df2e8ce",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen3:8b",
+      "run": "run_04",
+      "records": "records/contradictions_100/run_04/qwen3_8b.json",
+      "records_sha256": "004d04c4e36802d4ac5fa31d646dc5aee7460351f59c05c63a9e9fac46fa561c",
+      "archive_record_sha256": "0385963541e6515e49002a8ab2111c95ebab8615ddfa069719cddb929616aba6",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "rule_based",
+      "run": "run_04",
+      "records": "records/contradictions_100/run_04/rule_based.json",
+      "records_sha256": "aa1642e35d7f3ace0a56357c90586f1ad56aae3263e13806d3dfc138c2e761b0",
+      "archive_record_sha256": "e9c9db4e369506fd7b810964b50eaf963f658103d18bc46a43a26c9897408b27",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "llama3.1:latest",
+      "run": "run_05",
+      "records": "records/contradictions_100/run_05/llama3.1_latest.json",
+      "records_sha256": "cf17f1e04936048811f5fbb830489cc593de4ccb2d60d1486f34fb6c966eceeb",
+      "archive_record_sha256": "8b502f26da13910360870fde42c6514daf41bc467d52c9dbe12b344b8399fd63",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen2.5:7b",
+      "run": "run_05",
+      "records": "records/contradictions_100/run_05/qwen2.5_7b.json",
+      "records_sha256": "3e5513c5e77ec2b1757b79dc5b0efc8d5dea5db48f624844a71553071c4d01f3",
+      "archive_record_sha256": "583ffe36992013596db7085cab762cdbe79774a7deca8e498537ed60a5236f9d",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen3.5:9b",
+      "run": "run_05",
+      "records": "records/contradictions_100/run_05/qwen3.5_9b.json",
+      "records_sha256": "ed93a5899c2b1ae6ad10f0c5228036c9e1c65d9404526da65bf6277564a3202f",
+      "archive_record_sha256": "a0f049ad881416566a193bf36cdf7d9c2760c840380d24fe4f010b4d2bfd20e1",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "qwen3:8b",
+      "run": "run_05",
+      "records": "records/contradictions_100/run_05/qwen3_8b.json",
+      "records_sha256": "863b0a7e98cedb44ea3192c57fc6b4f57a16f9b502609d1da36b49fb81262cf5",
+      "archive_record_sha256": "4e41c3eade9b172fd78a96df71fcb0a62ecbcdd0c6fc2e4a1d84f34a2425dbf3",
+      "commands": 100
+    },
+    {
+      "experiment": "contradictions_100",
+      "method": "rule_based",
+      "run": "run_05",
+      "records": "records/contradictions_100/run_05/rule_based.json",
+      "records_sha256": "f826ab7b6cceb4f596c2eb2c6b2d209424dc90100491e80bff19ed9ca99f488a",
+      "archive_record_sha256": "49e4d37d04e7f2a0cca3413518d339cab4f4a2aa42cf00959a56fb14d8a33a16",
+      "commands": 100
+    }
+  ],
+  "archive_validation_context": {
+    "zones": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "waypoints": [
+      "WP1",
+      "WP2",
+      "WP3",
+      "WP4",
+      "WP5",
+      "WP6",
+      "WP7",
+      "WP8"
+    ],
+    "timezone": "Asia/Seoul",
+    "soft_cost_min": 0,
+    "soft_cost_max": 253
+  }
+}
